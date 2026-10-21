@@ -564,8 +564,8 @@
         "tests/test_1110.py",
         "tests/test_1120.py"
       ],
-      "characters": 107983,
-      "bytes": 179542
+      "characters": 107982,
+      "bytes": 179543
     },
     "api_contrast_probe": {
       "paths": [
@@ -996,17 +996,17 @@
     {
       "path": "README.md",
       "role": "support",
-      "sha256": "069db9fc5dcfdf83b5a5f1c10b18abe4eb3c511e8775ba79663ffbf2734a73ed",
-      "bytes": 8792,
-      "characters": 8763,
+      "sha256": "9e502a89d995fd7eee80f135a64de15c216350f2aa8eb5472027fee9ebc79956",
+      "bytes": 8793,
+      "characters": 8762,
       "lines": 130
     },
     {
       "path": "README.zh-CN.md",
       "role": "support",
-      "sha256": "b77d3aa2e90828facda9a0398693c247e5d64fb7cb6d2314ef39537e2b45fa72",
-      "bytes": 7336,
-      "characters": 3449,
+      "sha256": "7f16b0a2b5790cd4de1ef0b1ed7b050d040f664a8daa3184db5e399cebc40055",
+      "bytes": 7337,
+      "characters": 3448,
       "lines": 130
     },
     {

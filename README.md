@@ -4,7 +4,7 @@
 
 From everyday frustrations to complex real-world challenges, StateDyne helps AI go beyond answering: it investigates more deeply, discovers new possibilities, and looks for ways to change the outcome.
 
-[Read in Chinese →](README.zh-CN.md)
+**English** | [中文](README.zh-CN.md)
 
 **See what it can do.**
 

@@ -1,4 +1,4 @@
-3a4a73d42d334110653dd11c02716b17dbfc0e8a01f6c218afcc8d576caf41ae  StateDyne-0.1.0-Install.zip
-0797849ca0c5bb15a76dd90f6ffcdab4cdadc2a7abd39c479298df9e21978665  StateDyne-0.1.0-Agent-Skill.zip
-76507952c333cb244bcdbd5777c6293d5b834c986842533700bb879c3c4a10e3  StateDyne-0.1.0-Plugin.zip
-3fabf8eecaca9ebfdd5b7957d90e67f4aaeb7f3041c4ecfa069eaa2b889f993c  StateDyne-0.1.0-GitHub-Ready.zip
+9792dd2763792cbe11d43272c8eb6cfbe56659b566d4efa4b570ef95c731aacb  StateDyne-0.1.0-Install.zip
+7c616d817ece5ea73aaccf92a38e8fb7ad330874c04b23144b6ad896f947e30f  StateDyne-0.1.0-Agent-Skill.zip
+dda63984d44994885802aaf40abb373ab57ea1db5c4e6349a9616e8b6f3c7f80  StateDyne-0.1.0-Plugin.zip
+6d6f86a4f39d380f553567e82db8ef8747b8dc23fcc501958d5b68b73cb86a29  StateDyne-0.1.0-GitHub-Ready.zip
