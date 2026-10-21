@@ -40,6 +40,8 @@
 
 **StateDyne 研究的，就是这些被忽略的生成关系：找到真正改变结果的位置，而不只是增加解决问题的方法。**
 
+**当前版本：MVP · 11.3.0**
+
 [安装技能](#安装技能) · [亲自挑战](#亲自挑战) · [开源方法](references/method.zh-CN.md) · [技术说明](engineering/guide.md)
 
 [English](README.en.md)
@@ -118,7 +120,7 @@ python scripts/run_statedyne.py doctor
 
 ## 当前发行
 
-- 版本：**11.3.0**
+- 版本：**11.3.0（MVP）**
 - 许可证：**Apache-2.0**
 - 作者：**Zhizheng Wang / 王之政**
 - 发行形态：直接技能 ZIP、单顶层目录 Agent Skill ZIP、便携插件 ZIP、完整 GitHub 源码
