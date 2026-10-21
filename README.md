@@ -1,114 +1,114 @@
-# 把你最难的问题，交给它。
+# Give It Your Hardest Problem.
 
-**拆解任何难题。发现隐藏的关系。创造新的解决路径。**
+**Break down any problem. Uncover hidden relationships. Create new paths forward.**
 
-从日常困扰到复杂的现实难题，让 AI 不止于回答，而是深入探索、发现新的可能，并寻找改变结果的方法。
+From everyday frustrations to complex real-world challenges, StateDyne helps AI go beyond answering: it investigates more deeply, discovers new possibilities, and looks for ways to change the outcome.
 
-**看看它能做什么。**
+[Read in Chinese →](README.zh-CN.md)
 
-### 1. 为什么“每天坚持5分钟”没用，早上的第一件事却可能改变一整天？
+**See what it can do.**
 
-**真正的杠杆，不是多坚持5分钟，而是让一天进入不同的状态。**
+### 1. Why does “just do five minutes every day” fail, while the first thing you do in the morning can change your entire day?
 
-早晨第一件事产生真实进展 → 进展带来新的问题和动力 → 继续工作变得更容易 → 下一次开始不再那么费力。
+**The real leverage is not five more minutes of persistence. It is putting the day into a different state.**
 
-**你改变的可能只是早晨的一个选择，影响的却是后面一整天。**
+Make real progress first thing in the morning → progress creates new questions and momentum → continuing becomes easier → the next start requires less effort.
 
-午睡醒来、晚饭结束，同样可能是改变后续状态的关键节点。
+**You may change only one morning choice, yet affect the rest of the day.**
 
-### 2. 为什么明明记得要做的事，转眼就忘了？
+Waking from a nap or finishing dinner can create the same kind of turning point for what follows.
 
-**不记录，不是省事，而是接受遗忘的风险。**
+### 2. Why do you forget something moments after remembering that you need to do it?
 
-工作记忆容量有限。新信息不断进入，旧信息就可能丢失。
+**Not writing it down does not save effort. It accepts the risk of forgetting.**
 
-你以为自己在努力记住，其实一直在让大脑承担本可以避免的风险。
+Working memory is limited. As new information enters, older information can disappear.
 
-**真正值得改变的，不是记忆力，而是信息的保存方式。**
+You may think you are trying to remember, while actually making your mind carry a risk that could have been avoided.
 
-### 3. 为什么身体已经很累了，越想快点睡，反而越睡不着？
+**What needs to change is not your memory, but how the information is preserved.**
 
-**因为疲惫不等于睡意，努力入睡也不一定有助于入睡。**
+### 3. Why can you feel physically exhausted yet become less able to sleep the harder you try?
 
-工作到很晚 → 开始计算还能睡多久 → 要求自己赶快睡着 → 不断检查是否入睡 → 反而越来越难放松。
+**Fatigue is not the same as sleepiness, and trying to sleep does not necessarily help you fall asleep.**
 
-有时，比强迫自己清空思想更有效的，是让一个模糊的画面自然出现，顺着它发展，不需要控制，也不需要完成。
+Work late → calculate how many hours remain → demand that you fall asleep quickly → keep checking whether you are asleep → become even less able to relax.
 
-**你想完成睡眠这项任务，但入睡恰恰可能需要退出任务状态。**
+Sometimes, instead of forcing your mind to go blank, it is more effective to let a vague image appear and develop on its own, without controlling or completing it.
+
+**You are trying to complete sleep as a task, but falling asleep may require leaving task mode.**
 
 ---
 
-**StateDyne 研究的，就是这些被忽略的生成关系：找到真正改变结果的位置，而不只是增加解决问题的方法。**
+**StateDyne studies these overlooked generative relationships: finding where change can truly alter the outcome, rather than merely adding more ways to solve the problem.**
 
-**当前版本：0.1.0（MVP）**
+**Current version: 0.1.0 (MVP)**
 
-[安装技能](#安装技能) · [亲自挑战](#亲自挑战) · [开源方法](references/method.zh-CN.md) · [技术说明](engineering/guide.md)
+[Install](#install) · [Try it yourself](#try-it-yourself) · [Open-source method](references/method.zh-CN.md) · [Technical guide](engineering/guide.md)
 
-[English](README.en.md)
+## Install
 
-## 安装技能
+Choose the package that matches the layout expected by your importer. All three packages contain the same `SKILL.md` and the same cognitive requirements; only their outer directory structures differ.
 
-选择与你的安装入口相符的包。三个包使用同一份 `SKILL.md` 和同一套认知要求，差别只在最外层目录结构。
-
-| 你的安装入口 | 下载 | ZIP 解压后的结构 |
+| Your installation entry | Download | Structure after extraction |
 | --- | --- | --- |
-| 上传后要求直接看到 `SKILL.md` | [StateDyne-0.1.0-Install.zip](downloads/StateDyne-0.1.0-Install.zip) | `SKILL.md` 位于 ZIP 根目录 |
-| OpenAI Skills API，或要求“一个顶层技能文件夹”的入口 | [StateDyne-0.1.0-Agent-Skill.zip](downloads/StateDyne-0.1.0-Agent-Skill.zip) | `statedyne/SKILL.md` |
-| 明确要求上传插件包的兼容宿主 | [StateDyne-0.1.0-Plugin.zip](downloads/StateDyne-0.1.0-Plugin.zip) | `plugin.json` 与 `skills/statedyne/SKILL.md` |
+| The uploader expects `SKILL.md` at the archive root | [StateDyne-0.1.0-Install.zip](downloads/StateDyne-0.1.0-Install.zip) | `SKILL.md` is at the ZIP root |
+| The OpenAI Skills API, or another importer requiring one top-level skill folder | [StateDyne-0.1.0-Agent-Skill.zip](downloads/StateDyne-0.1.0-Agent-Skill.zip) | `statedyne/SKILL.md` |
+| A compatible host explicitly requiring a plugin package | [StateDyne-0.1.0-Plugin.zip](downloads/StateDyne-0.1.0-Plugin.zip) | `plugin.json` and `skills/statedyne/SKILL.md` |
 
-如果安装界面只写着“上传技能”，通常先使用 **Install ZIP**；如果它明确要求 ZIP 中只有一个顶层技能目录，则使用 **Agent Skill ZIP**。不要把完整 GitHub 源码仓库误当成直接安装包：源码仓库还包含测试、工程档案和发布核验材料。
+If the installation screen simply says “upload a skill,” start with the **Install ZIP**. If it explicitly requires a ZIP containing one top-level skill directory, use the **Agent Skill ZIP**. Do not use the complete GitHub source archive as the normal direct-install package: it also contains tests, engineering archives, and release-verification materials.
 
-所有下载文件的校验值见 [SHA-256 清单](downloads/StateDyne-0.1.0-SHA256.txt)。实际能否使用 `@StateDyne`、`$statedyne`、联网检索、独立智能体或跨会话状态，取决于宿主真实提供并授权的能力；安装技能不会自行增加这些权限。
+Checksums for every download are listed in the [SHA-256 manifest](downloads/StateDyne-0.1.0-SHA256.txt). Whether `@StateDyne`, `$statedyne`, web research, independent agents, or cross-session state are available depends on the capabilities and permissions of the actual host. Installing the skill does not create those permissions.
 
-### 从源码安装
+### Install from source
 
-本仓库根目录本身就是完整的 `statedyne` 技能目录，根部包含唯一有效入口 `SKILL.md`。克隆仓库后，也可以把整个目录放入宿主支持的技能位置。
+The repository root is itself the complete `statedyne` skill directory and contains the single active entry point, `SKILL.md`. After cloning the repository, you may place the entire directory in a skill location supported by your host.
 
-以 Codex 默认技能目录为例：
+For example, with the default Codex skills directory:
 
 ```bash
 mkdir -p ~/.codex/skills
 cp -R . ~/.codex/skills/statedyne
 ```
 
-不同宿主的安装界面和调用名称可能不同，请以该宿主当前提供的技能安装方式为准。
+Installation screens and invocation names vary by host. Follow the installation method currently supported by the host you use.
 
-## 亲自挑战
+## Try it yourself
 
-无需先学习 StateDyne 的术语。安装后，直接描述问题、目标、已有事实和真正不能接受的代价即可。
+You do not need to learn StateDyne terminology first. After installation, describe the problem, your objective, what you already know, and the costs you truly cannot accept.
 
-例如：
+For example:
 
-> 我已经试过几个常见办法，但结果没有持续改变。请找出真正生成这个结果的关系，主动调查我可能遗漏的解释，再比较最值得改变的位置和具体动作。
+> I have already tried several common approaches, but the result did not change for long. Find the relationships that actually generate this outcome, investigate explanations I may have missed, and compare the intervention points and actions most worth pursuing.
 
-> 为什么产品试点的指标很好，用户却没有真正采用？不要只列可能原因，请寻找能区分不同机制的证据，并给出优先干预点。
+> Why did the product pilot show strong metrics while users still failed to adopt it? Do not merely list possible reasons. Look for evidence that distinguishes competing mechanisms, then identify the highest-priority intervention points.
 
-> 先挑战我们现在的目标和方案：有没有价值更高、实现条件不同的新路径？如果没有足够证据，也请明确哪些只是条件假设。
+> Challenge our current objective and plan first. Is there a more valuable path with different implementation conditions? If the evidence is insufficient, clearly identify what remains only a conditional hypothesis.
 
-## 它会怎样处理复杂问题
+## How it handles complex problems
 
-- 区分观察、假设、因果解释、竞争机制和仍未知的部分，而不是把一个合理故事当成事实。
-- 在工具允许时主动检索和取证，并让新证据真正改变已有模型、干预点或方案。
-- 从系统上下游、环境、历史、主体、选择机制和跨领域关系中寻找提示里没有直接给出的可能性。
-- 让常规方案、重要少数意见、新目标和可行新路径按真实结果竞争，而不是按出现次数投票。
-- 先比较“哪里值得改变”，再说明具体动作怎样改变那里；需要完整方案时，再处理动作之间的依赖、顺序和组合价值。
-- 保留用户的目标、约束和重要价值。只有真正需要用户选择的信息才交还用户决定。
-- 对重要数字、来源、时间、地区、单位、反事实以及多个条件是否在同一结果上成立进行核验。
-- 在长程任务中保留已经完成的研究位置；用户明确暂停、终止或换题时尊重决定。
+- It separates observations, hypotheses, causal explanations, competing mechanisms, and remaining unknowns instead of treating one plausible story as fact.
+- When tools permit, it actively researches evidence and requires new evidence to update the existing model, intervention points, or plan.
+- It searches upstream and downstream in the system, across environments, history, actors, selection mechanisms, and cross-domain relationships for possibilities not stated directly in the prompt.
+- It makes conventional solutions, important minority findings, new objectives, and feasible new paths compete on real outcomes rather than frequency of appearance.
+- It first compares where change is most worthwhile, then explains how concrete actions would alter those positions. When a complete plan is needed, it also examines dependencies, sequence, and the added value of combining actions.
+- It preserves the user's objectives, constraints, and important values. Only information that genuinely requires the user's choice is returned for a decision.
+- It checks important numbers, sources, dates, regions, units, counterfactuals, and whether multiple conditions actually apply to the same outcome.
+- In long-running work, it preserves completed research state. It respects an explicit request to pause, stop, or change the subject.
 
-没有固定的问题数量、探索轮次或干预点上限。工作量由尚未解决的差异、风险和真正有价值的探索机会决定，而不是由题目看起来日常还是专业决定。
+There is no fixed limit on questions, exploration rounds, or intervention points. The amount of work depends on unresolved differences, risks, and genuinely valuable opportunities for discovery—not on whether the problem appears ordinary or specialized.
 
-## 开源方法与技术资料
+## Open-source method and technical materials
 
-- [StateDyne 开源方法正文](references/method.zh-CN.md)
-- [工程与运行指南](engineering/guide.md)
-- [发行说明](RELEASE.md)
-- [更新记录](CHANGELOG.md)
-- [发布结构与兼容性核验](verification/PUBLICATION_REPORT.md)
-- [工程测试报告](verification/REPORT.md)
-- [尚未完成的真实模型验收条件](verification/REAL_MODEL_ACCEPTANCE.md)
+- [StateDyne open-source method](references/method.zh-CN.md)
+- [Engineering and runtime guide](engineering/guide.md)
+- [Release notes](RELEASE.md)
+- [Changelog](CHANGELOG.md)
+- [Publication structure and compatibility report](verification/PUBLICATION_REPORT.md)
+- [Engineering verification report](verification/REPORT.md)
+- [Outstanding real-model acceptance criteria](verification/REAL_MODEL_ACCEPTANCE.md)
 
-Python 3.11+ 环境可运行不调用真实模型的本地检查：
+With Python 3.11 or later, you can run local checks that do not call a live model:
 
 ```bash
 python scripts/validate_skill.py --strict-bytes --require-downloads
@@ -116,15 +116,15 @@ python scripts/run_test_groups.py
 python scripts/run_statedyne.py doctor
 ```
 
-这些检查验证文件身份、包结构和确定性执行契约，不证明真实模型一定产生更好的洞见，也不证明某个远程安装服务必然成功。公开测试材料均为合成内容；私人案例、对话、凭据、运行记录和本地用户数据不在仓库中。
+These checks verify file identity, package structure, and deterministic execution contracts. They do not prove that a live model will produce better insights, nor do they prove that a remote installation service will accept the package. Public test materials are synthetic. Private cases, conversations, credentials, runtime traces, and local user data are not included in the repository.
 
-## 当前发行
+## Current release
 
-- 版本：**0.1.0（MVP）**
-- 许可证：**Apache-2.0**
-- 作者：**Zhizheng Wang / 王之政**
-- 发行形态：直接技能 ZIP、单顶层目录 Agent Skill ZIP、便携插件 ZIP、完整 GitHub 源码
+- Version: **0.1.0 (MVP)**
+- License: **Apache-2.0**
+- Author: **Zhizheng Wang**
+- Distribution formats: direct skill ZIP, single-folder Agent Skill ZIP, portable plugin ZIP, and complete GitHub source
 
-StateDyne 在不同宿主中使用同一认知标准，但只能调用该宿主实际存在并已获授权的工具。没有真实独立工作者时，它不得把模拟角色写成已经完成的多智能体研究；没有联网权限时，它不得声称已经取得外部证据。
+StateDyne applies the same cognitive standard across hosts, but it can use only the tools that actually exist and have been authorized in that host. Without real independent workers, it must not describe simulated roles as completed multi-agent research. Without network access, it must not claim to have obtained external evidence.
 
-发现问题或希望贡献改进，请阅读 [贡献指南](CONTRIBUTING.md) 与 [安全说明](SECURITY.md)。
+To report a problem or contribute an improvement, read the [contribution guide](CONTRIBUTING.md) and [security policy](SECURITY.md).

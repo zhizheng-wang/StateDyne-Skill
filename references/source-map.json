@@ -564,8 +564,8 @@
         "tests/test_1110.py",
         "tests/test_1120.py"
       ],
-      "characters": 102662,
-      "bytes": 178077
+      "characters": 107983,
+      "bytes": 179542
     },
     "api_contrast_probe": {
       "paths": [
@@ -996,26 +996,18 @@
     {
       "path": "README.md",
       "role": "support",
-      "sha256": "165433dc98848ea51db072dee7e095803929f7b906d605dc176d45919b9d422b",
-      "bytes": 7327,
-      "characters": 3442,
+      "sha256": "069db9fc5dcfdf83b5a5f1c10b18abe4eb3c511e8775ba79663ffbf2734a73ed",
+      "bytes": 8792,
+      "characters": 8763,
       "lines": 130
-    },
-    {
-      "path": "README.en.md",
-      "role": "support",
-      "sha256": "ef5ea470aaa3ceddf55ff74bdf67260ef8a17bb63d53779c95fcd7b346bdf39b",
-      "bytes": 12215,
-      "characters": 12149,
-      "lines": 118
     },
     {
       "path": "README.zh-CN.md",
       "role": "support",
-      "sha256": "b0cfe14fdda893978fccee964642183024379152d9e6d2e0086e30516749e993",
-      "bytes": 8031,
-      "characters": 3843,
-      "lines": 89
+      "sha256": "b77d3aa2e90828facda9a0398693c247e5d64fb7cb6d2314ef39537e2b45fa72",
+      "bytes": 7336,
+      "characters": 3449,
+      "lines": 130
     },
     {
       "path": "RELEASE.md",
