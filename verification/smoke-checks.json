@@ -1,0 +1,29 @@
+{
+  "version": "11.2.0",
+  "doctor_api_key_configured": false,
+  "doctor_model_tested": false,
+  "doctor_network_calls": 0,
+  "native_dispatch_status": "waiting_for_real_workers",
+  "native_pending_jobs": 10,
+  "roles": [
+    "frame",
+    "system_map",
+    "goal_scout",
+    "selection_scout",
+    "relation_scout",
+    "discovery",
+    "reframe",
+    "contrast_probe",
+    "environment_scout",
+    "blind_challenge"
+  ],
+  "verified": true,
+  "live_worker_receipts": 0,
+  "native_first_wave": "Ten immutable original-input independent requests; no real model called",
+  "pre_release_breakthrough": "Raw-only independent breakthrough worker must return real receipt before audited completion; not executed in native smoke",
+  "independent_expansion": "Incumbent-aware and source-blind requests are created together on explicit expand",
+  "cross_model_tested": false,
+  "host_installer_e2e_tested": false,
+  "interactive_UI_guaranteed": false,
+  "plugin_import_e2e_tested": false
+}

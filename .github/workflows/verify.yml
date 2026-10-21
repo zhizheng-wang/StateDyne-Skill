@@ -1,0 +1,20 @@
+name: Verify StateDyne release
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  deterministic-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify exact file identities and links
+        run: python scripts/validate_skill.py --strict-bytes --require-downloads
+      - name: Run engineering regressions (no model API calls)
+        run: python scripts/run_test_groups.py

@@ -1,0 +1,54 @@
+{
+  "skill_version": "11.3.0",
+  "engineering_tests": 575,
+  "passed": true,
+  "previous_release_tests": 567,
+  "new_synthetic_regressions": 8,
+  "current_suite_tests": 575,
+  "additional_subtests": null,
+  "exact_manifest_validated": true,
+  "real_model_tested": false,
+  "chatgpt_skill_e2e_tested": false,
+  "actual_skill_import_tested": false,
+  "live_model_calls_this_revision": 0,
+  "capability_improvement_proven": false,
+  "cross_model_live_validated": false,
+  "execution_priority": [
+    "effect",
+    "time"
+  ],
+  "cognitive_exploration_default_limit": null,
+  "visible_question_default_limit": null,
+  "user_quota_as_cognitive_stop": false,
+  "actual_worker_dispatch_conditional_on_host_support": true,
+  "native_first_wave_requests": 10,
+  "real_worker_receipts_in_smoke": 0,
+  "single_active_skill_entry": true,
+  "feature_proofs": [
+    "An independent real-worker outcome tournament now competes mature solutions, minority hypotheses, new goal representations and change paths on actual generating mechanisms, predictions, user value and feasibility.",
+    "Pivotal preferred and minority conclusions have visible rationale requirements, not just backstage claim-disposition labels.",
+    "A new unattempted, autonomously researchable, decision-reversing relation from the outcome tournament enters the ordinary active research queue; duplicate avenues cannot induce infinite novel-work claims.",
+    "New and existing worker roles share the same full-strength instruction kernel and real-output attestation; no reduced daily mode was introduced.",
+    "Previous 567 structural regression tests preserved, plus 8 targeted negative/positive competition, provenance, visibility and re-open tests.",
+    "This synthetic test suite does not demonstrate live-world class ability, independent-work proof for a particular ChatGPT @ invocation, or real plugin import.",
+    "New independent-competition evidence routes are sent to a real acquire operator instead of only being reinterpreted."
+  ],
+  "original_method_sha256": "fd2f4323daf95cc2c05f8e02b6daa98cec6184a34496be1ee82510fc46802f03",
+  "original_spec_sha256": "0363d8df83d38ce1bed594c97a3493d24a4cac58f934df1a01872617b5b2eb45",
+  "native_smoke_status": "waiting_for_real_workers",
+  "workspaces_readable_from": [
+    "11.0.0",
+    "11.1.0",
+    "11.2.0",
+    "11.2.1",
+    "11.3.0"
+  ],
+  "verified_package_surfaces": [
+    "skill-root",
+    "agent-skill-single-folder-layout",
+    "portable-plugin-layout",
+    "github-source",
+    "repository-downloads-with-sha256"
+  ],
+  "real_plugin_directory_upload_tested": false
+}

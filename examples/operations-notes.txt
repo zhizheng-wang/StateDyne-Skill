@@ -1,0 +1,1 @@
+Both routes acquire the same per-customer lock before calling the vendor API. The lock has a 30-second lease. Request-level latency logs exist. The current metrics aggregate across all customers.

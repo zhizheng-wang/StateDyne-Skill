@@ -1,0 +1,27 @@
+[
+  {
+    "id": "manufacturing-same-defect-new-channel",
+    "task": "A coating process develops the same visible defect in two shifts. One team blames mixer speed because the defect appears more often at higher speed, but a neighboring line shows the defect at low speed too. There is no reliable timestamp for its origin. Analyze what could generate the discrepancy, predict useful observations not already mentioned, and decide what records or tests should be obtained before changing equipment.",
+    "materials": []
+  },
+  {
+    "id": "freemium-metric-divergence",
+    "task": "An imaginary app's daily active users doubled while net paid additions weakened. A product manager insists every decline comes from pricing. No cohort or margin data have been supplied. Independently construct competing generative models, identify where the evidence could be obtained, and determine what findings could justify changing the charging unit or customer workflow rather than simply cutting prices. Never invent business data.",
+    "materials": []
+  },
+  {
+    "id": "contest-official-rules-sufficient",
+    "task": "A contest has three submissions. The published rule is highest verified score wins. A scores 82, B scores 86, and C scores 91. C wins; no other observations are available. Assess whether an undisclosed rule is needed, and what evidence would actually justify investigating one. Do not manufacture hidden judges or motives.",
+    "materials": []
+  },
+  {
+    "id": "learning-start-rule-fails",
+    "task": "A student can study for an hour after beginning but resists daily starts. Five-minute-start exercises were attempted repeatedly and reported ineffective. On days with a morning lab the student often studies later without difficulty. Search beyond generic procrastination labels for a testable mechanism, and find change points from both the present behavior and the desired sustainable routine. The student fears losing all leisure time if every day becomes highly scheduled.",
+    "materials": []
+  },
+  {
+    "id": "relationship-message-context",
+    "task": "A short expression of support is comforting from one colleague but irritating from another. The words and delivery are similar, and neither person has behaved threateningly. Do not assume the cause is a mental disorder or hidden attraction. Discover alternative generative units and make useful predictions about other kinds of situations that could differentiate them.",
+    "materials": []
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "service-shared-dependency",
+    "task": "A reporting service is slow only when both invoice export and dashboard refresh run together. Each task runs quickly alone. CPU utilization remains low. Explain competing mechanisms and choose the most useful information to obtain before recommending a redesign.",
+    "materials": [
+      {
+        "label": "operations-notes.txt",
+        "text": "Both routes acquire the same per-customer lock before calling the vendor API. The lock has a 30-second lease. Request-level latency logs exist. The current metrics aggregate across all customers."
+      }
+    ]
+  },
+  {
+    "id": "adoption-not-start-cost",
+    "task": "A researcher postpones a daily writing session although the first step is easy. Timers and small-start advice have not helped. On meeting-free days the session often begins naturally. Analyze what could generate this difference and how a new routine could become both worthwhile and sustainable. Do not assume the person lacks motivation.",
+    "materials": []
+  },
+  {
+    "id": "no-hidden-rule",
+    "task": "A small synthetic contest ranks three entries. Scores are A=82, B=86 and C=91; the published rule is that the highest score wins, with no tie. C wins. Do these observations require an unwritten selection rule? Explain what is and is not supported.",
+    "materials": []
+  },
+  {
+    "id": "change-goal-generation",
+    "task": "A team has doubled ticket-processing capacity but the backlog still grows. New features automatically generate review tickets, including reviews no one uses. Propose a mechanism-level alternative to simply hiring more reviewers. Compare it to the strongest conventional option and describe what would make either choice work.",
+    "materials": []
+  },
+  {
+    "id": "same-signal-opposite-reactions",
+    "task": "A student smiles when a mentor says 'you belong here,' yet becomes unusually upset when the same words are spoken by someone they distrust. The sound and words are the same. Explain what is and is not established. What missing relationship could turn the absence of trust into more than mere indifference? Make a useful cross-context prediction and prioritize the smallest number of real questions.",
+    "materials": []
+  },
+  {
+    "id": "ordinary-physical-cue-suffices",
+    "task": "A laboratory employee notices the same strong solvent odor in three rooms and feels nauseated on each occasion, irrespective of who is present. Ventilation measurements show one room has lower concentration and the discomfort is weaker. Explain the likely physical mechanism without inventing personal symbolic meanings, and identify what information would actually alter safety recommendations.",
+    "materials": []
+  }
+]

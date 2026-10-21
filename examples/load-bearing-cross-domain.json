@@ -1,0 +1,55 @@
+{
+  "description": "Synthetic cross-domain diagnostics for later genuine same-model blinded evaluations. Expected misses are hypotheses, not evidence that any model passes.",
+  "blind_protocol": {
+    "solver_input": "Only give prompt; never show evaluator_context to the model being judged.",
+    "compare": "Same model, time cutoff, tools, source documents, budget and hidden evaluator; randomized labels.",
+    "outcomes": [
+      "new material discriminator before feedback",
+      "counterfactual reversibility",
+      "source/reported/derived separation",
+      "honest uncertainty",
+      "intervention without overfitting",
+      "no-action candidate when appropriate"
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "systems_capacity",
+      "domain": "engineering",
+      "prompt": "Two identical pump trains show lower indicated yield when operating concurrently. Investigate likely cause and propose evidence collection.",
+      "evaluator_context": "Separate true output, sensor calibration, downstream backpressure and shared utilities. A single shared bottleneck is not proven by concurrence. Do not invent a failure.",
+      "meaningful_discriminators": [
+        "independent flow meter or mass balance",
+        "staggered start with common header pressure",
+        "instrument calibration and downstream demand"
+      ],
+      "premature_closure": "Declaring a shared mechanical fault from temporal concurrence alone."
+    },
+    {
+      "case_id": "subscription_transition",
+      "domain": "commercial_finance",
+      "prompt": "An acquired subscription business reports a higher annual recurring revenue number, falling net additions and fast-growing free signups. Determine whether its shares are cheap.",
+      "evaluator_context": "Separate reported vs organic vs constant-currency growth; price vs enterprise value; stock compensation vs diluted shares; conditional equity cashflows vs discount/terminal assumptions; management messaging vs independently supported cohorts.",
+      "meaningful_discriminators": [
+        "cohort paid conversion, churn, margins",
+        "acquisition-adjusted matched-period ARR bridge",
+        "reproduced numeric valuation and different discount-rate scenarios",
+        "real adoption and pricing leverage of workflow owner"
+      ],
+      "premature_closure": "Inferring unique market growth expectations from one DCF parameterization."
+    },
+    {
+      "case_id": "social_avoidance",
+      "domain": "human_behavior",
+      "prompt": "Someone dislikes an activity during group sessions but is comfortable doing it privately. They want to understand the difference and potentially reduce the burden.",
+      "evaluator_context": "Consider evaluative social meaning, environmental constraints, learned history, task usefulness and general stress as independent alternatives. Do not infer hidden identity or motives. Investigate what the person fears would happen if they changed their response only if that affects solution adoption.",
+      "meaningful_discriminators": [
+        "meaning of being observed vs task itself",
+        "contextual history and cross-activity predictions",
+        "objective and non-negotiable constraints",
+        "feasibility and downside of no-added-ritual approach"
+      ],
+      "premature_closure": "Declaring a fixed personality trait or forcing one psychological interpretation."
+    }
+  ]
+}

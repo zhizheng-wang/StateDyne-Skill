@@ -1,0 +1,300 @@
+StateDyne Skill 11.3.0
+Copyright 2026 Zhizheng Wang / 王之政
+
+Based on the author-supplied StateDyne: 生成系统方法 human-readable document.
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+The method reference retains its title, author, body, nine tables and copyright.
+Two illustrations and the conclusion were omitted at the author's request.
+Earlier author-directed refinements explain how relevant capabilities of
+existing methods enter a continuous generative model. The original DOCX is
+unchanged. This release adds author-authorized clarifications in sections 2.3–2.4,
+3.7, 7.2 and 7.5 and the matching introductory chain: reality versus its
+records, cross-scale effects without new
+levels, and the non-universal order of language-mediated cognition. Identities,
+the baseline hash and refinements are recorded in references/source-map.json.
+Version 7.1.0 also clarifies the opening state/reading example, task-relative
+research stopping, intervention/action/plan versus scheduling, and the role of
+conscious endorsement in human action. The original source DOCX is unchanged.
+
+StateDyne AI Execution Specification v3.7 is preserved byte-for-byte under
+engineering/ for explicit source review. It is an archive, not current runtime
+instructions. Current execution responsibilities are independently reorganized
+in SKILL.md and the task-activated reference modules. Version 7.0.0 replaces the
+5.11 runtime, separates design from external execution authorization, supports
+adaptive independent exploration, and replaces every-turn audit-form gates
+with substantive review. The historical 6.0.0 experiment is not this release.
+Version 7.1.0 strengthens visible intervention results, active information
+acquisition and updating, conditional action design, quality-first operation,
+capability activation by missing dependencies, and independent verification.
+Version 7.2.0 retains the 7.1 method text unchanged. Runtime refinements add
+explicit delivery of shared evidence without forcing a shared explanation,
+dependency-driven independent and collaborative work, constructive interface
+design, premise-aware updates, natural mainline continuity, and protection
+against value loss through integration or review. Persistence remains dependent
+on actual host operations; prompts do not provide a memory service or hard gate.
+Version 7.3.0 preserves the complete 7.1/7.2 method and adds composite outcome
+tracking, explicit delivery checks and an optional standard-library local state
+tool for versioned declared dependencies, candidate records, artifacts and action
+receipts. Its structural checks do not establish semantic truth, authorization,
+external execution or real-world effectiveness, and do not control host sending.
+UI-only semantic equivalence permits host YAML reserialization; release checking
+continues to require exact bytes with --strict-bytes.
+
+General principles were informed by author feedback. Personal case files,
+private facts, development diagnoses, evaluation prompts and expected answers
+are not bundled. Historical runtime versions remain in Git history.
+
+The independently written Chinese expression guidance was informed by general
+writing principles summarized in Writing Clearly and Concisely:
+https://github.com/obra/the-elements-of-style/blob/main/skills/writing-clearly-and-concisely/SKILL.md
+No third-party skill files or extended quotations are included.
+
+Version 7.4.0 clarifies the author-requested synonymous use of intervention
+point and leverage point in method section 6.1, retaining priority comparison.
+Runtime changes cover concrete public wording, informative visuals, visible
+intervention comparisons and actions, conversational continuation, source
+boundaries and evidence-based persistent revision. No host-wide enforcement,
+autonomous learning or general superiority is asserted.
+
+Version 7.5.0 retains the 7.4.3 human-readable method byte-for-byte and
+reorganizes execution responsibilities around task-grounded exploration,
+information dependencies, action-supported intervention comparisons and
+scope-aware conversational delivery. Cross-position action priorities are
+compared before full planning; refusal to supply information preserves
+conditional progress. No empirical superiority or guaranteed novelty is claimed.
+
+Version 7.5.1 resolves delivery-scope ambiguity for broad change requests,
+preserving same-turn action-supported intervention priorities while separating
+their presentation from detailed actions and full plans. It strengthens natural
+continuation, comparable alternatives, combination tradeoffs and the distinction
+between a recommended action and its implementation steps. Prerequisites for
+removing old arrangements and the scope of validation remain explicit. It checks
+unprompted scope inference through multi-turn development tasks. The method and
+state tools remain unchanged; no general performance guarantee is asserted.
+
+Version 7.5.2 makes substantive open work quality-first by default and links
+early information checking, independent exploration and exact-draft review to
+actual host operations. It preserves observation scope, supports neutral recall
+and late model-changing information, broadens meaningful intervention coverage
+and compares genuinely interacting combinations before selection. Innovation
+checks default assumptions and cross-path construction without manufacturing
+novelty. Conditional plans and conversational continuation remain scope-aware.
+The method and scripts are unchanged. Actual orchestration and content checks
+are distinct; prompt instructions do not guarantee compliance or effectiveness.
+
+Version 7.7.0 distinguishes conditional consequences from evidence-dependent
+current judgments, tightens task-scoped information and assistance rules, and
+requires useful generative consequences alongside evidential accuracy. Dialogue
+and evaluation rules cover both premature advice and unnecessary deferral.
+Method text, source archive and executable state scripts are unchanged.
+
+Version 7.7.1 centers task-specific explanatory and generative gains, distinguishes
+working explanations from established individual causes, extends conditional
+consequences through adaptive responses, and reviews omitted substantive value
+before minor expression. It consolidates existing responsibilities rather than
+adding case-specific answers. The method and executable scripts are unchanged;
+prompt compliance and general performance remain empirical questions.
+
+Version 8.0.0 makes the evolving generative structure the shared runtime core.
+Explanation, relational transformation, intervention discovery, concrete
+prototypes and feedback revise the same inspectable results. Independent
+generation and adversarial review have separate responsibilities. Evidence
+requirements govern claims and adoption without extinguishing exploratory
+construction. The complete method, archive and executable state tools are
+unchanged. No universal innovation, empirical superiority or host-enforcement
+guarantee is asserted.
+
+Version 8.0.1 preserves evidence identity across direct observation, estimates,
+counterfactuals and assistant-authored drafts. A central new relation must trace to
+supporting and limiting material, survive a plain-language rewrite and produce a
+consequence distinct from its strongest alternative. Uncertainty must open such
+competing consequences instead of ending in a variable list. Review rejects
+self-confirming evidence upgrades, decorative terms, formulas and tables, arbitrary
+time windows and preventive advice without a change target or observed impairment.
+The method, archive and executable support scripts are unchanged.
+
+Version 8.0.2 carries the object, question position, time scope, material identity
+and limits of a relation through synthesis, headlines, numeric ranges, summaries and
+recommendations. Alternatives compete only when they answer the same explanatory
+question at a compatible scope; connected formation, activation, persistence and
+severity relations remain distinct. Composite contrasts cannot be decomposed into
+individual causal effects during compression. It separates environmental trends,
+path opportunities and subject-level net benefit, and distinguishes forecasts,
+chosen decision deadlines and observation periods. User-supplied dates do not
+justify themselves; unsupported calendars become event conditions rather than a
+default choice of the later date. Review now works backward from the exact deliverable
+to its weakest supporting premise and blocks preventive action created only by
+imagined deterioration. The method, archive and executable support scripts are
+unchanged.
+
+Installed identity checking accepts only explicitly recorded, observed
+host-materialized icon byte variants. Runtime, method and script identities
+remain exact; strict release checking does not allow these variants.
+
+Version 9.0.0 reconstructs runtime control around inspectable generative work,
+real independent expansion, generation-quality review, targeted rework and
+exact-deliverable review. Breadth, depth, relational innovation, information
+updates and action-supported comparisons are primary outcome responsibilities.
+The new check_work.py binds local file versions and review records; it does not
+evaluate semantic quality, authenticate reviewers or control host sending.
+Repeated caution rules are consolidated. The human-readable method, source
+archive and existing state scripts remain byte-for-byte unchanged. No minimum
+runtime, fixed iteration quota, forced novelty or universal advantage is claimed.
+
+Version 9.1.0 refines mixed-request scope, analysis/intervention separation,
+point-first delivery with feasible action support, open-ended valuable search,
+plain continuation, optional recall and draft evidence identity. Reviews check
+these outcomes as well as exact delivery. The method, archive, UI and executable
+tools remain unchanged; no universal compliance or exhaustive-search claim is made.
+
+Version 9.2.0 separates internal task and stage responsibility from user expression.
+Points are evaluated through influenceability and value without a mandatory action
+per point. Action design supports many-to-many effects and shared costs; plans
+compare actual combinations. Continued generation may deepen, broaden, challenge,
+recombine or construct, retaining useful alternatives beyond the current best.
+Relevant cognitive, attention, meaning and learning routes enter alongside external
+routes. Reviews check substantive generation, true stage completion and natural
+delivery. Internal records do not prescribe user templates. The complete method,
+archive, UI and executable support tools remain unchanged. No fixed search count,
+guaranteed novelty, universal performance or host-enforcement claim is made.
+
+Version 9.3.0 connects stage-specific deliverables through actual dependencies.
+Prioritized intervention positions have internal feasible effect paths; coupled
+positions compete with single positions before action and plan selection.
+Positions, change directions, operations and plans remain distinct. Actions
+explain their causal use, including meaning and adoption when people participate,
+without making cognition a universal prerequisite. Single actions, combinations
+and no added work compete. Review returns substantive failures to generation or
+design before polishing language. Internal rigor and retained alternatives do
+not become frontend templates; continuation identifies the actual next work.
+The method, archive, UI and executable support tools remain unchanged. Small
+development tests do not establish universal effectiveness or guaranteed novelty.
+
+Version 9.4.0 selects public deliverables by requested scope while preserving
+deeper internal comparison. Independently useful alternatives remain available
+through value-based explanation, brief coverage and batching; expanded searches
+deliver new value and affected revisions instead of repeating unchanged lists.
+Optional neutral recall supports discovery beyond existing hypotheses without
+suggesting experiences or blocking progress. Continuation distinguishes the next
+work from further current-stage search. Review prioritizes semantic outcomes and
+readable mechanisms over caution wording. The method, archive, UI and executable
+support tools remain unchanged; limited tests do not guarantee general compliance.
+
+Version 9.5.0 answers direct horizon questions at warranted temporal scales,
+checks consequential prior personal conditions, and compares actions by the
+requested outcome, effect horizon and added monitoring burden. Public answers
+are reconstructed from useful relations rather than compressed internal records;
+stage handoffs identify the next work without exporting its entire design.
+Generation and delivery reviews share these outcome checks. The complete method,
+source archive, UI and executable support tools remain unchanged. Development
+observations do not establish treatment efficacy, universal quality or exhaustive
+search.
+
+Version 9.6.0 makes requested outcomes and substantive generative value the
+operating priority, with truth, professional precision, safety and authorization
+as continuous constraints. Consequential evidence relations stay separate from
+public expression. Grounded leading explanations, competing futures and robust
+cross-explanation results continue under uncertainty. Nine internal search
+entrances cover dynamics through paradigms and local windows without replacing
+the method's original nine categories. Goals and protected values govern
+multi-layer leverage, action and plan comparisons across time scales. Open
+industry and venture questions retain structural futures before validation or
+implementation. Feedback has distinct evidential uses; dialogue tracks side
+questions and resumes actual unfinished work. Reviews first test added value,
+coverage and construction, then consequential grounding and expression. The
+complete method, archived execution specification, UI and executable support
+tools remain unchanged. Limited semantic checks establish neither universal
+performance nor real-world intervention effectiveness. Private tests and
+recovery materials are excluded from distribution.
+
+Version 9.7.0 consolidates repeated defensive rules into positive outcome,
+evidence and delivery responsibilities while preserving continuous truth,
+professional, safety and authorization constraints. Breadth feeds explicit
+relationship synthesis; preferred actions are supported by applicable evidence,
+goal/time-matched effect paths and comparison with the strongest feasible
+alternatives. Personal problems retain structural and paradigm construction
+alongside mature approaches. Public qualifications are consequence-filtered,
+known goals carry forward, and continuation follows actual unfinished work
+rather than a mandatory dual invitation. Review repairs generation and ranking
+before polishing language. Method text, source archive, UI and executable tools
+are unchanged; no new modules, state fields or review rounds are added. Private
+semantic outputs remain outside distribution. Limited forward checks do not
+establish universal reliability, comparative superiority or treatment efficacy.
+
+Version 9.8.0 connects action authority, competing feasible routes, adoption
+formation and explanation carriers at existing runtime handoffs. Stage-specific
+information, open futures and incremental continuation use existing records.
+The method and archived specification remain byte-identical to 9.7.0. No private
+case facts, prompts, answers or evaluation artifacts are distributed. Behavioral
+observations are limited; this skill does not supply real-world state or execution.
+Windows inventory and review reads preserve canonical paths and exact binary versions.
+
+Version 9.8.1 narrows a user-facing language defect without changing the method
+or generation architecture. Concision now comes from selecting and deduplicating
+content rather than clipping complete words, compressing sentences into field-like
+phrases, or assigning disposable new names to one-off relations. Dialogue, final
+review and semantic evaluation apply the same boundary while preserving technical
+terms, substantive relations, evidence and action value. Keyword scans are not
+treated as proof of natural language quality. No private case material is included.
+
+Version 9.8.2 closes three recurrent delivery failures already covered in principle
+but not reliably caught in review. Numerical future ranges now require an actual
+basis for both bounds, while useful event or magnitude judgments remain mandatory
+when exact dating is unsupported. External claims are checked against the specific
+source that carries each product fact, date, number, denominator and conclusion;
+adjacent links cannot stand in for missing support. Final review removes unsolicited
+monitoring, automation and service invitations unless they are the user's request
+or a selected necessary action. The method, runtime architecture and public file
+set remain unchanged, and no private case material is included.
+
+Two parallel Version 9.8.3 distributions were derived from Version 9.8.2.
+The earlier distribution moved consequential premise comparison to the first
+ranking and to individual commitments, with review of the strongest feasible
+alternative under credible competing conditions. The later distribution
+consolidated human change and habit formation in method section 7.8, strengthened
+substantive innovation and information acquisition, and reactivated action
+comparison when an informed user requests further progress.
+
+Version 9.8.4 integrates both distributions. Shared comparison duties run before
+the first ranking or reranking and are revisited at later commitments and final
+review. The later method and execution enhancements are retained. The public
+file set, UI and executable support tools are unchanged. Private cases,
+behavioral answers and development evidence are excluded. Limited observations
+do not establish cross-model stability or real-world effectiveness.
+
+Version 9.8.5 reorganizes per-turn restoration, independent generation duties,
+all-candidate evidence updating, concentrated information acquisition and
+target-based search when entering change. Immutable optional checkpoints add
+portable checks for declared continuity; semantic quality remains a model
+responsibility. Generation and exact-deliverable review may share one substantive
+invocation. The method, archived specification, UI and established domain
+mechanisms are retained. Private cases and evaluation artifacts are excluded.
+
+Version 9.8.6 binds existing generative capabilities to task transitions: complete
+first-wave results, synthesis-driven further search, counterfactual question
+dependencies, formation and selection of generative relations, active omission
+review and whole-plan dependency checks. The method and existing scripts remain
+unchanged. Runtime instructions are not automatic host enforcement; real behavior
+is evaluated separately. Private evidence is excluded from this distribution.
+
+Version 9.8.8 derives solely from the 9.8.7 release. It prioritizes a compact
+recoverable task state, detects responsibilities from actual answer content,
+and targets missing outcomes before further orchestration or editorial work.
+Goal-reopened action comparison, model reconstruction and bounded exploration
+remain within the existing modules. The method, archive and helper code are
+unchanged. Natural-language duties do not provide host enforcement, automatic
+model routing or a guarantee of stable model or real-world performance.
+
+10.0.0 changes (2026-10-18): Added an executable cognitive controller, independent job inputs, host bridge, OpenAI API transport, exact-draft review and bounded repair, real-model evaluation entry points, and deterministic software/protocol tests. Updated active execution instructions and archived prior versions. Original method, engineering specification and six legacy scripts are preserved. No live model performance or host end-to-end validation is claimed by this release.
+
+Version 10.7.0 unifies the cognitive quality contract across skill invocation contexts;
+the optional runtime remains a tool, not a separate ability tier. Source method
+and historical execution archive retain their original bytes. Real-world semantic
+quality and actual multi-agent availability require external verification.
+
+Release 10.13.0 adds independent adversarial premise/recalculation checks to the optional runner. The method and archived engineering spec remain byte-identical. The new tests verify structural behavior only, not real model intelligence or investment/health outcomes.
+
+Version 10.17.0 adds final evidence-boundary and action-vs-no-extra-action
+checks to the existing independent reviewer. It preserves the original method
+and engineering archive, and makes no empirical capability claim.

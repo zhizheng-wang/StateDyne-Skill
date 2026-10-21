@@ -1,0 +1,1 @@
+A reporting service is slow only when both invoice export and dashboard refresh run together. Each task runs quickly alone. CPU utilization remains low. Explain competing mechanisms and choose the most useful information to obtain before recommending a redesign.

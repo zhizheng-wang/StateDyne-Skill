@@ -1,0 +1,3250 @@
+{
+  "skill_version": "11.3.0",
+  "method_version": "author-authorized-clarifications/20261014",
+  "method_date": "2026 年 9 月（原稿封面）",
+  "author": "Zhizheng Wang / 王之政",
+  "license": "Apache-2.0",
+  "method": {
+    "path": "references/method.zh-CN.md",
+    "uploaded_name": "Author-provided Chinese manuscript (original not distributed)",
+    "source_sha256": "cdfd5077825900a314161b7e0a758db82d1d5461d080b36474b1b38860b38bb0",
+    "tables": 9,
+    "images": 0,
+    "end_marker": "本作品依据 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 授权。",
+    "conversion": "Author-requested omissions: two drawings and their alternative text; conclusion section and its table-of-contents entry. Version 3.0 adds narrowly scoped author-directed refinements to the method-of-methods and section 5.3 passages: named methods are decomposed into their valid generative relations and no longer remain execution boundaries. Title, author, all other body text, nine tables and copyright retained; original DOCX unchanged; empty footnotes/endnotes checked. Release 7.0.0 adds the explicitly listed author-authorized clarifications; original DOCX remains unchanged. Release 7.1.0 adds only the listed general clarifications; source DOCX unchanged.",
+    "author_directed_refinements": [
+      "Retitle the existing-method sections around integration into the generative substrate",
+      "Clarify that StateDyne is not a framework selector or coordinator",
+      "Require complete relevant capabilities to enter one continuous reality model",
+      "Distinguish missing generative relations or activation from missing domain knowledge or evidence"
+    ],
+    "excluded_sections": [
+      "two illustrative figures",
+      "conclusion and its TOC entry"
+    ],
+    "baseline_5_11_sha256": "0b2d0a096a7efe9742790bd23966a712e364d5c2a77c341f1da7ddbe1132707e",
+    "release_7_refinements": [
+      {
+        "section": "2.3–2.4",
+        "change": "Distinguish actual state from measurement, inference and unknown state records."
+      },
+      {
+        "section": "3.7",
+        "change": "Stable new higher-level structures are one form of cross-scale generation, not a necessary condition for all cross-scale effects."
+      },
+      {
+        "section": "Introduction: cognition/action chain; 7.2, 7.5",
+        "change": "Language-mediated representation is one analytical path, not a universal cognitive order or a complete empirical theory."
+      }
+    ],
+    "sha256": "fd2f4323daf95cc2c05f8e02b6daa98cec6184a34496be1ee82510fc46802f03",
+    "bytes": 177805,
+    "characters": 62293,
+    "lines": 1486,
+    "baseline_7_0_sha256": "db1a23eadde3ebd2f881a918c2187846dcdc09d40198e7e664c7f722597eb7d5",
+    "release_7_1_refinements": [
+      {
+        "section": "Introduction: daily example",
+        "change": "Separate actual temperature from its reading and possible reading error."
+      },
+      {
+        "section": "5.12",
+        "change": "Make stopping relative to the requested understanding, research, invention or decision outcome."
+      },
+      {
+        "section": "6.1",
+        "change": "Distinguish intervention positions, actions, conditional plans and justified scheduling."
+      },
+      {
+        "section": "6.5 and matching 7.8",
+        "change": "Check rather than assume old behavior functions; conscious endorsement is not required for all behavior."
+      }
+    ],
+    "baseline_7_3_sha256": "335b95a2a4aac8a673b5f0b0331319a784056d7c10dad5327910cf52248877f1",
+    "release_7_4_refinements": [
+      {
+        "section": "6.1",
+        "change": "User explicitly identifies intervention point and leverage point as synonyms. Preserve comparison of their priority without defining separate categories."
+      }
+    ],
+    "release_7_4_3_refinements": [
+      {
+        "section": "6.6",
+        "change": "Prioritize outcome, cost and feasibility under goals and constraints; prefer simpler plans when important conditions are equivalent, rather than minimizing action count as a primary rule."
+      }
+    ],
+    "baseline_9_8_2_sha256": "b6ee2e7edce55c82815505170ff122535a7d876e4d5fa8ab8e286dc04932ae7c",
+    "release_9_8_3_refinements": [
+      {
+        "section": "7.8",
+        "change": "Concentrate the generative relation from present conditions and worthwhile change through actionable entry, lived feedback and updated willingness to habit formation, including environmental entry and threshold shifts."
+      },
+      {
+        "section": "6.8",
+        "change": "Compare substantive innovations by causal derivation, consequences and value, including simple high-value changes and mature alternatives."
+      }
+    ]
+  },
+  "engineering": {
+    "path": "engineering/execution-spec-v3.7.zh-CN.md",
+    "uploaded_name": "Author-provided execution specification v3.7 (original not distributed)",
+    "sha256": "0363d8df83d38ce1bed594c97a3493d24a4cac58f934df1a01872617b5b2eb45",
+    "bytes": 305087,
+    "lines": 2499,
+    "characters": 106484,
+    "role": "Unmodified source archive for explicit specification review and engineering work; everyday duties are adapted into the execution references, without loading or enforcing the complete legacy runtime."
+  },
+  "style_inspiration": {
+    "url": "https://github.com/obra/the-elements-of-style/blob/main/skills/writing-clearly-and-concisely/SKILL.md",
+    "scope": "General principles of concrete wording, active verbs, coherent paragraphs and removing unnecessary words are used only as a final expression filter. They do not determine analytical depth or replace generative modeling. Independently written Chinese rules; no third-party files copied."
+  },
+  "provenance": {
+    "baseline_skill_version": "5.11.0",
+    "baseline_git_commit": "172bf56b2a8f57bd01a16263d80805a51695ada4",
+    "runtime": "7.0.0 replaces the runtime wrappers; removed wrappers remain in Git history, not as fallback instructions.",
+    "private_material": "No private user case files, evaluation prompts, expected answers, test outputs or development diagnoses are distributed.",
+    "release_7_1_baseline_git_commit": "6e4353c",
+    "release_7_1_runtime": "Preserves adaptive runtime and strengthens visible causal intervention outcomes, information acquisition/update, justified scheduling, quality-first execution and substantive review.",
+    "release_7_2_baseline_git_commit": "306d72afbe663cee9e70fb20fbf86e2742c86a19",
+    "release_7_2_method": "The complete 7.1 method text is retained byte-for-byte; relevant conceptual capabilities already exist in sections 4.16, 5.3, 5.12 and 6–7. Runtime activation and integration, not a cosmetic method rewrite, address this revision.",
+    "release_7_2_runtime": "Delivered shared evidence with competing interpretations; native professional representations; dependency-driven independent work and joint path construction; premise-level update propagation; mainline continuity; informed risk preferences; substantive exact-version review and durable checkpoint responsibilities. Host operations, empirical performance and untested aspirations remain distinct.",
+    "release_7_3_baseline_git_commit": "ec435611ea46e4b35b09a9df5d61584c4d47ddcf",
+    "release_7_3_method": "Complete 7.1/7.2 method retained byte-for-byte, including all nine tables; no private case fixes inserted into the method.",
+    "release_7_3_runtime": "Composite outcome contracts and visible delivery checks; executable local versioned declared-dependency state, exploratory candidates, artifact identities and action receipts. Structural checks remain distinct from semantic review, durable host storage and external execution.",
+    "release_7_4_baseline_git_commit": "bef529dd171ab980b909634866475b954558df3c",
+    "release_7_4_runtime": "Plain public language, purposeful visuals, competing intervention priorities and mapped actions, useful continuation, current-task source boundaries, substantive joint construction and evidence-based ongoing revision. No guarantee of host isolation, autonomous learning or superior outcomes.",
+    "release_7_4_1_runtime": "Clarifies that intervention priorities require prior construction and comparison of feasible actions, with bidirectional refinement; natural user conversation must activate all task-relevant capabilities without method vocabulary, module selection or repeated stage commands. No empirical superiority claim.",
+    "release_7_4_2_runtime": "Requires action construction and consequence evaluation in the same turn before delivering intervention points, even when only points are shown or no ranking is requested. Points and actions default to numbered prose, with tables reserved for other appropriate comparisons or explicit user format requests. No new empirical performance claim.",
+    "release_7_4_3_runtime": "Ranks interventions and their concrete action alternatives, compares combined and standalone changes before final selection, distinguishes recommendation priority from execution precedence, and performs feedback-driven continuation within the skill. Rules are domain-general; no project-specific solution or empirical superiority claim. Review scope respects point-only presentation. Numeric comparisons of intervention options remain numbered prose, not summary tables.",
+    "release_7_5_baseline_git_commit": "97e6a03d323da4e509aeeb4fb82483acf9395bfb",
+    "release_7_5_method": "Complete 7.4.3 method preserved byte-for-byte; no case-specific solution or private evaluation material added.",
+    "release_7_5_runtime": "Consolidates core responsibilities and separates internal decision support from current delivery scope. Exploration, evidence and action prototypes co-evolve; genuine additional value is checked without forced novelty. Actions are compared across intervention positions before full planning, including combinations and residual gains. Consequential missing information controls recommendations; users may decline without fabricated certainty. Natural conversation retains explicit plan scope, targeted correction and specific continuation; formatting follows information value. Quality precedes latency, with no implicit quota budget. Text rules and synthetic tests do not establish general superiority or perfect compliance.",
+    "release_7_5_1_baseline_git_commit": "f769db79d3ab45490eee7dbe696ba4544f8e84ef",
+    "release_7_5_1_runtime": "Unifies delivery scope in dialogue: broad change requests first explain and rank intervention positions supported by same-turn feasible-action comparison, then unfold actions through natural continuation. Explicit action, full-plan and execution requests remain directly fulfilled. Complete selectable actions are distinguished from their implementation steps; removal prerequisites and validation scope are explicit. Comparable candidates, combination tradeoffs, targeted correction and substantive task-specific insight are reviewed; development checks include natural prompts without stage cues. The method and state scripts are unchanged. No general superiority, guaranteed novelty or perfect compliance is asserted.",
+    "release_7_5_2_baseline_git_commit": "ca362f065ba7ea98c7cfb8b9d259e3766d034b48",
+    "release_7_5_2_runtime": "Defaults substantive open work to quality-first reasoning; activates early information checks and independent domain exploration, then reviews the exact deliverable with actual evidence of candidate/action comparison and issue disposition. Preserves unreported facts as unknown, supports neutral recall, distinguishes formation, activation and maintenance, and carries conditional claims across turns. Broadens meaningful intervention coverage and competing complementary combinations; actively constructs cross-path alternatives and compares new claims to the strongest prior version without manufactured novelty. Plans remain conditional and scope-aware. Method and scripts are unchanged; actual orchestration is tested separately from content-only execution, without any guarantee of general superiority or perfect compliance.",
+    "release_7_5_3_baseline_git_commit": "9353fb7aee7689864fe549422b67166dd3b1ba0e",
+    "release_7_5_3_runtime": "Consolidates intervention discovery, same-turn implementation comparison, combinations and meaningful candidate retention into shared reviewable results; dialogue is the sole delivery-scope authority. Conditional futures are actually developed; unanswered facts and disconfirmed processes cannot become asserted causes. Continuation follows completed results. The complete method, archived source and executable scripts remain unchanged; no claim of universal compliance or empirical superiority.",
+    "release_7_6_baseline_git_commit": "26e1bb1b36865120bf5fee7c34a813a6b507577f",
+    "release_7_6_runtime": "Reorganizes the entry around actual source loading, early independent work, reviewable task results and exact-output review with explicit delivery scope. Interpretation, construction, implementation comparison and display use the same evolving results; unconfirmed facts retain their status. Explicitly granted complete-task ownership permits bounded delegation. State nodes distinguish supporting premises from recomputation references so unverified hypotheses can remain experiment objects. The complete method and archived specification are preserved; no host enforcement or universal outcome guarantee is claimed.",
+    "release_7_7_baseline_git_commit": "e7e191bda24d8c600c6866c4acaf53f320569ab3",
+    "release_7_7_runtime": "Conclusion-specific information dependencies; substantive conditional consequences; task-scoped assistance; relation-first communication; comparable priorities; separate evidential and requested-value review. No case-specific rules, empirical superiority or guaranteed compliance claim.",
+    "release_8_0_baseline_git_commit": "2c180ab8e24306b8d172f8f6d6a4e48950ce4157",
+    "release_8_0_runtime": "Makes a revisable generative structure the shared core for explanation, relational transformation, intervention discovery, prototypes and feedback. Separates independent generation from adversarial exact-output review; display scope no longer disables backend transformation. Reviews model and reachable-outcome increments, not caution or classification. Complete method, archive and state tools preserved byte-for-byte; no empirical superiority or host enforcement claim.",
+    "release_8_0_1_runtime": "Preserves the production identity of direct observations, estimates, counterfactuals and assistant-authored drafts. Central new relations must trace to supporting and limiting material, survive a plain-language rewrite and produce a consequence distinct from their strongest alternative. Confounded comparisons open competing consequences instead of ending in a variable list. Review rejects decorative terms, formulas and tables, arbitrary time windows, self-confirming evidence upgrades and unrequested prevention based on invented deterioration. Method, archive and executable support scripts remain unchanged; no general compliance or performance claim.",
+    "release_8_0_2_runtime": "Carries each relation's object, question position, time scope, material identity and limits through synthesis and final delivery. Alternatives compete only when they answer the same explanatory question at a compatible scope; different causal locations may still compete for one result. Composite contrasts do not become individual causal effects during compression. Overall trends, path opportunities and subject-level net benefits remain distinct; forecasts, chosen decision deadlines and observation periods use different warrants. User-supplied dates do not justify themselves, and unsupported calendars become event conditions rather than a default choice of the later date. Exact-draft review traces headlines, ranges, summaries and recommendations back to their weakest premises and rejects preventive action created solely by imagined deterioration. Method, archive and executable support scripts remain unchanged; no general compliance or performance claim.",
+    "release_9_0_baseline_git_commit": "07d96760e94b15c8475a72e33d781ebd2360435b",
+    "release_9_0_runtime": "Reconstructs execution around outcome dependencies, inspectable work, actual independent expansion, generation-quality review, targeted rework and exact-deliverable review. Prioritizes breadth, depth, relational innovation, information updates and action-supported comparisons; consolidates repetitive caution. check_work.py binds local file versions and review records without assessing semantic quality, authenticating reviewers or enforcing host sending. Complete method, archive and existing state scripts remain byte-for-byte unchanged. No artificial minimum duration, fixed iteration quota, forced novelty or universal advantage claim.",
+    "release_9_1_baseline_git_commit": "b801315051c5e8177bd84020a07ab3f5aa6f9c48",
+    "release_9_1_runtime": "Separates explanatory findings from intervention selection while preserving shared facts and prototype feedback. Dialogue owns mixed-request scope, point-first complex change delivery, subsequent action expansion, direct full-plan fulfillment and plain stage-matched continuation. Intervention positions, actions and innovation use uncapped, value-based search with explicit expansion invitations and meaningful candidate retention. Distinguishes necessary evidence, optional neutral recall and unconfirmed assistant-authored drafts. Quality and exact-draft reviews check scope, goals, innovation delivery, source identity, feasible ranking and usable continuation. Complete method, archive, UI and executable tools are unchanged. No numeric search quota, urgency-specific branch, guaranteed novelty, exhaustive search or host-enforcement claim.",
+    "release_9_2_baseline_git_commit": "3ae46bf419896e9f4c5535bc68166aebf74bf65c",
+    "release_9_2_runtime": "Separates internal outcome/stage responsibility in runtime from natural user expression in dialogue. Point discovery uses influenceability and value comparisons without mandatory per-point action prototypes; action design handles many-to-many point coverage, overlap and residual gains, and plans compare combinations. Continued generation can deepen, broaden, challenge, recombine, construct or acquire information, retaining both current best choices and independently valuable alternatives. Activates relevant cognitive, attention, meaning and adoption pathways alongside bodily, behavioral, environmental and structural routes. Quality and exact-draft reviews check stage completion, substantive generation and understandable delivery instead of exporting internal checklists. Future forecasts, commitment, validation domain and immediate operations are distinguished. Complete method, archive, UI and executable tools remain unchanged. No fixed iteration quota, exhaustive-search, guaranteed novelty, universal compliance or host-enforcement claim.",
+    "release_9_3_baseline_git_commit": "cc6f27a08c1172427045cd87158599cba8ed0218",
+    "release_9_3_runtime": "Connects requested deliverables through actual dependencies while keeping internal work distinct from user expression. Candidates entering current adoption comparison first have feasible effect paths; coupled positions compete before action and plan selection. Positions, directions, operations and plans remain distinct; actions explain mechanisms, meaning and adoption when relevant, without making cognition a universal prerequisite. Single actions, combinations and no added work compete. Review repairs outcome-changing generation and design failures before surface wording; continuation names the actual next work. Alternatives are retained internally and delivered by current value rather than as field templates. The method, archive, UI and executable support tools remain unchanged. Limited development observations do not establish universal effectiveness, guaranteed novelty, exhaustive search or host enforcement.",
+    "release_9_4_baseline_git_commit": "050ecba8620b5ad3855003c43b946493de227f49",
+    "release_9_4_runtime": "Selects stage-matched public deliverables without discarding deeper internal comparisons. Retains independently useful alternatives, batches already-found content when needed and delivers expansion deltas even when the leading choice is unchanged. Distinguishes found-but-unexpanded from not-yet-searched work. Optional neutral recall visibly supports discovery beyond existing hypotheses without leading memories or blocking progress. Next-work handoff and current-stage expansion remain distinct, brief and scope-aware. Reviews prioritize substantive generation and usable mechanisms over caution wording. The complete method, source archive, UI and executable support tools are unchanged. Development tests do not establish exhaustive search, universal compliance, empirical superiority or host enforcement.",
+    "release_9_5_baseline_git_commit": "2e3ed7ac346a16af0a8e2ed0352986b3e7ed00ba",
+    "release_9_5_runtime": "Answers direct horizon questions with warranted conditional scales, distinguishes forecasts from planning assumptions, and verifies consequential prior personal constraints before commitment. Actions are compared by target, time of effect and added monitoring burden rather than inherited point order. Public answers are reconstructed from useful relations, including concrete headings; the next-work handoff does not export all subordinate design. Generation and delivery review share those responsibilities. Existing information discovery, uncapped candidate value, incremental expansion and stage distinctions remain. The method, source archive, UI and executable tools are unchanged. Development observations do not establish treatment efficacy, universal quality or exhaustive search.",
+    "release_9_6_baseline_git_commit": "a6c6d4b985f9f99c255cad6aadaa3677cad624b9",
+    "release_9_6_runtime": "Outcome-first generation with grounded leading explanations, competitive conditional futures, consequence-filtered evidence relations and public expression kept separate. Nine internal leverage search entrances span dynamics, transmission, causal closure, structure/position, mechanism, goals/tendencies, variables/dimensions, paradigms, and local chambers/windows/anomalies. They synthesize method sections 4-7 and are not a relabeling of the unchanged method section 6.3 nine-category table; environmental supply, constraints, selection and feedback remain cross-cutting. Goals and protected values guide multi-layer search and short/long-term action comparisons. Open futures include capability, cost, organizational/product change and real execution interfaces, rather than defaulting to validation. Feedback purposes, side-question task stacks, substantive value reviews and stage-true continuation use existing modules and tools without new fixed forms. The complete method, archived source, UI and executable support scripts remain unchanged. Semantic observations are limited, not a claim of universal superiority or real-world efficacy.",
+    "release_9_7_baseline_git_commit": "043596099047915d114c5b4a2d63d26a644b0f04",
+    "release_9_7_runtime": "Preserves 9.6 outcome-first generation, nine internal search entrances, protected goals, open futures, evidence identity and mainline recovery. Repeated defensive constraints are consolidated into positive generation, information and delivery responsibilities. Expanded candidates feed relationship synthesis, complementary positions, distinct branches and new reachable results. Preferred actions compare goal/time-matched effect paths, applicable evidence, strong feasible alternatives, user conditions, reversibility and risks. Personal problems activate selective value, classification, feedback, window and control reconstruction alongside mature alternatives. Public qualification uses a consequence-of-deletion test; shared limits appear once, known goals carry forward, and continuation follows actual unfinished work without mandatory dual invitations. Reviews repair inference, synthesis and ranking before expression. No new modules, state fields or review rounds. Method, archived source, UI and executable support tools remain unchanged. Private forward outputs and recovery files are excluded; limited observations do not establish universal quality, comparative superiority or real-world efficacy.",
+    "release_9_8_baseline_zip_sha256": "06d6ece4afcaaf42887e4a5354c26acd28b280b67b30ba857fb8d1448a0a8545",
+    "release_9_8_runtime": "Activates action authority, strongest feasible route competition, adoption formation and explanation carriers at existing handoffs. Stage-specific information distinguishes decisive gaps from optional discovery without a global question cap. Open futures follow new bottlenecks and different real interfaces; continuation preserves actual search state. No new runtime modules, fields or review rounds. Method, engineering archive, UI and state support remain unchanged. The release validator normalizes inventory paths for Windows. Private diagnostics and behavioral outputs are outside the distribution; observations do not establish long-term efficacy or cross-model stability. Exact-version review reads also use binary mode and consistent Windows descriptor metadata; the review schema and assurance boundaries are unchanged.",
+    "release_9_8_1_baseline_zip_sha256": "db2b69900acdd08555b9df78ad6c2fefc5b1978cf57bdb732bb6b1423c525c1c",
+    "release_9_8_1_runtime": "Narrow user-facing language correction over 9.8.0. Concision comes from selection and deduplication rather than clipped words, field-like phrasing, or one-off coined labels. Dialogue and final review require ordinary complete wording while preserving substantive relations, evidence, and action value. Evaluation reads full outputs; keyword scans are not treated as semantic proof. Method, change logic, runtime, UI, state support, and scripts remain unchanged.",
+    "release_9_8_2_baseline_zip_sha256": "b3b31417837011574e5abcb1123aed589c98ee150d2f940ea9cd012221474227",
+    "release_9_8_2_runtime": "Targeted execution correction over 9.8.1. Future numerical ranges require a basis for each bound while unsupported precision falls back to explicit event or magnitude judgments, not empty uncertainty. External claims are bound to the source that actually supports each product fact, date, number, denominator, and conclusion. Final review rejects unsolicited monitoring or service invitations unless requested or selected as a necessary action. Method, runtime architecture, UI, state support, and scripts remain unchanged.",
+    "release_9_8_3_baseline_zip_sha256": "4904e9f7c77ec92c2986e19659264c7df741321a32606d9c0ce6352d3ec8a0ba",
+    "release_9_8_3_runtime": "Activates existing autonomous generation before answer fixation, calls the concentrated method relation for human change, compares actual independent contributions, and makes information acquisition contingent on decision or discovery value. No new modules, runtime fields, review rounds or executable support code. Private behavior materials are excluded; samples are not cross-model or real-world guarantees. Reopens action comparison when an informed user asks to advance an unfinished goal, with an explicit delivery review at that transition.",
+    "release_9_8_4_lineage": {
+      "relationship": "Both 9.8.3 inputs are sibling descendants of 9.8.2; 9.8.4 integrates their effective capabilities.",
+      "inputs": {
+        "ancestor": {
+          "version": "9.8.2",
+          "source_map_sha256": "193e39eb4a88b62ddecfebcf769ee26326174a96637fee39bcac345db1ddc409",
+          "zip_sha256": "4904e9f7c77ec92c2986e19659264c7df741321a32606d9c0ce6352d3ec8a0ba"
+        },
+        "earlier_983": {
+          "version": "9.8.3",
+          "source_map_sha256": "2c28c6ebc25bf5a6a063a8f43bc7d3f99fa93f1339c433a37b48194560003354",
+          "zip_sha256": "5eedf5cddea4876a3f37f24fdbd72372fee9d439c35a8657971f88a3443b5098"
+        },
+        "later_983": {
+          "version": "9.8.3",
+          "source_map_sha256": "3721cb78ad15fbb6a64b64f3ec1a8c1a1e9e2ddb7c99221aa6988b807eb487e9",
+          "zip_sha256": "8f039ad64fd10b208683ca24c4ce6dfe994a81ef67406dd1d80952ac22a703e8"
+        }
+      }
+    },
+    "release_9_8_4_runtime": "Integrates both sibling branches. Main analysis owns comparison before ranking even without independent collaboration; action and commitment transitions reuse it. Final review rejects deferring a feasible competing route until default failure. Human change, habit, autonomous generation, information-value and renewed-action duties are retained. No new modules, review rounds or executable support code.",
+    "release_9_8_5_baseline": {
+      "skill_version": "9.8.4",
+      "revision": "integrated-final-2",
+      "zip_sha256": "54dd1772a69b2002e787c9cec2a291b1f59d096654503f5acda71556a1ae6a95"
+    },
+    "release_9_8_5_runtime": "Reorganizes turn entry around carried competing explanations and unresolved questions. Distinct independent generation duties precede synthesis; evidence updates compare important candidates; entry into change reopens target-based search. Independent answerable questions are acquired together. Quality and exact-deliverable review can share one substantive invocation. Optional immutable checkpoints bind registered continuity without certifying semantic work. Method, archive and established domain mechanisms are preserved. Private full-dialogue regression and independent forward evidence remain outside distribution; no universal or long-term effectiveness claim.",
+    "release_9_8_6_baseline": {
+      "skill_version": "9.8.5",
+      "revision": "candidate-6",
+      "zip_sha256": "4e1b4ec8765e9af61bbf13302573bd6178af6c9de87d31129ee12a7fe633c3a5",
+      "source_map_sha256": "39d5ed9f16f5c1fd0943514efd5e22e2b6c0bcab75f11a4e517434383f09c1f1"
+    },
+    "release_9_8_6_runtime": "Activates existing method capabilities at question, first-wave, synthesis, recommendation and delivery transitions. Adds counterfactual dependency and retrospective question review, synthesis-derived directed search, formation/selection/retention of generative relations, branch-level plan closure and stage-sensitive continuation. No method or script change; no automatic host enforcement or general effectiveness claim.",
+    "release_9_8_7_baseline": {
+      "skill_version": "9.8.6",
+      "zip_sha256": "3ade05a4313126e5a0a35698d1f2330563c3602e17fd2dad9113e4310454cff9",
+      "source_map_sha256": "17f09f9705425866956c1b7bf438bdf50c4c860ba4cde0d4d819b1ba1a6a156e"
+    },
+    "release_9_8_8_baseline": {
+      "skill_version": "9.8.7",
+      "source_map_sha256": "c3957b22d2b311d59771192fda2e7df507eabeee8156fca90cfdfdd8cb36d56a",
+      "zip_sha256": "7848ad0c4c5d704578c9f1fe6377fb91c126d81ec379bac535a36d4c92a81e62",
+      "relationship": "Direct isolated descendant of the exact 9.8.7 release; prior versions are evidence only."
+    },
+    "release_9_8_11_runtime": "Consolidated mandatory kernel and on-demand modules; executable version-bound relation, operation, challenge, reception and scoped-finalization artifact gates; empty impact-review coverage closed. Behavioral efficacy is not certified by this manifest.",
+    "release_9_8_11_method": "Method, license and archived execution specification retained byte-for-byte from the approved 9.8.10 baseline. No installation or host-send hook is provided.",
+    "release_10_15_runtime": "Causal progression bounded by selected-claim independent final audit and visible uncertainty; intervention actions independently compared with no-added-action baseline. Same worker count, no semantics proven. No private cases bundled.",
+    "release_10_30_runtime": "Independent pre-release source-blind breakthrough in addition to 10 initial research workers; parallel incumbent/raw-only expansion; fresh source-blind delta search; symmetric user-intent scope checking, indefinite user-refusal-independent continuation, sustained evidence frontier. Author method/source archives unchanged. Installation nested duplicate entry removed through archive rename."
+  },
+  "capability_map": {
+    "SKILL.md": "11.1.0: user-valued outcome realization first; research loop, goal options, evidence, user-tested techniques, optional source-grounded frontstage continuation.",
+    "references/core.md": "Unified full cognitive bar for daily/technical open questions and real formation vs intensity contrasts.",
+    "references/runtime.md": "Six independent raw sources, first boundary review, two after-merge fronts, unlimited semantic questions, and textual independent-branch repeat guard.",
+    "references/operators": "First-pass independent raw discovery/reframe/contrast/environment/blind; entry review and optional repair; two post-merge scouts; adaptive schedule and verified composition.",
+    "scripts/sd_runtime/engine.py": "11.0.0: frontloaded value search and all material unattempted relations re-enter before scheduler finalizes; independent source-bound worker control.",
+    "scripts/sd_runtime/store.py": "11.0.0: durable research agenda and explicit visible research focus binding, independent of analysis/points/actions/plan; accurate side-task continuity.",
+    "scripts/sd_runtime/backends.py": "Native-attested bridge and authorized live OpenAI Responses HTTPS transport; injected transport always fixture.",
+    "scripts/sd_runtime/evaluation.py": "Blind evaluated discovery, cross-context prediction and question focus; no live claims in this release.",
+    "references/method.zh-CN.md": "Unmodified method from the supplied baseline.",
+    "engineering/execution-spec-v3.7.zh-CN.md": "Unmodified archival engineering source, not mandatory current runtime.",
+    "legacy_scripts": "Six original scripts unchanged and reserved for their own legacy formats.",
+    "references/portable-discovery.md": "Mandatory strong portable cognition without pretending actual hosted multi-agent execution.",
+    "scripts/sd_runtime/diversity.py": "Observable duplicate independent-branch detector, with transparent grounded no-increment outcome; no semantic truth guarantee.",
+    "references/inference-and-discovery.md": "Original first-wave unseen-relations conjectures, discriminating predictions, bounded inference, cross-domain generative transfer and non-leading private memory prompts.",
+    "references/autonomous-evidence-loop.md": "AI-owned public research cycles: discover gaps, acquire/read/cross-check, revise model, find further obtainable gaps, honest bounds.",
+    "references/regression-acceptance.md": "Case-agnostic regression acceptance criteria, independently pre-recorded predictions, matched baselines and negative controls.",
+    "scripts/sd_runtime/load_bearing.py": "Independent pivotal verification, arithmetic, sensitivity, gross-to-net quantitative impact evidence checks, conditional release.",
+    "references/goal-calibration.md": "Cross-domain independent target, objective, protected-value and value-kind differentiation; no silent goal replacement.",
+    "references/selection-mechanisms.md": "Independent discovery of real allocation/decision mechanisms and their strongest ordinary alternatives.",
+    "scripts/sd_runtime/goal_review.py": "Independent, source-cited typed goal and multi-dimensional value ledger; user-authorized alternatives and unbounded goal information questions.",
+    "references/relational-structure.md": "New 10.25 domain-general relational heterogeneity and meaningful difference prediction across object classes; negative-control accepted.",
+    "references/continuation-contract.md": "New 10.25 durable main task vs side-question navigation; reviewed natural language anchor and stage continuity.",
+    "references/information-followthrough.md": "10.26.0: decision-significant unexplained unknowns are actively pursued or explicitly qualified with visible implications, evidence routes, and optional search continuation; no fixed number of questions.",
+    "references/result-consistency.md": "10.26.0: quantitative claim identity across headline/body/conclusion, scoped net vs gross/eligible effects, independent audit and explained divergences between research runs.",
+    "scripts/sd_runtime/material_unknowns.py": "10.26.0: fail-closed code check for consequential unanswered unknowns, acquisition attempts and visible follow-through.",
+    "scripts/sd_runtime/conclusion_integrity.py": "10.26.0: pivotal quantitative claim reconciliation and independent quantity review across visible sections.",
+    "scripts/compare_runs.py": "10.26.0: compare two independently released workspaces and enumerate source assumptions behind conflicting or varying conclusions.",
+    "tests/test_10260.py": "10.26.0: 18 new regression checks for unresolved unknowns, report numerators/denominators and audit binding.",
+    "references/breakthrough-engine.md": "10.31.0: unreported discriminating outcomes, alternative problem representations, cross-domain causal structural transfer, hypothesis falsification and re-entry into intervention competition.",
+    "references/operators/breakthrough_scout.md": "10.31.0: source-blind new-representation independent worker with no-increment negative controls.",
+    "scripts/sd_runtime/breakthrough.py": "10.31.0: executable minimal evidence of extra discriminating search or explicit null-search reason; structural checks not claims of truth.",
+    "references/generative-loop.md": "11.0.0: dominant research-loop control contract; explicit goal/current state, rival generative relations, evidence, deep/cross-domain search, point-action-plan, robust continuation and approximate time.",
+    "scripts/sd_runtime/research_agenda.py": "11.0.0: durable source-bound research frontier independent of output stage; retains deferred/asked/unavailable unresolved questions and user-owned objective options.",
+    "tests/test_1100.py": "11.0.0: 8 deterministic fixture-based structural tests for early value, premature finish, deferred frontier, specific navigation, post-plan expansion and goal ownership."
+  },
+  "loading": "One root SKILL.md, goal/current reality calibration, early independent value frontier, raw blind search, iterative evidence and relation frontier independent of delivery phase; source-bound visible continuation. All real external delegation conditional on host capability; scripted tests do not prove real semantic breakthroughs.",
+  "measurement_limit": "characters are Unicode code points; bytes are UTF-8 bytes. Neither is tokens, effective context, response quality or measured latency.",
+  "profiles": {
+    "unified_core": {
+      "paths": [
+        "SKILL.md",
+        "references/action-economy.md",
+        "references/always-on-orchestration.md",
+        "references/autonomous-evidence-loop.md",
+        "references/breakthrough-engine.md",
+        "references/causal-boundary.md",
+        "references/change-action-preflight.md",
+        "references/change-formation.md",
+        "references/closure-and-novelty.md",
+        "references/continuation-contract.md",
+        "references/continuous-search.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/decision-robustness.md",
+        "references/dialogue.md",
+        "references/exploratory-search.md",
+        "references/frontstage.md",
+        "references/generative-loop.md",
+        "references/goal-calibration.md",
+        "references/high-value-reframing.md",
+        "references/inference-and-discovery.md",
+        "references/information-followthrough.md",
+        "references/inquiry-payoff.md",
+        "references/intervention-leverage.md",
+        "references/long-horizon-autonomy.md",
+        "references/numeric-source-trace.md",
+        "references/open-search.md",
+        "references/operators/load_bearing.md",
+        "references/outcome-intersection.md",
+        "references/portable-discovery.md",
+        "references/recognition.md",
+        "references/relational-structure.md",
+        "references/result-consistency.md",
+        "references/result-realization.md",
+        "references/review.md",
+        "references/runtime.md",
+        "references/selection-mechanisms.md"
+      ],
+      "characters": 85600,
+      "bytes": 217363
+    },
+    "unified_understanding": {
+      "paths": [
+        "SKILL.md",
+        "references/action-economy.md",
+        "references/always-on-orchestration.md",
+        "references/autonomous-evidence-loop.md",
+        "references/breakthrough-engine.md",
+        "references/causal-boundary.md",
+        "references/closure-and-novelty.md",
+        "references/continuation-contract.md",
+        "references/continuous-search.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/decision-robustness.md",
+        "references/dialogue.md",
+        "references/exploration.md",
+        "references/exploratory-search.md",
+        "references/frontstage.md",
+        "references/generation.md",
+        "references/generative-loop.md",
+        "references/goal-calibration.md",
+        "references/high-value-reframing.md",
+        "references/inference-and-discovery.md",
+        "references/information-followthrough.md",
+        "references/inquiry-payoff.md",
+        "references/long-horizon-autonomy.md",
+        "references/material-intake.md",
+        "references/numeric-source-trace.md",
+        "references/open-search.md",
+        "references/operators/frame.md",
+        "references/operators/load_bearing.md",
+        "references/outcome-intersection.md",
+        "references/portable-discovery.md",
+        "references/reality.md",
+        "references/recognition.md",
+        "references/relational-structure.md",
+        "references/result-consistency.md",
+        "references/result-realization.md",
+        "references/review.md",
+        "references/runtime.md",
+        "references/selection-mechanisms.md"
+      ],
+      "characters": 86306,
+      "bytes": 219424
+    },
+    "unified_open_design": {
+      "paths": [
+        "SKILL.md",
+        "references/action-economy.md",
+        "references/always-on-orchestration.md",
+        "references/autonomous-evidence-loop.md",
+        "references/breakthrough-engine.md",
+        "references/causal-boundary.md",
+        "references/change-action-preflight.md",
+        "references/change-formation.md",
+        "references/change.md",
+        "references/closure-and-novelty.md",
+        "references/continuation-contract.md",
+        "references/continuous-search.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/decision-robustness.md",
+        "references/dialogue.md",
+        "references/exploration.md",
+        "references/exploratory-search.md",
+        "references/frontstage.md",
+        "references/generation.md",
+        "references/generative-loop.md",
+        "references/goal-calibration.md",
+        "references/high-value-reframing.md",
+        "references/inference-and-discovery.md",
+        "references/information-followthrough.md",
+        "references/inquiry-payoff.md",
+        "references/intervention-leverage.md",
+        "references/long-horizon-autonomy.md",
+        "references/material-intake.md",
+        "references/numeric-source-trace.md",
+        "references/open-search.md",
+        "references/operators/frame.md",
+        "references/operators/load_bearing.md",
+        "references/outcome-intersection.md",
+        "references/portable-discovery.md",
+        "references/reality.md",
+        "references/recognition.md",
+        "references/relational-structure.md",
+        "references/result-consistency.md",
+        "references/result-realization.md",
+        "references/review.md",
+        "references/runtime.md",
+        "references/selection-mechanisms.md"
+      ],
+      "characters": 94248,
+      "bytes": 241358
+    },
+    "api_discovery": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/discovery.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 16054,
+      "bytes": 42980
+    },
+    "api_reframe": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/reframe.md",
+        "references/relational-structure.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 18462,
+      "bytes": 49440
+    },
+    "api_schedule": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/closure-and-novelty.md",
+        "references/continuation-contract.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/exploratory-search.md",
+        "references/generative-loop.md",
+        "references/high-value-reframing.md",
+        "references/information-followthrough.md",
+        "references/long-horizon-autonomy.md",
+        "references/numeric-source-trace.md",
+        "references/operators/schedule.md",
+        "references/outcome-intersection.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 35797,
+      "bytes": 85104
+    },
+    "api_operation": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/operation.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 17537,
+      "bytes": 46569
+    },
+    "api_blind_challenge": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/blind_challenge.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 15685,
+      "bytes": 42065
+    },
+    "api_compose": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/change-action-preflight.md",
+        "references/change-formation.md",
+        "references/closure-and-novelty.md",
+        "references/continuation-contract.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/decision-robustness.md",
+        "references/generative-loop.md",
+        "references/goal-calibration.md",
+        "references/high-value-reframing.md",
+        "references/information-followthrough.md",
+        "references/intervention-leverage.md",
+        "references/long-horizon-autonomy.md",
+        "references/numeric-source-trace.md",
+        "references/operators/compose.md",
+        "references/outcome-intersection.md",
+        "references/relational-structure.md",
+        "references/result-consistency.md",
+        "references/result-realization.md",
+        "references/selection-mechanisms.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 53426,
+      "bytes": 129221
+    },
+    "api_audit": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/change-action-preflight.md",
+        "references/change-formation.md",
+        "references/closure-and-novelty.md",
+        "references/continuation-contract.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/decision-robustness.md",
+        "references/generative-loop.md",
+        "references/goal-calibration.md",
+        "references/high-value-reframing.md",
+        "references/information-followthrough.md",
+        "references/intervention-leverage.md",
+        "references/long-horizon-autonomy.md",
+        "references/numeric-source-trace.md",
+        "references/operators/audit.md",
+        "references/outcome-intersection.md",
+        "references/relational-structure.md",
+        "references/result-consistency.md",
+        "references/result-realization.md",
+        "references/selection-mechanisms.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 52015,
+      "bytes": 126088
+    },
+    "native_operator_adapter": {
+      "paths": [
+        "references/always-on-orchestration.md",
+        "references/continuation-contract.md",
+        "references/cross-model-contract.md",
+        "references/executor.md",
+        "references/generative-loop.md",
+        "references/high-value-reframing.md",
+        "references/host-bridge.md",
+        "references/long-horizon-autonomy.md",
+        "references/outcome-intersection.md",
+        "references/result-realization.md",
+        "scripts/sd_runtime/research_agenda.py"
+      ],
+      "characters": 37845,
+      "bytes": 74839
+    },
+    "development": {
+      "paths": [
+        "README.md",
+        "engineering/cross-model-adapter.md",
+        "engineering/guide.md",
+        "references/always-on-orchestration.md",
+        "references/closure-and-novelty.md",
+        "references/continuation-contract.md",
+        "references/cross-model-contract.md",
+        "references/evaluation.md",
+        "references/executor.md",
+        "references/generative-loop.md",
+        "references/goal-calibration.md",
+        "references/high-value-reframing.md",
+        "references/host-bridge.md",
+        "references/information-followthrough.md",
+        "references/long-horizon-autonomy.md",
+        "references/numeric-source-trace.md",
+        "references/outcome-intersection.md",
+        "references/regression-acceptance.md",
+        "references/relational-structure.md",
+        "references/result-consistency.md",
+        "references/result-realization.md",
+        "references/selection-mechanisms.md",
+        "references/workers-quality-kernel.md",
+        "scripts/build_release.py",
+        "scripts/run_test_groups.py",
+        "scripts/sd_runtime/research_agenda.py",
+        "tests/test_10250.py",
+        "tests/test_10310.py",
+        "tests/test_1100.py",
+        "tests/test_1110.py",
+        "tests/test_1120.py"
+      ],
+      "characters": 102645,
+      "bytes": 178042
+    },
+    "api_contrast_probe": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/contrast_probe.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 16721,
+      "bytes": 44589
+    },
+    "api_entry_review": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/entry_review.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 18871,
+      "bytes": 49373
+    },
+    "api_entry_repair": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/entry_repair.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 16156,
+      "bytes": 43134
+    },
+    "api_frame": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/frame.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 16081,
+      "bytes": 42847
+    },
+    "api_environment_scout": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/numeric-source-trace.md",
+        "references/operators/environment_scout.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 47089,
+      "characters": 17537
+    },
+    "api_frontier_scout": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/information-followthrough.md",
+        "references/operators/frontier_scout.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 17580,
+      "bytes": 47194
+    },
+    "api_evidence_scout": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/information-followthrough.md",
+        "references/numeric-source-trace.md",
+        "references/operators/evidence_scout.md",
+        "references/outcome-intersection.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 20493,
+      "bytes": 55016
+    },
+    "api_load_bearing": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/decision-robustness.md",
+        "references/generative-loop.md",
+        "references/high-value-reframing.md",
+        "references/information-followthrough.md",
+        "references/numeric-source-trace.md",
+        "references/operators/load_bearing.md",
+        "references/outcome-intersection.md",
+        "references/result-consistency.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 68001,
+      "characters": 27053
+    },
+    "api_scope_intent": {
+      "paths": [
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/long-horizon-autonomy.md",
+        "references/operators/scope_intent.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 41914,
+      "characters": 17509
+    },
+    "api_open_search": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/open_search.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 16926,
+      "bytes": 45196
+    },
+    "api_question_contract": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/cross-model-contract.md",
+        "references/inquiry-payoff.md",
+        "references/long-horizon-autonomy.md",
+        "references/operators/compose.md",
+        "references/operators/delta_assess.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 28378,
+      "bytes": 63693
+    },
+    "api_probe_portfolio": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/exploratory-search.md",
+        "references/generative-loop.md",
+        "references/high-value-reframing.md",
+        "references/information-followthrough.md",
+        "references/operators/probe_portfolio.md",
+        "references/outcome-intersection.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 58955,
+      "characters": 23339
+    },
+    "api_change_forward": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/change-action-preflight.md",
+        "references/change-formation.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/intervention-leverage.md",
+        "references/operators/change_forward.md",
+        "references/outcome-intersection.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 61113,
+      "characters": 22684
+    },
+    "api_change_backward": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/change-action-preflight.md",
+        "references/change-formation.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/intervention-leverage.md",
+        "references/operators/change_backward.md",
+        "references/outcome-intersection.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 60971,
+      "characters": 22618
+    },
+    "api_change_portfolio": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/change-action-preflight.md",
+        "references/change-formation.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/intervention-leverage.md",
+        "references/operators/change_portfolio.md",
+        "references/outcome-intersection.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 62124,
+      "characters": 23079
+    },
+    "api_adoption": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/change-action-preflight.md",
+        "references/change-formation.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/intervention-leverage.md",
+        "references/operators/operation.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 60288,
+      "characters": 22516
+    },
+    "api_change_action_probe": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/change-action-preflight.md",
+        "references/change-formation.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/intervention-leverage.md",
+        "references/operators/change_action_probe.md",
+        "references/outcome-intersection.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 60262,
+      "characters": 22409
+    },
+    "api_goal_scout": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/goal-calibration.md",
+        "references/high-value-reframing.md",
+        "references/operators/goal_scout.md",
+        "references/outcome-intersection.md",
+        "references/relational-structure.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 21928,
+      "bytes": 56004
+    },
+    "api_selection_scout": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/selection_scout.md",
+        "references/outcome-intersection.md",
+        "references/result-realization.md",
+        "references/selection-mechanisms.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "characters": 17626,
+      "bytes": 47343
+    },
+    "api_relation_scout": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/goal-calibration.md",
+        "references/information-followthrough.md",
+        "references/operators/relation_scout.md",
+        "references/outcome-intersection.md",
+        "references/relational-structure.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 55357,
+      "characters": 20614
+    },
+    "api_turn_router": {
+      "paths": [
+        "SKILL.md",
+        "references/closure-and-novelty.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/long-horizon-autonomy.md",
+        "references/operators/turn_router.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 71709,
+      "characters": 31050
+    },
+    "api_value_frontier": {
+      "paths": [
+        "SKILL.md",
+        "references/breakthrough-engine.md",
+        "references/closure-and-novelty.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/high-value-reframing.md",
+        "references/long-horizon-autonomy.md",
+        "references/operators/value_frontier.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 77245,
+      "characters": 33822
+    },
+    "api_breakthrough_scout": {
+      "paths": [
+        "references/breakthrough-engine.md",
+        "references/closure-and-novelty.md",
+        "references/core.md",
+        "references/cross-model-contract.md",
+        "references/generative-loop.md",
+        "references/operators/breakthrough_scout.md",
+        "references/result-realization.md",
+        "references/workers-quality-kernel.md"
+      ],
+      "bytes": 48230,
+      "characters": 17998
+    },
+    "api_decision_tournament": {
+      "paths": [
+        "SKILL.md",
+        "references/cross-model-contract.md",
+        "references/core.md",
+        "references/generative-loop.md",
+        "references/result-realization.md",
+        "references/breakthrough-engine.md",
+        "references/closure-and-novelty.md",
+        "references/workers-quality-kernel.md",
+        "references/high-value-reframing.md",
+        "references/operators/decision_tournament.md",
+        "scripts/sd_runtime/decision_tournament.py"
+      ],
+      "bytes": 81264,
+      "characters": 38757
+    }
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "role": "support",
+      "sha256": "b793559cd76073e09215ea75166d4d719fcfa240ab95cb8a55222bc078d51877",
+      "bytes": 260,
+      "characters": 260,
+      "lines": 16
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "role": "support",
+      "sha256": "ce78a8aee6fb2325edcdc78501e0dfde85b5a7b50b068a11e990165a0a548378",
+      "bytes": 535,
+      "characters": 535,
+      "lines": 20
+    },
+    {
+      "path": ".gitignore",
+      "role": "support",
+      "sha256": "96558abdda516569af83c8df7938939580a119174babb1dbbb5bd93b38feeda4",
+      "bytes": 276,
+      "characters": 276,
+      "lines": 21
+    },
+    {
+      "path": "CHANGELOG.md",
+      "role": "support",
+      "sha256": "17321729c6f4631e0793dacb87ee32abaea46f99b9435b31967600d8e37e71c4",
+      "bytes": 52924,
+      "characters": 21942,
+      "lines": 403
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "role": "support",
+      "sha256": "0745d17b6ba582c171f5741f2cf19b00cab88549f2bb98763cdc90038df7b936",
+      "bytes": 1156,
+      "characters": 1156,
+      "lines": 11
+    },
+    {
+      "path": "LICENSE",
+      "role": "support",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "characters": 11358,
+      "lines": 202
+    },
+    {
+      "path": "NOTICE",
+      "role": "support",
+      "sha256": "f5a3e64ef38947a711cd041d61e9c5ef82837ef33b8bbe284ae81428670658e0",
+      "bytes": 20912,
+      "characters": 20892,
+      "lines": 300
+    },
+    {
+      "path": "README.md",
+      "role": "support",
+      "sha256": "6b7d911bad5ad84c4aa4610848555c73390b7875c058b81b29fe2466cc62c7ef",
+      "bytes": 7291,
+      "characters": 3424,
+      "lines": 128
+    },
+    {
+      "path": "README.en.md",
+      "role": "support",
+      "sha256": "770c2b0f8760ec204729329ff1c2d5db0d3629e272f65452a09676ad2a5ddd42",
+      "bytes": 12293,
+      "characters": 12227,
+      "lines": 118
+    },
+    {
+      "path": "README.zh-CN.md",
+      "role": "support",
+      "sha256": "a44e470a9732ec84b9bf445ecf20a01de68ad5f9a86d2f91a57d77592d425613",
+      "bytes": 8099,
+      "characters": 3865,
+      "lines": 89
+    },
+    {
+      "path": "RELEASE.md",
+      "role": "support",
+      "sha256": "9f1addd6fdc0c65a12a008704d75b95908c4e67fdf5cdb0d7c5bac554041fdbb",
+      "bytes": 4953,
+      "characters": 4951,
+      "lines": 46
+    },
+    {
+      "path": "SECURITY.md",
+      "role": "support",
+      "sha256": "fec445cbf9083d7e346628a99b759c321edbb66f37b373f41b8afc3a0cada15e",
+      "bytes": 1188,
+      "characters": 1188,
+      "lines": 11
+    },
+    {
+      "path": "SKILL.md",
+      "role": "entry",
+      "sha256": "2cf4e9c15b66c975a4c9042b91ae0e430ed870a995c31221d516c8ab61727b04",
+      "bytes": 22571,
+      "characters": 9340,
+      "lines": 95
+    },
+    {
+      "path": "agents/openai.yaml",
+      "role": "support",
+      "sha256": "40a523a651b10f1d066dab6eb6ac32ecccd750799480b58676c2e78c9284f8ca",
+      "bytes": 954,
+      "characters": 514,
+      "lines": 13,
+      "semantic_sha256": "23acb758716aef62b56a21a59e324d772555928161b195d6e0ed86090af7038a"
+    },
+    {
+      "path": "assets/icon.svg",
+      "role": "support",
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
+      "characters": 420,
+      "lines": 5
+    },
+    {
+      "path": "engineering/api-sources.md",
+      "role": "support",
+      "sha256": "84429fbaf510ede7e9ffddccf9d6599d2476951f1966471b3b68a2330df35a93",
+      "bytes": 826,
+      "characters": 552,
+      "lines": 10
+    },
+    {
+      "path": "engineering/cross-model-adapter.md",
+      "role": "support",
+      "sha256": "36bc7f33ee22e139943ef1bd2e218e48f8ad3ecf38631f5911196f90159b9f2b",
+      "bytes": 3891,
+      "characters": 1429,
+      "lines": 31
+    },
+    {
+      "path": "engineering/execution-spec-v3.7.zh-CN.md",
+      "role": "archive",
+      "sha256": "0363d8df83d38ce1bed594c97a3493d24a4cac58f934df1a01872617b5b2eb45",
+      "bytes": 305087,
+      "characters": 106484,
+      "lines": 2499
+    },
+    {
+      "path": "engineering/guide.md",
+      "role": "support",
+      "sha256": "f389efe7d5a10c0fffeaba50c449643d7f4cee681ce80082b848263173ddfd0f",
+      "bytes": 2783,
+      "characters": 1253,
+      "lines": 32
+    },
+    {
+      "path": "engineering/history/10.27.0/archived-entry-10.27.md",
+      "role": "archive",
+      "sha256": "123419b3b6663525d1175f58e7e354bdee0ebcc2a0f920ea09a95224fd13865d",
+      "bytes": 41101,
+      "characters": 15973,
+      "lines": 172
+    },
+    {
+      "path": "engineering/history/10.28.0/README.legacy.zh-CN.md",
+      "role": "archive",
+      "sha256": "7a91e42996a52d095572c5301283c64c42373752c2093362e5f0f95bed3135f9",
+      "bytes": 15707,
+      "characters": 7052,
+      "lines": 131
+    },
+    {
+      "path": "engineering/history/9.9.0/change.md",
+      "role": "archive",
+      "sha256": "fed829ac562ff20572832c40cd87d09ca93e247ce94b950260acfa83a8cfb635",
+      "bytes": 23076,
+      "characters": 8002,
+      "lines": 115
+    },
+    {
+      "path": "engineering/history/9.9.0/dialogue.md",
+      "role": "archive",
+      "sha256": "3936648b70d31bd566f41b316271a61352fb07a826a25b1d11de464cdedc5d43",
+      "bytes": 10085,
+      "characters": 3461,
+      "lines": 63
+    },
+    {
+      "path": "engineering/history/9.9.0/evaluation.md",
+      "role": "archive",
+      "sha256": "10926b048ade8e087d5aafc1cc659020fb2fedafcc96053ef4aad91222a74b1b",
+      "bytes": 31076,
+      "characters": 10721,
+      "lines": 174
+    },
+    {
+      "path": "engineering/history/9.9.0/exploration.md",
+      "role": "archive",
+      "sha256": "1ebeb6f3453a0e3e92570e9d931c601d8d9d52eb50337963424dce1ee6516373",
+      "bytes": 7994,
+      "characters": 2805,
+      "lines": 41
+    },
+    {
+      "path": "engineering/history/9.9.0/generation.md",
+      "role": "archive",
+      "sha256": "3d1cf6c1ee0da17ff9bd40694ae88c4f4292b7cc938ac6cf49239d6df7fa5228",
+      "bytes": 11948,
+      "characters": 4161,
+      "lines": 63
+    },
+    {
+      "path": "engineering/history/9.9.0/material-intake.md",
+      "role": "archive",
+      "sha256": "e80d42b529d63285d8895feb4840ba96b6a6ffc50ba989b24908f7a9868e69c6",
+      "bytes": 4761,
+      "characters": 1865,
+      "lines": 30
+    },
+    {
+      "path": "engineering/history/9.9.0/reality.md",
+      "role": "archive",
+      "sha256": "904685e2e7c2605f590b402ec477d81bc5de5f27c7bfdc21d6ead87a7028c973",
+      "bytes": 14643,
+      "characters": 5107,
+      "lines": 85
+    },
+    {
+      "path": "engineering/history/9.9.0/review.md",
+      "role": "archive",
+      "sha256": "f828cedcd286a1eedbffb711a4088ceadf3931cfb9ddd95768a8f21465383fad",
+      "bytes": 19722,
+      "characters": 7276,
+      "lines": 106
+    },
+    {
+      "path": "engineering/history/9.9.0/runtime.md",
+      "role": "archive",
+      "sha256": "9a843c9b58d23c7d68c3d36600eeb0fe42836be1a62b595642f1282f3b20b334",
+      "bytes": 32102,
+      "characters": 11890,
+      "lines": 138
+    },
+    {
+      "path": "examples/load-bearing-cross-domain.json",
+      "role": "test",
+      "sha256": "e34ebda7a9fb4462f624038e68f99d849ef09971aad0718bd1d233339a2dde9e",
+      "bytes": 3397,
+      "characters": 3397,
+      "lines": 55
+    },
+    {
+      "path": "examples/operations-notes.txt",
+      "role": "support",
+      "sha256": "23c088a338620d302a6b8b40560496b9d2509d52c4a2cee35479a10285585f7d",
+      "bytes": 196,
+      "characters": 196,
+      "lines": 1
+    },
+    {
+      "path": "examples/portfolio-eval-cases.json",
+      "role": "test",
+      "sha256": "f9781dc9e9f89794086bf4537c56c331e3051650ba8efbfc8626e79ef682ab26",
+      "bytes": 2479,
+      "characters": 2479,
+      "lines": 27
+    },
+    {
+      "path": "examples/public-cases.json",
+      "role": "support",
+      "sha256": "37cf3f1ada68dbd20a736fc238a8183a5be066761fb8743c9ec8b8678dcb5614",
+      "bytes": 2742,
+      "characters": 2742,
+      "lines": 37
+    },
+    {
+      "path": "examples/reviewer-only-rubric.json",
+      "role": "support",
+      "sha256": "c38b86dd9cceaa876adb560c89985590025773011de400009ee575ba79dce176",
+      "bytes": 2467,
+      "characters": 2467,
+      "lines": 65
+    },
+    {
+      "path": "examples/system-coverage-regressions.json",
+      "role": "test",
+      "sha256": "4feb1d3c2a001cabe9e94d612bc5b662d91ccfb63d7954928704db9c596a5e80",
+      "bytes": 1794,
+      "characters": 1794,
+      "lines": 35
+    },
+    {
+      "path": "examples/task.txt",
+      "role": "support",
+      "sha256": "8266d2109c83fec9dbbf8dea80173613b012de987cc7558436c551eb83e81b6e",
+      "bytes": 263,
+      "characters": 263,
+      "lines": 1
+    },
+    {
+      "path": "references/abductive-tournament.md",
+      "role": "runtime",
+      "sha256": "84c59b538c65dd1cd5168154d6dc6fecbc1bdf0988b54e74aca6319414943923",
+      "bytes": 6391,
+      "characters": 2325,
+      "lines": 50
+    },
+    {
+      "path": "references/action-economy.md",
+      "role": "reference",
+      "sha256": "ff5ce86062ddc057b174b356bcf841e80611977046760829996cb56e309d70ce",
+      "bytes": 2708,
+      "characters": 978,
+      "lines": 18
+    },
+    {
+      "path": "references/always-on-orchestration.md",
+      "role": "runtime",
+      "sha256": "dcd9569df72ece6d47a66123771d1a5d7d78c62f1294649edb229eac3068e9be",
+      "bytes": 9683,
+      "characters": 3688,
+      "lines": 61
+    },
+    {
+      "path": "references/autonomous-evidence-loop.md",
+      "role": "reference",
+      "sha256": "f7a0a639f9945686c4f9fdba6ebb961cf2a6b1e5b6843de54c50cb07590bf1af",
+      "bytes": 5531,
+      "characters": 2025,
+      "lines": 32
+    },
+    {
+      "path": "references/breakthrough-engine.md",
+      "role": "reference",
+      "sha256": "e58d80a6677cf7c0ab3ac49daa846c8ec23efe762738a658f4e2e236f697048f",
+      "bytes": 4521,
+      "characters": 1596,
+      "lines": 26
+    },
+    {
+      "path": "references/causal-boundary.md",
+      "role": "reference",
+      "sha256": "1bc4bde80af491da7a9611bb0f31b4d462150909e236c2fa14ea869ef7918acf",
+      "bytes": 2843,
+      "characters": 1007,
+      "lines": 20
+    },
+    {
+      "path": "references/change-action-preflight.md",
+      "role": "runtime",
+      "sha256": "3d90532f4cbebe5357c9d1913751250f72338535f6a1f6a8dfbaebc710c5fb22",
+      "bytes": 3125,
+      "characters": 1201,
+      "lines": 17
+    },
+    {
+      "path": "references/change-formation.md",
+      "role": "runtime",
+      "sha256": "504784380c05d0a5dd2b15014d89310fb2db427f3ca8f2901afae147ae418b21",
+      "bytes": 4824,
+      "characters": 1702,
+      "lines": 32
+    },
+    {
+      "path": "references/change.md",
+      "role": "reference",
+      "sha256": "f8b0537f732f6255c3b98591fd497486e76249405eeff3ca27612d7eab3e12f7",
+      "bytes": 8215,
+      "characters": 2963,
+      "lines": 55
+    },
+    {
+      "path": "references/closure-and-novelty.md",
+      "role": "reference",
+      "sha256": "cb31806628a8d00c6624e0f568f3aea1004f72c5ce88afecaa017caa73e044f9",
+      "bytes": 5238,
+      "characters": 1859,
+      "lines": 38
+    },
+    {
+      "path": "references/cognitive-contract.md",
+      "role": "reference",
+      "sha256": "a817b25d10a5685163644169f10a69bd66f2081ca2921d5bd0e0d8a58f6408e7",
+      "bytes": 21369,
+      "characters": 12229,
+      "lines": 108
+    },
+    {
+      "path": "references/continuation-contract.md",
+      "role": "reference",
+      "sha256": "e8f4c1200408f171f1146dc52fb336e56e70f45627f8a4686e668e5648cd1118",
+      "bytes": 8610,
+      "characters": 3830,
+      "lines": 52
+    },
+    {
+      "path": "references/continuous-search.md",
+      "role": "reference",
+      "sha256": "ee5a60989b706a1c10dcc6ca7c834cd5b65e328a89c14e967c3c6103e45d735b",
+      "bytes": 10204,
+      "characters": 3802,
+      "lines": 67
+    },
+    {
+      "path": "references/core.md",
+      "role": "reference",
+      "sha256": "9d63ef2fa934706796731206780d7dba93d438e127392acc003f09dc661b96a9",
+      "bytes": 10225,
+      "characters": 3711,
+      "lines": 59
+    },
+    {
+      "path": "references/cross-model-contract.md",
+      "role": "reference",
+      "sha256": "20126fdf7a1417e375e4ceb1ebc8309b8fa45a321afc94da85deeeac30007180",
+      "bytes": 6268,
+      "characters": 2854,
+      "lines": 35
+    },
+    {
+      "path": "references/current-work.md",
+      "role": "reference",
+      "sha256": "08cb8b79f5930bb926d1e42a7d3b2e673a77ac787bc404632d807cfbd59454db",
+      "bytes": 30574,
+      "characters": 14814,
+      "lines": 189
+    },
+    {
+      "path": "references/decision-frontier.md",
+      "role": "reference",
+      "sha256": "68241c402cced1a7891e079c031814bab071ea24f331ac5cf366cd17e0547845",
+      "bytes": 2900,
+      "characters": 1042,
+      "lines": 19
+    },
+    {
+      "path": "references/decision-robustness.md",
+      "role": "reference",
+      "sha256": "93301491121883d143b972dfe00e9e5523f5f6d28450e9638f5f6be78504c163",
+      "bytes": 4388,
+      "characters": 1740,
+      "lines": 40
+    },
+    {
+      "path": "references/dialogue.md",
+      "role": "reference",
+      "sha256": "b650af6be2649fe90ed811d599ae675557cba8df0dace4517e7367269a4d5afb",
+      "bytes": 8733,
+      "characters": 3129,
+      "lines": 42
+    },
+    {
+      "path": "references/evaluation.md",
+      "role": "reference",
+      "sha256": "273ce6897aa0b2e35af13d16f1dc6d083d061038a88f11489bfd33fdddc8d652",
+      "bytes": 14754,
+      "characters": 6057,
+      "lines": 111
+    },
+    {
+      "path": "references/executor.md",
+      "role": "reference",
+      "sha256": "2f2716696333f6ab275daa75917841ab540c163c326d0c1f9b9e9d4eabff1afa",
+      "bytes": 11849,
+      "characters": 5340,
+      "lines": 106
+    },
+    {
+      "path": "references/exploration.md",
+      "role": "reference",
+      "sha256": "e189cb2fee7f8d4df018ef3053e431422d62ad003f6634433d760cbdcdcc4842",
+      "bytes": 4038,
+      "characters": 1418,
+      "lines": 28
+    },
+    {
+      "path": "references/exploratory-search.md",
+      "role": "reference",
+      "sha256": "c8f7c673b2555bdf9b8e56abbc5de16a343d39e6cc6a141ab463628bfaad380f",
+      "bytes": 3272,
+      "characters": 1256,
+      "lines": 29
+    },
+    {
+      "path": "references/frontstage.md",
+      "role": "reference",
+      "sha256": "ac51ffc701a2f9e2ce6cec57504f9e224e29026fe4fe6477c50d188ab3adde98",
+      "bytes": 6402,
+      "characters": 2352,
+      "lines": 35
+    },
+    {
+      "path": "references/generation.md",
+      "role": "reference",
+      "sha256": "fed524992b5f4cdc75680ae81d6b737877afb120f7d65f4d1d8bdfdb3c7929c9",
+      "bytes": 3312,
+      "characters": 1153,
+      "lines": 25
+    },
+    {
+      "path": "references/generative-loop.md",
+      "role": "reference",
+      "sha256": "8bda5b7e54eccb7c6578cb80a2201dbb43c2a9f878a674377addfabc0c8bc15c",
+      "bytes": 8511,
+      "characters": 3008,
+      "lines": 41
+    },
+    {
+      "path": "references/goal-calibration.md",
+      "role": "reference",
+      "sha256": "3a1b920c72958040e6ca9356a959d7193cf35bcbc083567ceb5277d1f39d6f50",
+      "bytes": 2474,
+      "characters": 870,
+      "lines": 10
+    },
+    {
+      "path": "references/high-value-reframing.md",
+      "role": "reference",
+      "sha256": "5a1e95fbfc57c91ed562b1b6aa960dda84146752f0c13cebbc0073aedde4e3f1",
+      "bytes": 1708,
+      "characters": 1707,
+      "lines": 7
+    },
+    {
+      "path": "references/host-bridge.md",
+      "role": "reference",
+      "sha256": "8ac6533a1c39dacdf62baaa699313ed46848cefbb441a5ed8be3ce77c779da87",
+      "bytes": 9751,
+      "characters": 4662,
+      "lines": 77
+    },
+    {
+      "path": "references/inference-and-discovery.md",
+      "role": "reference",
+      "sha256": "b48324fef08daee5f722942d8682db876e508678ade42faf92de44d0dd19d4c0",
+      "bytes": 7077,
+      "characters": 2533,
+      "lines": 39
+    },
+    {
+      "path": "references/information-followthrough.md",
+      "role": "reference",
+      "sha256": "c37e0aebd6069ee731ec6ef7a49467a1a6c4593cf71385e032ecba35538e2849",
+      "bytes": 3129,
+      "characters": 1145,
+      "lines": 24
+    },
+    {
+      "path": "references/inquiry-payoff.md",
+      "role": "active",
+      "sha256": "dbe7c2f13332cb648d691e6e0af833a744bae7d19c4958927398630fc8b4afb5",
+      "bytes": 6161,
+      "characters": 2349,
+      "lines": 43
+    },
+    {
+      "path": "references/intervention-leverage.md",
+      "role": "runtime",
+      "sha256": "1f48f2ca5be3f56ae3ceae0917b6a363e4dec9d40b87335fcf487d701cbb785b",
+      "bytes": 5770,
+      "characters": 2076,
+      "lines": 42
+    },
+    {
+      "path": "references/long-horizon-autonomy.md",
+      "role": "reference",
+      "sha256": "336d670d2d59b5621eb39215a45a4c3bdf3680d0323213cc93a0fe0843f5a886",
+      "bytes": 2653,
+      "characters": 2653,
+      "lines": 11
+    },
+    {
+      "path": "references/material-intake.md",
+      "role": "reference",
+      "sha256": "d6045cac1a2a9e5525dda25d20f79849ed9cc743db985815532867d05779450c",
+      "bytes": 2447,
+      "characters": 841,
+      "lines": 11
+    },
+    {
+      "path": "references/method.zh-CN.md",
+      "role": "reference",
+      "sha256": "fd2f4323daf95cc2c05f8e02b6daa98cec6184a34496be1ee82510fc46802f03",
+      "bytes": 177805,
+      "characters": 62293,
+      "lines": 1486
+    },
+    {
+      "path": "references/numeric-source-trace.md",
+      "role": "reference",
+      "sha256": "2f0619e7a61ac6232517a5097ea3d5af6403ee40b7a6354036ed8ea6bd012bf5",
+      "bytes": 4062,
+      "characters": 1464,
+      "lines": 29
+    },
+    {
+      "path": "references/open-search.md",
+      "role": "active",
+      "sha256": "29fb846dffbbbcfedc0c9a21aa57ed2f19780c3da2f9e2115a4f23b51c2f132b",
+      "bytes": 3527,
+      "characters": 1317,
+      "lines": 21
+    },
+    {
+      "path": "references/operators/audit.md",
+      "role": "operator",
+      "sha256": "081c27298f23b30863d752a5443c47e22c64cbb9740c4fefc0046cde38c894ed",
+      "bytes": 26841,
+      "characters": 11925,
+      "lines": 103
+    },
+    {
+      "path": "references/operators/blind_challenge.md",
+      "role": "operator",
+      "sha256": "40b16f51e2cc243d117aae40dcb3c4578d44384441ae25db62ed884414acc86c",
+      "bytes": 754,
+      "characters": 262,
+      "lines": 9
+    },
+    {
+      "path": "references/operators/breakthrough_scout.md",
+      "role": "operator",
+      "sha256": "f585fed7c27c519f5c89fa50da4ae6335d03e2e4747256a84667a4fd78ebaf8e",
+      "bytes": 1681,
+      "characters": 716,
+      "lines": 12
+    },
+    {
+      "path": "references/operators/change_action_probe.md",
+      "role": "operator",
+      "sha256": "1eea57e9aec9a7aebc61b7711f1dcad06958ef31ffba42cf9458c6d5e2f3d47c",
+      "bytes": 2381,
+      "characters": 931,
+      "lines": 13
+    },
+    {
+      "path": "references/operators/change_backward.md",
+      "role": "runtime",
+      "sha256": "cc208f4f3f3eeae2379161828fbe726bcd39410f6997010c5ece063cd2644178",
+      "bytes": 3090,
+      "characters": 1140,
+      "lines": 16
+    },
+    {
+      "path": "references/operators/change_forward.md",
+      "role": "runtime",
+      "sha256": "36ca74d9e29242cec52f6bfdc0051f4b192674a66830208330d992334cfded35",
+      "bytes": 3232,
+      "characters": 1206,
+      "lines": 16
+    },
+    {
+      "path": "references/operators/change_portfolio.md",
+      "role": "runtime",
+      "sha256": "66c91530a8b309d951330a0b72fe4f311f5a3af5b8f0abf9bc3e8c89be879d5a",
+      "bytes": 4243,
+      "characters": 1601,
+      "lines": 20
+    },
+    {
+      "path": "references/operators/compose.md",
+      "role": "operator",
+      "sha256": "e46555d20ba68bc7629f5ef048a63e42dbd768f1f50a9acd516bce92f5ba8cd8",
+      "bytes": 29974,
+      "characters": 13336,
+      "lines": 119
+    },
+    {
+      "path": "references/operators/contrast_probe.md",
+      "role": "operator",
+      "sha256": "bf03d6f8f9dbfdba342005e6b5694d818ea82ed02a609482fd46efb468620212",
+      "bytes": 3278,
+      "characters": 1298,
+      "lines": 21
+    },
+    {
+      "path": "references/operators/decision_tournament.md",
+      "role": "protocol",
+      "sha256": "59338d08a8a642c1bcde0c369c5783aa1cc3bf4dc23ca0956f965c04d4ee2e28",
+      "bytes": 3438,
+      "characters": 3430,
+      "lines": 44
+    },
+    {
+      "path": "references/operators/delta_assess.md",
+      "role": "runtime",
+      "sha256": "e7d5f75cc00034cf2e1ccfb5bbaccab0abc241de2c11720d7903fe25273c1508",
+      "bytes": 2330,
+      "characters": 1336,
+      "lines": 13
+    },
+    {
+      "path": "references/operators/delta_challenge.md",
+      "role": "runtime",
+      "sha256": "b122c04d3a556d70fbba11a63da0e7768f944fd8155f73c7d557acc3de6fc3e7",
+      "bytes": 512,
+      "characters": 184,
+      "lines": 3
+    },
+    {
+      "path": "references/operators/delta_integrate.md",
+      "role": "runtime",
+      "sha256": "d6d8e93e57d72a819f4820e3e55a5068c98f13eab52684e292913d2b1d790a8e",
+      "bytes": 473,
+      "characters": 195,
+      "lines": 3
+    },
+    {
+      "path": "references/operators/discovery.md",
+      "role": "operator",
+      "sha256": "f4e68ec8ff928e6de1c74ccf81d7c9757ef2eeadb233d3b574de619dfbd7476c",
+      "bytes": 1669,
+      "characters": 631,
+      "lines": 10
+    },
+    {
+      "path": "references/operators/entry_repair.md",
+      "role": "operator",
+      "sha256": "4cec8e7bf1a082f6d5b0157ec238615dab9ee9d6f100a5bb014ba7d12e3daec4",
+      "bytes": 1823,
+      "characters": 733,
+      "lines": 12
+    },
+    {
+      "path": "references/operators/entry_review.md",
+      "role": "operator",
+      "sha256": "bb297450df77ca970e333769ca83940756990611d50625bf88814d59e2a14ca8",
+      "bytes": 8062,
+      "characters": 3448,
+      "lines": 43
+    },
+    {
+      "path": "references/operators/environment_scout.md",
+      "role": "operator",
+      "sha256": "f60a111c1dd709267ed8c466d2ee540c309afba8f7ed83735717883f23fb3b30",
+      "bytes": 1716,
+      "characters": 650,
+      "lines": 11
+    },
+    {
+      "path": "references/operators/evidence_scout.md",
+      "role": "operator",
+      "sha256": "3af3eb5ef9e518a5fbb6c4875b4daef834934abfe9f9aacba2c86adc04d5b3da",
+      "bytes": 3663,
+      "characters": 1385,
+      "lines": 18
+    },
+    {
+      "path": "references/operators/frame.md",
+      "role": "operator",
+      "sha256": "6b34f97a5cbff74902ca92f2f28c31fa8ab21dd8f356fd9bdddbc21d06ff7397",
+      "bytes": 1536,
+      "characters": 658,
+      "lines": 13
+    },
+    {
+      "path": "references/operators/frontier_scout.md",
+      "role": "operator",
+      "sha256": "bf34eb6b88dddeb5acbcb7e90000a24df07cd236e3a5dd44e95e600a7fdb88b6",
+      "bytes": 2754,
+      "characters": 1012,
+      "lines": 18
+    },
+    {
+      "path": "references/operators/goal_scout.md",
+      "role": "operator",
+      "sha256": "c3980a2546e7bd43c8d263f9a9ac1c5181de1ab1ddd2858638c8be1f9f7c8af9",
+      "bytes": 3291,
+      "characters": 1239,
+      "lines": 19
+    },
+    {
+      "path": "references/operators/load_bearing.md",
+      "role": "runtime",
+      "sha256": "ca78e080f6a9e20bd8230d68830687ac57f048adc0ca1c967925e2b2b5c21525",
+      "bytes": 7209,
+      "characters": 3245,
+      "lines": 35
+    },
+    {
+      "path": "references/operators/open_search.md",
+      "role": "active",
+      "sha256": "18d5f0c00fbc1a55ba4a158dcd4437c9b9e4207c2a5437bd48006bcabac88148",
+      "bytes": 3885,
+      "characters": 1503,
+      "lines": 19
+    },
+    {
+      "path": "references/operators/operation.md",
+      "role": "operator",
+      "sha256": "427ca462cf42c3257d898a2b5ac948cdbe75cbe13b07fc5379f41872348f461e",
+      "bytes": 5258,
+      "characters": 2114,
+      "lines": 29
+    },
+    {
+      "path": "references/operators/probe_portfolio.md",
+      "role": "runtime",
+      "sha256": "034436bda28f20cad91f871f0e25476873d418c4d0c4f5759e076c73dc009e13",
+      "bytes": 6684,
+      "characters": 2732,
+      "lines": 32
+    },
+    {
+      "path": "references/operators/reframe.md",
+      "role": "operator",
+      "sha256": "97b5246fb73e4b8bfb7ffe0b1b78630b345842f99c28f856fd4f49736faf3a25",
+      "bytes": 3760,
+      "characters": 1426,
+      "lines": 27
+    },
+    {
+      "path": "references/operators/relation_scout.md",
+      "role": "operator",
+      "sha256": "fd606216bb1dfdef3ba8f3a6bb28914966153726a7fdf1d3eb44bd4d02d9ed2e",
+      "bytes": 1223,
+      "characters": 487,
+      "lines": 7
+    },
+    {
+      "path": "references/operators/schedule.md",
+      "role": "operator",
+      "sha256": "95d9e0cbdcbe0c2fd9cc88f3b5be84209b74ce87c7d61a7afe6dfdc74725440e",
+      "bytes": 12270,
+      "characters": 5384,
+      "lines": 66
+    },
+    {
+      "path": "references/operators/scope_intent.md",
+      "role": "reference",
+      "sha256": "45d018265900a5ef8ce684c55c7274248efc790df42d891d236932cb93080ed4",
+      "bytes": 2471,
+      "characters": 1029,
+      "lines": 14
+    },
+    {
+      "path": "references/operators/selection_scout.md",
+      "role": "operator",
+      "sha256": "2e9f45c389e03de5f78edc20a7c214ca8aedb81fd199c1d7f5209719db196402",
+      "bytes": 1789,
+      "characters": 649,
+      "lines": 9
+    },
+    {
+      "path": "references/operators/system_map.md",
+      "role": "runtime",
+      "sha256": "ddfd8d2c8f2feabf0739de86ed68b434ffca5b6702283002b37b31d421d9d2df",
+      "bytes": 2733,
+      "characters": 1161,
+      "lines": 13
+    },
+    {
+      "path": "references/operators/turn_router.md",
+      "role": "operator",
+      "sha256": "5918ee1d16aa7f4b3f72db54bc893a37736ae0e0ec7b39271b630e7b69480414",
+      "bytes": 4457,
+      "characters": 3371,
+      "lines": 25
+    },
+    {
+      "path": "references/operators/value_frontier.md",
+      "role": "operator",
+      "sha256": "98add4afd78a9815e11a991a1679085fcb25258fbee7f23d548035ba3ff2a6a6",
+      "bytes": 3764,
+      "characters": 2840,
+      "lines": 16
+    },
+    {
+      "path": "references/outcome-intersection.md",
+      "role": "reference",
+      "sha256": "88b0cad9a514102163bcb890e058daa2cca834c57ecba8bcea0d2722b82675e5",
+      "bytes": 2851,
+      "characters": 1076,
+      "lines": 15
+    },
+    {
+      "path": "references/portable-discovery.md",
+      "role": "runtime",
+      "sha256": "e56ad54f08a1b8fd7e4da365ed2a11d87143a4a0f2ae1bf925bdad58159ec729",
+      "bytes": 7663,
+      "characters": 2791,
+      "lines": 37
+    },
+    {
+      "path": "references/reality.md",
+      "role": "reference",
+      "sha256": "f7f0210f4538edd1b5ad4d4d188fc2231021c17888c74d307b5d663aea80c4fb",
+      "bytes": 4447,
+      "characters": 1615,
+      "lines": 33
+    },
+    {
+      "path": "references/recognition.md",
+      "role": "reference",
+      "sha256": "2cc04b3d1694a55d572b8f9b420e4161133a5c2fb7e403e85b2c5a8c90623948",
+      "bytes": 5863,
+      "characters": 2111,
+      "lines": 39
+    },
+    {
+      "path": "references/regression-acceptance.md",
+      "role": "reference",
+      "sha256": "d8b32cf5be630a5fda3a8f4b733eb75f1286576e6894f13625e1ae324f0a5734",
+      "bytes": 2951,
+      "characters": 1057,
+      "lines": 17
+    },
+    {
+      "path": "references/relational-structure.md",
+      "role": "reference",
+      "sha256": "bfeaf6a6de7dfae228cb345464f1e02a3b6fda275ce485aa04906035943b4790",
+      "bytes": 4369,
+      "characters": 1613,
+      "lines": 31
+    },
+    {
+      "path": "references/result-consistency.md",
+      "role": "reference",
+      "sha256": "abce6954e16b2b5f1084b8ea42cfe568cd6afb4c583a5b7a085d0e4d00f65162",
+      "bytes": 3343,
+      "characters": 1253,
+      "lines": 32
+    },
+    {
+      "path": "references/result-realization.md",
+      "role": "reference",
+      "sha256": "799dddaae67b3a45052e9e967802ee30598b9eabf9cbc20fb0cf7b651d39a373",
+      "bytes": 6046,
+      "characters": 2120,
+      "lines": 42
+    },
+    {
+      "path": "references/review.md",
+      "role": "reference",
+      "sha256": "bd6a884b0aceefa840fe0af81ff9c445dd204cbc5376b6b555d5f4e04d059e5d",
+      "bytes": 3078,
+      "characters": 1206,
+      "lines": 27
+    },
+    {
+      "path": "references/runtime.md",
+      "role": "reference",
+      "sha256": "a46cda0d5d5cdabacb100c9d7c0bcba3f1a43a18da1da60fa0d2c99ca58acea0",
+      "bytes": 11331,
+      "characters": 4515,
+      "lines": 59
+    },
+    {
+      "path": "references/selection-mechanisms.md",
+      "role": "reference",
+      "sha256": "def99c37a778896d67755f2f3320419ebd2dc15820a4c3e7478a1c47b2ec140f",
+      "bytes": 1392,
+      "characters": 478,
+      "lines": 7
+    },
+    {
+      "path": "references/state.md",
+      "role": "reference",
+      "sha256": "2dc9e867595e86517effea7ce1da01c33776d3b6e3323584f252f19e54304156",
+      "bytes": 23803,
+      "characters": 12369,
+      "lines": 240
+    },
+    {
+      "path": "references/system-coverage.md",
+      "role": "runtime",
+      "sha256": "30cd112d6564b127e08a946875cce04b7ae648a4f730e9a2f1265689b4cca4b5",
+      "bytes": 5263,
+      "characters": 1921,
+      "lines": 32
+    },
+    {
+      "path": "references/workers-quality-kernel.md",
+      "role": "runtime",
+      "sha256": "eb4478b3a3d0ec8fd2d872b844b01a240f4fce0c8c6ef7f4d8e1649ef5230502",
+      "bytes": 5740,
+      "characters": 2134,
+      "lines": 26
+    },
+    {
+      "path": "scripts/build_release.py",
+      "role": "executable",
+      "sha256": "586a936587449e79155df4536699b0211e5a99177d459d754ddc4bc8cf6790a0",
+      "bytes": 7154,
+      "characters": 7154,
+      "lines": 135
+    },
+    {
+      "path": "scripts/check_work.py",
+      "role": "executable",
+      "sha256": "5a6fd83bf4fa8063c050a0d6507038e0fdeca61385c9aaad88f60470f32575af",
+      "bytes": 26953,
+      "characters": 26953,
+      "lines": 549
+    },
+    {
+      "path": "scripts/cognitive_work.py",
+      "role": "executable",
+      "sha256": "21ccfc6126f2b2018cafcab1ebe640ded6fdc7efbf878fe6a5d17d279736b60a",
+      "bytes": 60429,
+      "characters": 60429,
+      "lines": 844
+    },
+    {
+      "path": "scripts/compare_runs.py",
+      "role": "executable",
+      "sha256": "8647b31e23532b758d54ef388c5e7fb35b88cf889fd6bccd48332809f48d24c0",
+      "bytes": 3217,
+      "characters": 3217,
+      "lines": 68
+    },
+    {
+      "path": "scripts/current_work.py",
+      "role": "executable",
+      "sha256": "e16e1df62abce3f67dd84be56a7d2cc0c2b166149f745a4a34c2ee013b686a74",
+      "bytes": 44006,
+      "characters": 44006,
+      "lines": 743
+    },
+    {
+      "path": "scripts/evaluate_statedyne.py",
+      "role": "executable",
+      "sha256": "7650708e9872d7142e925102b6aee9b5ec7e2fa8b55687daee6dde94d4e4bd29",
+      "bytes": 200,
+      "characters": 200,
+      "lines": 5
+    },
+    {
+      "path": "scripts/read_method.py",
+      "role": "executable",
+      "sha256": "57dced5663797813bb1e2725685d32abdfd44d42db13e68ae973a2bdbd08614c",
+      "bytes": 3439,
+      "characters": 3439,
+      "lines": 78
+    },
+    {
+      "path": "scripts/run_statedyne.py",
+      "role": "executable",
+      "sha256": "337ecdfc5ccb82f87ac583b73c76a85d93ba125633e9b10b0862ca8cc464dc2c",
+      "bytes": 195,
+      "characters": 195,
+      "lines": 5
+    },
+    {
+      "path": "scripts/run_test_groups.py",
+      "role": "executable",
+      "sha256": "0e6db32635d8cf8bfc681675547519b090042f29344ab2646aa2d150c9f002fb",
+      "bytes": 3349,
+      "characters": 3349,
+      "lines": 79
+    },
+    {
+      "path": "scripts/sd_runtime/__init__.py",
+      "role": "executable",
+      "sha256": "e4fc94463f242fd21ba6fffb15124638ebc2a7c788c239d34912040f31d5d5a4",
+      "bytes": 172,
+      "characters": 172,
+      "lines": 5
+    },
+    {
+      "path": "scripts/sd_runtime/backends.py",
+      "role": "executable",
+      "sha256": "b137f4affba1a66b28a3d7908db563791d6bf7974841d324aa7e47148a7b81a8",
+      "bytes": 15672,
+      "characters": 15672,
+      "lines": 255
+    },
+    {
+      "path": "scripts/sd_runtime/breakthrough.py",
+      "role": "runtime",
+      "sha256": "a6021f093f729a3d33aa1da37f4c79c38a2daae1da45a41e6ba34f372ae58bdd",
+      "bytes": 2298,
+      "characters": 2298,
+      "lines": 43
+    },
+    {
+      "path": "scripts/sd_runtime/cli.py",
+      "role": "executable",
+      "sha256": "d4be700f04a9f4205ec004d75698082a89ce9eae686f185015bf409b43eba2b2",
+      "bytes": 19527,
+      "characters": 19527,
+      "lines": 258
+    },
+    {
+      "path": "scripts/sd_runtime/common.py",
+      "role": "executable",
+      "sha256": "0257712fc7ec77514e660cb9c1019ed04029f302e4e138b8ae2706ec1a65bc84",
+      "bytes": 2962,
+      "characters": 2962,
+      "lines": 98
+    },
+    {
+      "path": "scripts/sd_runtime/conclusion_integrity.py",
+      "role": "runtime",
+      "sha256": "45cf77c11948320a27257c902da39042894fe8502c2e7b244c4b53cd9f13f127",
+      "bytes": 6659,
+      "characters": 6606,
+      "lines": 105
+    },
+    {
+      "path": "scripts/sd_runtime/decision_tournament.py",
+      "role": "runtime",
+      "sha256": "20eebb5f0511deb9650d91553e9a08afc21f4d3cc7ea4fff6698c549717d3bee",
+      "bytes": 6998,
+      "characters": 6998,
+      "lines": 126
+    },
+    {
+      "path": "scripts/sd_runtime/delivery_quality.py",
+      "role": "runtime",
+      "sha256": "3da19710aa6d0b35ca9010e45382b253eb7a7be02a71d3d4eb11c26d1761e8b8",
+      "bytes": 13896,
+      "characters": 13896,
+      "lines": 189
+    },
+    {
+      "path": "scripts/sd_runtime/diversity.py",
+      "role": "runtime",
+      "sha256": "43ee70888d7e28451540c7e1ab2ad64da438e046d0140d33bd0a78697059406f",
+      "bytes": 2744,
+      "characters": 2744,
+      "lines": 57
+    },
+    {
+      "path": "scripts/sd_runtime/engine.py",
+      "role": "executable",
+      "sha256": "7c6bf6b11be437df85f7cd400199c1f7ea9eed00155e0f8163931238bc462d12",
+      "bytes": 81535,
+      "characters": 81357,
+      "lines": 1125
+    },
+    {
+      "path": "scripts/sd_runtime/evaluation.py",
+      "role": "executable",
+      "sha256": "c9e9de1fa2e6d44fe2221cf2fea3327e641f4496c419e9752d5d8d42b3bd457e",
+      "bytes": 18366,
+      "characters": 18366,
+      "lines": 302
+    },
+    {
+      "path": "scripts/sd_runtime/evidence.py",
+      "role": "executable",
+      "sha256": "0842defacf6be4a4b13dd335dc9a3a19a1317ea4ca25cb36b49a70dba29ece00",
+      "bytes": 6009,
+      "characters": 6009,
+      "lines": 106
+    },
+    {
+      "path": "scripts/sd_runtime/frontier.py",
+      "role": "executable",
+      "sha256": "91fac0de981c02f3f69a0ae9ca4447320704db52b21662a87807fc6bd2c80a00",
+      "bytes": 12674,
+      "characters": 12674,
+      "lines": 192
+    },
+    {
+      "path": "scripts/sd_runtime/frontstage.py",
+      "role": "runtime",
+      "sha256": "541a8b4b24570b5749b2027365fef7dda57797139a32ab8e99246e830c9d6753",
+      "bytes": 3436,
+      "characters": 3100,
+      "lines": 45
+    },
+    {
+      "path": "scripts/sd_runtime/goal_review.py",
+      "role": "runtime",
+      "sha256": "a7b4feac930821b811aa42bf7be57c37927ee0f71a489949068bbfddc4ac08e5",
+      "bytes": 5476,
+      "characters": 5476,
+      "lines": 90
+    },
+    {
+      "path": "scripts/sd_runtime/inquiry_contract.py",
+      "role": "runtime",
+      "sha256": "f58666af50c875616d6fef4784982e9a20b7f52f73666be71b6b3a36a70bc829",
+      "bytes": 4976,
+      "characters": 4976,
+      "lines": 87
+    },
+    {
+      "path": "scripts/sd_runtime/inquiry_frontier.py",
+      "role": "runtime",
+      "sha256": "a3348ed2239a984b8e4595ec5f70b2881535b68bbdd7b20a1bde4812fb8c5191",
+      "bytes": 9650,
+      "characters": 9650,
+      "lines": 149
+    },
+    {
+      "path": "scripts/sd_runtime/load_bearing.py",
+      "role": "runtime",
+      "sha256": "d1cf8a7d5f2b3d208cc59e929c189ac0c3400f4de61041b73e9049ff77862e3b",
+      "bytes": 15226,
+      "characters": 15226,
+      "lines": 235
+    },
+    {
+      "path": "scripts/sd_runtime/material_unknowns.py",
+      "role": "runtime",
+      "sha256": "cd7a3b7d216d19707277c8398ad25c1fd86415f3f6ffde453d25a69669eaa984",
+      "bytes": 3233,
+      "characters": 3233,
+      "lines": 56
+    },
+    {
+      "path": "scripts/sd_runtime/numeric_provenance.py",
+      "role": "runtime",
+      "sha256": "3c5e5a6317810dfbc83fa8276243fec94ce35f226181a9d68fca7d8e1f498ea2",
+      "bytes": 11168,
+      "characters": 10955,
+      "lines": 180
+    },
+    {
+      "path": "scripts/sd_runtime/objective_intersection.py",
+      "role": "runtime",
+      "sha256": "87d6e527862988d0dbfe8b1cf3729974bf94e67d29fc72ebef8c642a2b1856b5",
+      "bytes": 5041,
+      "characters": 5023,
+      "lines": 74
+    },
+    {
+      "path": "scripts/sd_runtime/priority_dispatch.py",
+      "role": "executable",
+      "sha256": "5209019e259f7dabcbd20ea2a1b20406bac855e978c1c8a165a8502cb0eac644",
+      "bytes": 5654,
+      "characters": 5654,
+      "lines": 91
+    },
+    {
+      "path": "scripts/sd_runtime/probe_bridge.py",
+      "role": "runtime",
+      "sha256": "4520c4bc219f9ef32c201a1d1f1937fe308219747e9dd007a83554713ab8dbbf",
+      "bytes": 3508,
+      "characters": 3508,
+      "lines": 73
+    },
+    {
+      "path": "scripts/sd_runtime/probe_portfolio.py",
+      "role": "runtime",
+      "sha256": "4354c71d92294395898ae8c1c61dae4d0dfc7b47aff2f8b37eb13b5e7e6d40af",
+      "bytes": 10652,
+      "characters": 10650,
+      "lines": 172
+    },
+    {
+      "path": "scripts/sd_runtime/research_agenda.py",
+      "role": "runtime",
+      "sha256": "196035674b759008f17836e9decb879a83826d67cb9c6bfe9d6bb3bf28ee18ed",
+      "bytes": 6909,
+      "characters": 6907,
+      "lines": 136
+    },
+    {
+      "path": "scripts/sd_runtime/schemas.py",
+      "role": "executable",
+      "sha256": "216d652e220a4e8f12b87ab1252727f3373e5b044df6949e0a4bfa07496f0103",
+      "bytes": 24523,
+      "characters": 24523,
+      "lines": 373
+    },
+    {
+      "path": "scripts/sd_runtime/store.py",
+      "role": "executable",
+      "sha256": "970e5257ee5a58124453d4e44cb199cb534ed737ba90b1dbcdc86ac49e12b143",
+      "bytes": 80169,
+      "characters": 80157,
+      "lines": 1211
+    },
+    {
+      "path": "scripts/sd_runtime/system_map.py",
+      "role": "runtime",
+      "sha256": "a32a3b0bb697ac4da469b98bc7c16c7955af9fcd51db419a0624bec23944d316",
+      "bytes": 6806,
+      "characters": 6806,
+      "lines": 108
+    },
+    {
+      "path": "scripts/task_state.py",
+      "role": "executable",
+      "sha256": "f053cff36e3a9dc53d3c1a0eeb545f960759340e4d8a2bb5b7db92f1b2c2bf05",
+      "bytes": 28137,
+      "characters": 28137,
+      "lines": 593
+    },
+    {
+      "path": "scripts/validate_skill.py",
+      "role": "executable",
+      "sha256": "9f98059045077fb8a412d3c7198acc93dd7f4faf57b06b3847dd748d90689b7f",
+      "bytes": 13215,
+      "characters": 13215,
+      "lines": 253
+    },
+    {
+      "path": "tests/fixture_helpers_10190.py",
+      "role": "test",
+      "sha256": "53a80160834f6906b54516162dbe34ff1260d2c716d705270e1057f146e11a02",
+      "bytes": 1397,
+      "characters": 1397,
+      "lines": 21
+    },
+    {
+      "path": "tests/test_10100.py",
+      "role": "test",
+      "sha256": "cbdbd33b68a5803205dbba1e577a69f91fa4af2e37fa44db75eedddefd5b5fc9",
+      "bytes": 13472,
+      "characters": 13316,
+      "lines": 243
+    },
+    {
+      "path": "tests/test_10110.py",
+      "role": "test",
+      "sha256": "47b4c140ca8a1a65f139eb31a6647ef1f7ccc9a2177c9d408eb30a473022de5f",
+      "bytes": 8621,
+      "characters": 8621,
+      "lines": 157
+    },
+    {
+      "path": "tests/test_10110_intervention.py",
+      "role": "test",
+      "sha256": "d68c96f6649a5250a92b1975bf60f99959eb035a2da686c0756f3a4c861363d8",
+      "bytes": 3197,
+      "characters": 3197,
+      "lines": 58
+    },
+    {
+      "path": "tests/test_10120.py",
+      "role": "test",
+      "sha256": "b4c37cd9fefb742e075a90753c6e5388a7615b8d22a77c1db8ebf6b259a8d2ad",
+      "bytes": 14031,
+      "characters": 14021,
+      "lines": 240
+    },
+    {
+      "path": "tests/test_10130.py",
+      "role": "test",
+      "sha256": "dedb277cf7f212544bb57f5653899c7af9729f149551f4246143e0eed08aa884",
+      "bytes": 11188,
+      "characters": 11170,
+      "lines": 210
+    },
+    {
+      "path": "tests/test_10140.py",
+      "role": "test",
+      "sha256": "33263a63f168b51099d32c2f1dfe4d727531fb9c1c430ae07bd80f8daf0f1cd2",
+      "bytes": 12582,
+      "characters": 12332,
+      "lines": 206
+    },
+    {
+      "path": "tests/test_10150.py",
+      "role": "test",
+      "sha256": "ec5afe9ec4fead2cee3cfbd86c54dbb2b5fccb1fde135940acc859026adc5b9d",
+      "bytes": 7616,
+      "characters": 7578,
+      "lines": 148
+    },
+    {
+      "path": "tests/test_10160.py",
+      "role": "test",
+      "sha256": "d521030311042ff83971b9f7d649259377061479aeac2119e8af1f0aee4d6ab1",
+      "bytes": 12276,
+      "characters": 12170,
+      "lines": 213
+    },
+    {
+      "path": "tests/test_10170.py",
+      "role": "test",
+      "sha256": "9f15eaa7bf154137dbac94f812f7e86ff33e6ccae6de09feb9054b983365707a",
+      "bytes": 10723,
+      "characters": 10359,
+      "lines": 177
+    },
+    {
+      "path": "tests/test_10180.py",
+      "role": "test",
+      "sha256": "1c7dacf74ddda0e06f4d8ff45f4db5059f6ad2f0603481abca24b3b98b6e60b9",
+      "bytes": 6314,
+      "characters": 6314,
+      "lines": 111
+    },
+    {
+      "path": "tests/test_10190.py",
+      "role": "test",
+      "sha256": "2d244c337cf179b41252884dcd3bcbe7dd81bef5bf0073c3bb36a6a7d1c9b3a8",
+      "bytes": 14626,
+      "characters": 14570,
+      "lines": 225
+    },
+    {
+      "path": "tests/test_10200.py",
+      "role": "test",
+      "sha256": "75f1513c81d507988e17cdf57af83f77b38ccdcd1dddcde46d907af49c8d9a67",
+      "bytes": 9169,
+      "characters": 9013,
+      "lines": 171
+    },
+    {
+      "path": "tests/test_10210.py",
+      "role": "test",
+      "sha256": "fc3d44eb70003d54b5d95d3a514d1fa2a22d59d5d9b460cfed197fe05053b14e",
+      "bytes": 8869,
+      "characters": 8647,
+      "lines": 156
+    },
+    {
+      "path": "tests/test_10220.py",
+      "role": "test",
+      "sha256": "9593b6da94b40189f42354ac136008286053f9bba4dd19e31ded112ed9afd351",
+      "bytes": 10668,
+      "characters": 10264,
+      "lines": 186
+    },
+    {
+      "path": "tests/test_10230.py",
+      "role": "runtime",
+      "sha256": "707f4bde642d90e0e40bbdfad0e8de03c0f1a6aad86e73509a887d3c9c0bc33a",
+      "bytes": 7544,
+      "characters": 7280,
+      "lines": 138
+    },
+    {
+      "path": "tests/test_10240.py",
+      "role": "test",
+      "sha256": "dc49c7393584d8bd9928cfd363d945bf7c7246978de01184a39052b882138fe9",
+      "bytes": 10201,
+      "characters": 10141,
+      "lines": 189
+    },
+    {
+      "path": "tests/test_10250.py",
+      "role": "test",
+      "sha256": "84535949d00683638f76f3e67b5dae50a5c4dc76b8465403ceb5b154e03d2b83",
+      "bytes": 8213,
+      "characters": 8163,
+      "lines": 153
+    },
+    {
+      "path": "tests/test_10260.py",
+      "role": "test",
+      "sha256": "a9794f1767fcff783043ec59ef136f7e0c73a07d86fe29b2e0a719749a56dc39",
+      "bytes": 11112,
+      "characters": 11074,
+      "lines": 193
+    },
+    {
+      "path": "tests/test_10270.py",
+      "role": "test",
+      "sha256": "e90b6c469d5f03cd4d3a6cd01137a390fb0d59e225f3d7791469f5448528051f",
+      "bytes": 9035,
+      "characters": 8819,
+      "lines": 141
+    },
+    {
+      "path": "tests/test_10280.py",
+      "role": "test",
+      "sha256": "355baa176e8cb2909d31f435b9e05fc0e7514dfe08ffead9c32dc512188665b9",
+      "bytes": 12311,
+      "characters": 12231,
+      "lines": 223
+    },
+    {
+      "path": "tests/test_10290.py",
+      "role": "test",
+      "sha256": "20e8bc5668b10501a4bd3bcdc8ed171ac53b22494acc7a3c3d745f5ba6645aa8",
+      "bytes": 13363,
+      "characters": 13049,
+      "lines": 214
+    },
+    {
+      "path": "tests/test_10300.py",
+      "role": "test",
+      "sha256": "0c36922b68a36f9dc3fef2b8a798983da1ed01b3df62795720806146fe7bae23",
+      "bytes": 8758,
+      "characters": 8722,
+      "lines": 158
+    },
+    {
+      "path": "tests/test_10310.py",
+      "role": "test",
+      "sha256": "538a031ac1fa8815c6f83fe43b50f5bfaa14a0486cd4a616ca6c11928b65359d",
+      "bytes": 3762,
+      "characters": 3602,
+      "lines": 74
+    },
+    {
+      "path": "tests/test_1040.py",
+      "role": "test",
+      "sha256": "19b97817b85401ec7050aaa6c7c198b1a18f7c3a837b14a0d81aabc060f42256",
+      "bytes": 9958,
+      "characters": 9944,
+      "lines": 161
+    },
+    {
+      "path": "tests/test_1050.py",
+      "role": "test",
+      "sha256": "3f7b3dfca456c7d5b9457b3d8c3d2fad21866c246180225288b4f2500820c656",
+      "bytes": 7683,
+      "characters": 7683,
+      "lines": 138
+    },
+    {
+      "path": "tests/test_1060.py",
+      "role": "test",
+      "sha256": "261c8f9ddc2ba9ead867ddfc03206ef6f5ea86e4e93a3f505aa229c901924b01",
+      "bytes": 6263,
+      "characters": 6165,
+      "lines": 117
+    },
+    {
+      "path": "tests/test_1070.py",
+      "role": "test",
+      "sha256": "b1938d79bf9621521592bd7080b5f0fdcb78650573dd318add9659dbfbddac6f",
+      "bytes": 3893,
+      "characters": 3463,
+      "lines": 89
+    },
+    {
+      "path": "tests/test_1080.py",
+      "role": "test",
+      "sha256": "c9926ed65071c8120c76f6ba1a42619f16fc5666d8d6b4636fcb16f02729a0f6",
+      "bytes": 6546,
+      "characters": 6342,
+      "lines": 126
+    },
+    {
+      "path": "tests/test_1090.py",
+      "role": "test",
+      "sha256": "9dfafa1d812bd6839c0cb700d99181d959d6ebc5f7b352f5eb4162d4d77b0421",
+      "bytes": 8375,
+      "characters": 8307,
+      "lines": 136
+    },
+    {
+      "path": "tests/test_1100.py",
+      "role": "test",
+      "sha256": "f811321102736d96afd31acabf2031f1fc33ab1f5fc99870031386ed4dfc3d70",
+      "bytes": 8399,
+      "characters": 8019,
+      "lines": 153
+    },
+    {
+      "path": "tests/test_1110.py",
+      "role": "test",
+      "sha256": "e4cd0f1cfc25ed2bb9a993664e59e45c2819065b6cdca1c1ce273c38f25a4dfa",
+      "bytes": 4657,
+      "characters": 4375,
+      "lines": 85
+    },
+    {
+      "path": "tests/test_1120.py",
+      "role": "test",
+      "sha256": "d7ffe0898d024706135b90c84401c8e721e86e8c347094a1fec9e78c179b5ac5",
+      "bytes": 6252,
+      "characters": 6102,
+      "lines": 121
+    },
+    {
+      "path": "tests/test_1121.py",
+      "role": "test",
+      "sha256": "8fbc75758eb303c3aec5066354fe8e0edd72b9e00f3f45a9159063583e219940",
+      "bytes": 8954,
+      "characters": 8950,
+      "lines": 167
+    },
+    {
+      "path": "tests/test_1130.py",
+      "role": "test",
+      "sha256": "74015e0d875be3d538e3b2a789357e211e64e3121bbf74d78c7e2bfdea882e4d",
+      "bytes": 7542,
+      "characters": 7542,
+      "lines": 128
+    },
+    {
+      "path": "tests/test_delivery_decision.py",
+      "role": "test",
+      "sha256": "0cd7dcab92d0b5b59bcaab9303cd3717173317518ebe85275b403e95b2e92047",
+      "bytes": 8938,
+      "characters": 8750,
+      "lines": 170
+    },
+    {
+      "path": "tests/test_frontier.py",
+      "role": "test",
+      "sha256": "7bf8ca6709b23a54bddc0b58e5d0d1adac515a9ca92050a4a0a424fa4c6b3599",
+      "bytes": 9426,
+      "characters": 9426,
+      "lines": 150
+    },
+    {
+      "path": "tests/test_regressions.py",
+      "role": "test",
+      "sha256": "9e58949ba9b2c1efac00a5ecfbd6150538c630c5186f14f2fa53c1087c2e5f35",
+      "bytes": 14057,
+      "characters": 14009,
+      "lines": 220
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "role": "test",
+      "sha256": "76d6dae2ea10a3125abb478020c690076e9138ea1e061b2feb1996e1afcd356c",
+      "bytes": 66684,
+      "characters": 64934,
+      "lines": 921
+    },
+    {
+      "path": "verification/PUBLICATION_REPORT.md",
+      "role": "verification",
+      "sha256": "b2355b443b26ef03ee856b5a7594ececd74e3349340d16f88eb2751549e7c355",
+      "bytes": 3328,
+      "characters": 3326,
+      "lines": 24
+    },
+    {
+      "path": "verification/REAL_MODEL_ACCEPTANCE.md",
+      "role": "verification",
+      "sha256": "4dcc53a955396d8006cea7ec034d56ff84c06880073f88c245f54d9e4f513fa3",
+      "bytes": 5133,
+      "characters": 5081,
+      "lines": 65
+    },
+    {
+      "path": "verification/REPORT.md",
+      "role": "verification",
+      "sha256": "05471fa520b87dbbb838613550bbd7abfed6e88f2ac629013faa4c276c99f505",
+      "bytes": 1912,
+      "characters": 1910,
+      "lines": 18
+    },
+    {
+      "path": "verification/WORLD_CLASS_ACCEPTANCE.md",
+      "role": "support",
+      "sha256": "75898929aa98b88520af7f506af44743bb937d16ff8ea1cfa47ae54a72ffba3f",
+      "bytes": 3191,
+      "characters": 3189,
+      "lines": 54
+    },
+    {
+      "path": "verification/smoke-checks.json",
+      "role": "verification",
+      "sha256": "5ed7e47aa9c79a61e9225b1532367c4367a358748c2633b28230abdd044b811b",
+      "bytes": 981,
+      "characters": 981,
+      "lines": 29
+    },
+    {
+      "path": "verification/status.json",
+      "role": "verification",
+      "sha256": "185469cff80903d609fb2e289d78e8fb6a581ec24b6d2ff9b83c3b21425fd7a6",
+      "bytes": 2590,
+      "characters": 2590,
+      "lines": 54
+    },
+    {
+      "path": "verification/unit-tests.log",
+      "role": "verification",
+      "sha256": "6e9ac833879772adace9fb01373c1be6f7a63b423263db54a6f2e1796bca616d",
+      "bytes": 172,
+      "characters": 172,
+      "lines": 3
+    }
+  ],
+  "validation": {
+    "release": "scripts/validate_skill.py --strict-bytes --require-downloads",
+    "installed": "scripts/validate_skill.py",
+    "ui_equivalence": "Only agents/openai.yaml may match the canonical parsed YAML digest after host reserialization. PyYAML is optional and required only for that fallback. Recorded host icon byte variants are a separate installed-only exception; runtime, method and scripts remain exact.",
+    "limit": "Editable consistency manifest, not a signed trust root or proof of quality.",
+    "icon_variants": "Installed mode accepts only complete byte identities explicitly recorded for host-materialized assets/icon.svg variants; strict release mode remains exact. No runtime or method exception.",
+    "work_bundle": "check_work.py snapshot/check binds quality and final review to actual files. checkpoint/check-checkpoint verifies immutable declared turn continuity and source hashes; neither validates semantics or host execution.",
+    "runtime_tests": "python scripts/run_test_groups.py",
+    "runtime": "run_statedyne.py verify checks observable records, not semantic truth",
+    "live_evaluation": "evaluate_statedyne.py requires actual authorized model calls; not run in this release"
+  },
+  "release_9_8_7": {
+    "direct_baseline": "9.8.6",
+    "scope": "Conditional environment investigation, in-flight fact exchange, adaptive operation selection and visible intervention delivery; no new state schema or automatic method rewriting. Cross-turn expansion reuses existing positions; complementary combinations do not imply necessary conjunction. Autonomous outcome-gap discovery, concise pre/post operation evidence and completed targeted repairs before first delivery. Close material obligations across expiring support and deferred-work boundaries in plan construction and exact review.",
+    "method_change": "none",
+    "support_scripts_change": "none",
+    "validation_limit": "Static identity and bounded paired model evidence are reported separately outside the public package."
+  },
+  "release_9_8_8": {
+    "runtime": "Compact recoverable outcome responsibilities; intent and actual-content stage detection; goal-reopened action competition; targeted outcome repair; evidence-bounded degradation; requested evidence located before individual information ownership is assigned; existing generative depth and domain mechanisms retained.",
+    "code": "No changes to method, archive, generation module, state support or four helper scripts. No host interception, background execution or automatic routing added. Reality information acquisition instructions changed; implementation remains a language skill.",
+    "evidence_boundary": "Text and artifact identity do not establish behavioral or cross-model stability. Private prospective paired runs, source audits and independent assessments are distributed separately from the public skill."
+  },
+  "release_9_8_9": {
+    "baseline": "9.8.8",
+    "runtime": "Activate responsibilities at concrete transitions. Before intervention search, recover consequential relations directly from original and prior-turn material, retain source and disposition in existing external work, then compete routes and audit against that material. Preserve human formation, environment competition, natural improvement and visible point/action delivery.",
+    "code": "Method, four scripts, archive, state support and exploration unchanged. No new module or host service.",
+    "evidence_boundary": "Public instructions and package identity do not establish model behavior or real-world outcomes. Private paired runs, repeat samples and independent review are reported separately.",
+    "information": "Before emitting questions, compare each with actual prior questions and replies. Preserve unanswered facts and dependencies without asking again; proceed through other channels or conditional choices. Ask only genuinely new branches created by new facts. Final review checks the actual emitted questions.",
+    "handoff_delivery": "Derive visible intervention points from consequential relations in original and prior-turn material, not selected actions. At delivery retain independent local or conditional alternatives and their actual disposition; verify exact answer text rather than a category checklist."
+  },
+  "release_9_8_10": {
+    "direct_baseline": "9.8.9",
+    "baseline_zip_sha256": "cc0d104deebea67d2dbcf98f9dd6b4ea73ad0d27eb99bb2f79c5426514fde74e",
+    "method_change": "none",
+    "support_scripts_change": "none",
+    "scope": "Information-scope generation before explanation and high-impact update; public-context acquisition; causal and commitment dependency checks; visible intervention and adoption.",
+    "evidence_boundary": "Language execution instructions; host observations and private evaluation are separate from public artifacts and real-world outcomes."
+  },
+  "profile_notes": {
+    "api": "Instruction-text only: actual task, evidence and evolving shared state are additional.",
+    "history": "9.x text retained for explicit maintenance, not current runtime requirements.",
+    "unified": "Profiles are reference unions for measurement, not different cognitive capability tiers and not mandatory all-at-once loads."
+  },
+  "release_9_8_11": {
+    "method_change": "none",
+    "scope": "Executable relation-operation-challenge-reception gates; public meaning acquisition, concrete candidate construction before selection, transfer-to-information and visible-question binding, and disposition of material returned leads. Portable and controlled protocols share result responsibilities.",
+    "validation_limit": "Structural gates do not authenticate source execution, semantic adequacy, omitted leads, relevance, host interception, or behavioral stability. Exact candidate evaluation is separate."
+  },
+  "release_9_8_12": {
+    "direct_baseline": "9.8.11",
+    "method_change": "none",
+    "restored_dialogue_basis": "Complete 9.8.10 semantic text retained, with a compatibility addendum for current runtime, intent continuation and precision.",
+    "scope": "Default full dialogue and concrete exact-draft review; inner evidence loop and outer raw-outcome reconstruction; conditional transfer and category-driven acquisition; bidirectional point/action construction with visible point ranking and separate mapped actions; dependency-proportionate controlled recording.",
+    "code_change": "cognitive_work.py accepts an evidenced not_selected transfer disposition while retaining raw-input challenge, reception, version, acquisition, comparison and exact-draft gates. Legacy support scripts unchanged.",
+    "validation_limit": "Engineering checks do not prove semantic quality, complete discovery, source truth or host enforcement. Frozen ordinary-chat behavior evidence is separate.",
+    "candidate2_scope": "Two existing handoffs only: feedback claims checked against actual prior delivery while receiving user experience/changed requirements; action value compared with what the user already knows, can use, has done or is improving. No additional program gate or dialogue change.",
+    "candidate3_scope": "Scoped negative/exception evidence is tested against the exact candidate prediction before exclusion or preference updates; uncovered material conditions remain live downstream. Exact-answer review checks exclusion claims and the information/action branches they remove. No program gate or dialogue change.",
+    "candidate4_scope": "Separate reported change from proposed cause when receiving evidence; generated mechanism steps remain explanatory/predictive unless supported as events, and cannot be recycled as evidence for their originating hypothesis. Exact-answer review preserves abductive strength while tracing causal evidence identity through headings, summaries and later reception. No statistical-independence requirement or program gate."
+  },
+  "release_9_9_0": {
+    "direct_baseline": "9.8.12 frozen checkpoint4",
+    "method_change": "none",
+    "dialogue_change": "none; exact original bytes",
+    "scope": "Ordinary-chat current-work reception, actual versioned reads/updates and draft binding in capable hosts; operation-result interfaces, raw-material challenge reception, constructive opportunity discovery, bidirectional change generation and argument-first review.",
+    "code": "New optional standard-library current_work.py adapter; five existing scripts retained byte-for-byte.",
+    "validation_limit": "Identity, structure and registered-version checks only. No semantic certification, runtime model call, independent-context authentication or host-send interception. Behavioral and actual-host evidence separate.",
+    "checkpoint3_scope": "Exact disposition coverage for all registered non-retired challenges at bind/verify; current received reception versions or evidenced deferred/excluded target effects. No semantic adequacy or isolation certification.",
+    "checkpoint4_scope": "Registered information affects consumed at current versions; unresolved delivery ancestry has exact per-target conditional/robust/withdrawal dispositions and artifact identity. Actual comparison and conclusion responsibilities remain semantic work, not program certification.",
+    "checkpoint5_scope": "Raw-request scope recovery before main-route narrowing; atomic declared findings and exact reception into current result versions for operations and challenges. Explicit empty findings with basis permitted. Structural closure only, not semantic completeness.",
+    "checkpoint6_scope": "Evidence-discrimination operation consumes raw scope and compatible no-mechanism alternatives; exact optional source quotes and historical claim identity/diff. No causal or semantic certification; multimodal sources retained.",
+    "checkpoint7_scope": "Evidence discrimination includes future/conditional/counterfactual decisions; declared rules bind exact owner version and trigger/judgment/action identity to separate inference/action grounds and comparison artifacts. Only declared coverage is mechanical.",
+    "checkpoint8_scope": "Original producer result identity and exact declared finding preservation; full-original-to-current reception comparison with reconcile output; explicit route scope distinguishes personal lead from robust default. No semantic completeness or independent-tool authentication.",
+    "checkpoint9_scope": "Coverage report bytes must be nonempty; explicitly textual reports must be nonblank UTF-8. Generic artifact and binary/multimodal identity remain unchanged; no semantic-quality certification.",
+    "checkpoint10_scope": "Unified operation/challenge original-result reception and full declared discovery coverage, including directly referenced and changed-result artifacts; actual selections bind current constructed proposal versions/artifacts/dependencies. Semantic adoption-chain sufficiency remains independent review.",
+    "checkpoint11_scope": "Recompute substantive downstream claims after removing unsupported premises; unresolved-information dispositions cover affected substantive delivery ancestry, not only terminal targets. Independent goals and robust ready actions remain allowed; undeclared or false semantic grounds are not certified.",
+    "checkpoint12_scope": "Focused same-round raw-difference/candidate/discriminating-information loop; inference identity constrains downstream use without excluding hypotheses; substantive intervention-point explanations. Reuses existing adapter and full-original reception, no additional gate or review layer.",
+    "checkpoint13_scope": "Reverse coverage from important original request differences to current relations or open information/value-based disposition, including candidate-free gaps in information choice and completion. Existing declared finding coverage only; no semantic exhaustiveness guarantee or new review layer.",
+    "checkpoint14_scope": "Reception-before-compression: retain observation conditions/treatments/unknown scope and full material information needs before selecting acquisition or summarizing; exact claim and downstream premise reception. Existing identity/declared coverage only, no semantic certification.",
+    "checkpoint15_scope": "Pre-model material-intake task loaded at entry: receive raw source scope and all material explanatory needs before main generation; real independent context when available, honest reread fallback. Reuses declared versions/coverage without semantic or host-scheduler certification.",
+    "checkpoint16_scope": "Optional declared independent required_facts preserved exactly into information obligations with immutable original-return/anchor identity, per-fact state/evidence, and cross-version retention or prior evidenced retirement. Legacy undeclared records compatible; no semantic completeness or answer-sufficiency certification."
+  },
+  "release_10_0_0": {
+    "baseline": "9.9.0-rechecked-cp16",
+    "baseline_zip_sha256": "b6647037af5486acf144739924f1bf81a37172b8332b85a680b3be5d8d3e0799",
+    "change_type": "Implemented runtime and portable skill refactor, not only prose constraints",
+    "actual_runtime_modes": [
+      "native host job bridge",
+      "authorized OpenAI API"
+    ],
+    "guarantee_scope": "Observable structure, declared dependencies, receipts and control flow; not hidden semantic truth or native host internals.",
+    "deterministic_tests": 83,
+    "live_model_tested": false,
+    "native_end_to_end_tested": false,
+    "private_cases_included": false,
+    "verification_status": "verification/status.json",
+    "history_scope": "All release_9_* metadata describe past releases only; current entry and capability map supersede old runtime assertions."
+  },
+  "release_10_1_0": {
+    "baseline": "10.0.0",
+    "baseline_zip_sha256": "f3f8ac1e24b508ec78f4590f6d2f5b61d054f8dc29ac731ab9db2acbdc46defc",
+    "change_type": "Observable first-turn gap discovery and output-burden correction; schema and controller changed, not just more prompt text",
+    "independent_raw_calls": 3,
+    "first_pass_boundary_gate": true,
+    "conditional_entry_repair": true,
+    "default_visible_questions": null,
+    "default_max_question_characters": 220,
+    "deterministic_tests": 88,
+    "live_model_tested": false,
+    "native_model_e2e_tested": false,
+    "private_cases_included": false,
+    "verification_status": "verification/status.json",
+    "limit": "Structured process compliance is checked; generative truth and semantic discovery success are not guaranteed.",
+    "question_count_limit_patch": "Removed in 2026-10-18 retest; no count cap for visible questions."
+  },
+  "release_10_2_0": {
+    "baseline": "10.1.0",
+    "baseline_zip_sha256": "99e0bb4a3ccece6af1d6a094602f93129cd2b732caac5ab63bba4164f078e81d",
+    "change_type": "Source-anchored phenomenon map, early raw blind challenge, structurally checked causal coverage and real independent repair recheck; changed Python schemas/engine/test, not merely text",
+    "initial_raw_independent_jobs": [
+      "frame",
+      "discovery",
+      "reframe",
+      "contrast_probe"
+    ],
+    "blind_challenge_before_first_review": true,
+    "first_pass_review_may_expand_raw_focus": true,
+    "independent_review_after_repair": true,
+    "failed_gap_delivery": "provisional or needs_information, never complete",
+    "trace_cli": true,
+    "deterministic_tests": 101,
+    "live_model_tested": false,
+    "chatgpt_skill_e2e_tested": false,
+    "private_cases_included": false,
+    "verification_status": "verification/status.json",
+    "limit": "Deterministic process checks, not proof of semantic discovery, causation or model capability gain.",
+    "question_count_limit_patch": "Removed in 2026-10-18 retest; 10.2.0 architecture otherwise retained."
+  },
+  "release_10_2_1": {
+    "baseline": "StateDyne-10.2.0-no-question-cap.zip",
+    "baseline_zip_sha256": "4c1f8a46d0358ea3fc73b1a253c932686289f6a4529eb17b5b86dac57ec44c20",
+    "change_type": "Retained 10.2 source-anchored independent discovery, added choice-impact information routing and visible intervention delivery contracts",
+    "new_document": "references/decision-frontier.md",
+    "additional_default_agent_rounds": 0,
+    "default_question_count_limit": null,
+    "default_question_character_limit": null,
+    "visible_intervention_sections": [
+      "point",
+      "action",
+      "plan"
+    ],
+    "structured_fields": [
+      "draft.delivery_units",
+      "draft.delivery_limit_reason",
+      "information_dispositions.decision_effect",
+      "information_dispositions.fallback_if_unknown"
+    ],
+    "deterministic_tests": 119,
+    "live_gpt_5_6_evaluated": false,
+    "chatgpt_skill_e2e_evaluated": false,
+    "private_case_included": false,
+    "limit": "Data and stage visibility are verifiable; causal truth, value interpretation and actual benefit require model and real-world validation."
+  },
+  "release_10_4_0": {
+    "based_on": "StateDyne-10.2.1.zip",
+    "based_on_sha256": "25ecd9d649f665f9590122600a3721fcaf37bfaa47593e71a62b2e6416ae829b",
+    "change_type": "Six raw-only parallel workers (including blind+environment), persistent opportunity frontier, search-plan parallel independent tasks, real stage continuation, optional attributed external-source import, effect-first intervention and next-step contracts.",
+    "new_runtime_schemas": [
+      "search_plan"
+    ],
+    "new_operator": [
+      "environment_scout",
+      "environment",
+      "transfer"
+    ],
+    "deterministic_test_count": 128,
+    "real_model_evaluation": false,
+    "method_changed": false,
+    "engineering_spec_changed": false,
+    "question_count_cap": null
+  },
+  "release_10_5_0": {
+    "date": "2026-10-18",
+    "focus": "Cross-domain model-external and evidence-first post-merge frontier sweeps, shared-source research leads, adaptable genuine concurrency, explicit hosted web-search option",
+    "scope": "Controlled runner and portable instructions; actual semantic capability must be independently tested"
+  },
+  "release_10_6_0": {
+    "date": "2026-10-18",
+    "baseline": "10.5.0",
+    "focus": "Unify full cognitive discovery for all open-ended tasks regardless of daily/technical topic; guard against repeat-only independent raw branches and clarify actual host limits.",
+    "new_portable_protocol": "references/portable-discovery.md",
+    "repeated_raw_output_checker": "scripts/sd_runtime/diversity.py",
+    "test_count": 143,
+    "live_model_tested": false,
+    "chatgpt_skill_e2e_tested": false,
+    "question_count_limit": "none",
+    "private_test_cases_included": false
+  },
+  "release_10_7_0": {
+    "date": "2026-10-18",
+    "baseline": "10.6.0",
+    "focus": "Unify skill-level cognition across native chat and optional controlled worker execution; no capability tiers by task form or tool availability.",
+    "entry": "SKILL.md",
+    "unified_discovery": "references/portable-discovery.md",
+    "runtime": "references/runtime.md",
+    "previous_engine_behaviors_preserved": true,
+    "previous_method_bytes_preserved": true,
+    "question_count_limit": "none",
+    "tests_total": 151,
+    "real_model_tested": false,
+    "chatgpt_skill_e2e_tested": false,
+    "multiagent_in_chatguaranteed": false,
+    "personal_case_data_bundled": false
+  },
+  "release_10_8_0": {
+    "focus": "automatic_real_delegation_when_host_permits_and_discovery_to_evidence_bridge",
+    "skill_entry": "Open analysis checks host worker availability first; uses real independent workers when available and permitted; never invents receipts.",
+    "runner": "Novel source-blind predictions without linked source-routed discriminating unknowns cause targeted entry repair or honest provisional release.",
+    "limits": "No real GPT-5.6 calls, ChatGPT Skill end-to-end trials or general cognition-success guarantees."
+  },
+  "release_10_9_0": {
+    "direction": "Make independent model-outside hypotheses and cross-event predictions change first-pass analysis before premature stable-summary closure.",
+    "implementation": [
+      "Different raw worker cognitive deliverables",
+      "Move two differentiated discovery/acquisition sweeps before independent first-pass review",
+      "Introduce claim-linked search_space_assessment",
+      "Allow re-open if outside-model search missing even when all old phenomena superficially explained",
+      "Bridge frontier_scout new claims to routed discriminating questions and protect the claim in final editing"
+    ],
+    "limits": "Structural/protocol validation cannot verify real semantic discovery. No real GPT-5.6 runs or ChatGPT host validation.",
+    "questions_unbounded": true,
+    "method_untouched": true
+  },
+  "release_10_10_0": {
+    "summary": "Epistemic questions are valuable when they alter an explanatory model, open a testable model-outside mechanism, change prediction, or change action; not only the current choice.",
+    "actual_changes": [
+      "new inquiry_frontier.py maintains worker-claim-prediction-unknown provenance and investigation status",
+      "allow explanatory and predictive user-held discriminator questions",
+      "real acquire attempt for important obtainable model-outside evidence before stopping",
+      "new high-value candidate disposition must be visible when deferred and still conditionally used",
+      "single-run simulated end-to-end acquire and delivery verified"
+    ],
+    "scope": "single full capability skill; no fixed question or candidate count",
+    "limitations": "No real GPT-5.6 blind test or ChatGPT host e2e performed."
+  },
+  "release_10_11_0": {
+    "purpose": "independent hypothesis tournament from whole candidate space; admit both discriminating probes of current models and executable searches for unrepresented mechanisms; dual-sided intervention search",
+    "actual_changes": [
+      "probe_portfolio schema/independent role and candidate-to-information registration",
+      "previously absent relation families become executable reframe opportunities rather than passive prose",
+      "probe priorities cannot be silently downgraded while active hypothesis selected",
+      "change_forward and change_backward search from causal model and desired goal respectively",
+      "same cognitive quality contract for normal ChatGPT Skill and optional actual multiworker engine"
+    ],
+    "limitations": "Live model capability, semantic novelty, browser @Skill execution and psychological intervention effectiveness are not verified in this environment."
+  },
+  "release_10_12_0": {
+    "purpose": "objective-bounded system-map coverage, immediate discovery priority and additive evidence delta updates",
+    "actual_changes": [
+      "independently sourced system-map coverage with 11 baseline but extensible material dimensions",
+      "material system gaps become executable inquiry/search work and must be dispositioned by independent boundary review",
+      "immediate priority for unrepresented high-value models and obtainable evidence",
+      "incremental updates: local new evidence recomputes impacted relations; changed goal or corrected source triggers global rebuild",
+      "visible goal before intervention points, actions and integrated plan"
+    ],
+    "limits": "No live LLM accuracy/performance or ChatGPT Skill E2E proven; no guarantee of discovering every hidden real-world relationship."
+  },
+  "release_10_13_0": {
+    "date": "2026-10-19",
+    "major_change": "independent load-bearing premise and decision audit; numerical replay; pre-release recheck if premises changed",
+    "scope": "generic causal, economic, mathematical and human/organizational reasoning, not tailored to any private case",
+    "validation": "238 deterministic structural tests, strict source file hashes, native wait-for-real-workers smoke; no actual model blind test",
+    "method_unchanged": true,
+    "engineering_archive_unchanged": true
+  },
+  "release_10_14_0": {
+    "focus": [
+      "prediction-first natural recollection probes, with counter-cues and opt-out",
+      "independent latest-utterance scope permission when auto wants to jump ahead",
+      "meaning-preserving frontstage translation instead of homegrown technical labels"
+    ],
+    "changes": [
+      "PROBE schema/user-inquiry bridge",
+      "as-needed scope_intent job",
+      "frontstage static gate and independent semantic review",
+      "new guidance for source-grounded memory prompting and natural explanation"
+    ],
+    "validation": "254 deterministic tests; source-only native smoke and strict manifest verification; no real model blind test",
+    "author_theory_untouched": true
+  },
+  "release_10_16_0": {
+    "date": "2026-10-19",
+    "change": "User-requested optional open-frontier exploration, preserving prior work and adding model-outside and intra-class differences before independent review.",
+    "new_operator": "open_search",
+    "new_cli": "expand --workdir ... [--focus ...]",
+    "default_initial_workers_unchanged": true,
+    "semantic_effect_proven": false,
+    "method_and_spec_unchanged": true
+  },
+  "release_10_17_0": {
+    "date": "2026-10-19",
+    "change": "Question rationale group before user interview, divergent answer implications, honest unknown path, next-turn payoff reconciliation.",
+    "default_initial_workers_unchanged": true,
+    "real_model_tested": false,
+    "method_and_spec_unchanged": true
+  },
+  "release_10_18_0": {
+    "date": "2026-10-19",
+    "change": "Separate strict internal information-discrimination contract from natural frontstage question explanation; a single answer anchor for real followup value; novelty-aware ordering within same priority.",
+    "schema_changes": [
+      "visible_purpose -> analytic_purpose",
+      "question_payoff fields -> evidence_gained/still_unknown/answer_anchor"
+    ],
+    "default_initial_workers_unchanged": true,
+    "no_fixed_question_cap": true,
+    "semantic_effect_proven": false,
+    "model_tested": false,
+    "method_and_spec_unchanged": true,
+    "deterministic_tests": 331
+  },
+  "release_10_19_0": {
+    "date": "2026-10-19",
+    "focus": "Independent out-of-model exploration receipts; forecast/innovation stress test; paired blind scoring and resource diagnostics.",
+    "baseline": "10.18.0",
+    "tests": "362 deterministic software/contract tests, 0 live model calls; semantic improvement not yet tested",
+    "agent_policy": "No increase in default agents or fixed question count",
+    "schema_break": "New required probe_portfolio.exploration_attempts and load_bearing.robustness_checks; prior 10.18 workspaces need migration or new workspace."
+  },
+  "release_10_20_0": {
+    "baseline": "10.19.0 packaged user upload, preserved original method and engineering archive",
+    "features": [
+      "proactive original first-wave outside-model predictions and non-leading recognition prompts",
+      "conditionally grounded but decisive inference without false historical/data precision",
+      "public-domain self-acquisition, independent evidence-driven model reframe",
+      "numeric net incremental impact bridge and honest unknown counterfactual",
+      "abstract cross-task paired/negative-control regression contract"
+    ],
+    "test_suite": "384 synthetic protocol and implementation tests passed; no real model blind tests in this release",
+    "real_workers": "native smoke produced 7 unexecuted pending worker requests; zero live worker receipts"
+  },
+  "release_10_21_0": {
+    "baseline": "10.20.0 full package, preserves original method and engineering archive",
+    "features": [
+      "Always-on strongest quality, real worker dispatch first when host capability permits",
+      "No fixed cognitive exploration or question count, and remove synthetic 3-question truncation",
+      "Parallel fair queuing of high-value model gap and obtainable evidence search",
+      "Quality kernel injected into every real worker role",
+      "Preserves independent first-wave, evidence-triggered reframe and net incremental effect checks"
+    ],
+    "test_suite": "399 software/contract/simulation tests passed. No real-model blind tests or ChatGPT @ host end-to-end run.",
+    "real_workers": "Native smoke creates 7 pending jobs, zero real receipts. Actual multi-agent invocation requires host tool support."
+  },
+  "release_10_22_0": {
+    "baseline": "10.21.0 verified full package",
+    "focus": "Generic causal intervention point depth, ranking, genuinely novel bundle interactions, second change-formation chain, strict conversational stage boundaries and natural frontstage",
+    "worker_change": "New independent change_portfolio runs after simultaneous forward/backward point discovery and before ranking; new protocols loaded by change/compose/audit workers.",
+    "stage_policy": "Separate points, actions and plan across user turns by default; request for full delivery permits ordered single-turn stages; evidence and old audited releases retained.",
+    "software_tests": "415 synthetic engineering and protocol tests passed, including 11 points/no cap and premature phase regression.",
+    "real_models_tested": false,
+    "chatgpt_at_host_e2e_tested": false,
+    "native_smoke": "7 pending independent first-wave requests, no real worker receipts",
+    "method_and_spec_unchanged": true
+  },
+  "release_10_23_0": {
+    "baseline": "10.22.0 verified full package",
+    "focus": "Natural prose instead of backstage matrices, dual point-action feasibility before ranking, reuse verified stages without repeating unchanged search, preserve all quality gates",
+    "action_probe": "Independent change_action_probe parallel to change_portfolio on same frozen point pool; its action candidates are backstage only in points stage",
+    "state_cache": "Audited published points + backstage preflight reused only on authorized unchanged follow-up; new evidence/goal invalidates",
+    "engineering_tests": "427 synthetic engineering and protocol tests passed; does not establish live cognitive improvements",
+    "real_models_tested": false,
+    "chatgpt_at_host_e2e_tested": false,
+    "method_and_spec_unchanged": true
+  },
+  "release_10_24_0": {
+    "baseline": "10.23.0 verified complete release",
+    "features": [
+      "two new genuinely independent first-wave roles: goal_scout and selection_scout, in addition to all seven original workers",
+      "typed source-grounded goal and multidimensional value review, no implicit user preference or objective replacement",
+      "goal and selection findings enter user-held/public evidence information discovery and real final compose/audit",
+      "preserve point-stage scope on explicit post-release expansion; require independently valuable incremental points without replaying old list",
+      "parallel goal/system reconciliation on new evidence, earlier existing point/action backstage reuse when facts unchanged",
+      "fix concatenation of compose/audit goal and selection guidance with intervention/change guidance",
+      "universal environment including negative control for nonexistent secret selection rules"
+    ],
+    "engineering_tests": 443,
+    "real_models_tested": false,
+    "chatgpt_at_host_e2e_tested": false,
+    "native_smoke": "nine distinct pending independent worker requests, zero executed worker receipts",
+    "quality_and_latency_effect": "not established by deterministic tests",
+    "method_and_spec_unchanged": true
+  },
+  "release_10_25_0": {
+    "baseline": "10.24.0",
+    "primary_goal": "Raise general-purpose model-external relational discovery and maintain naturally visible next-step continuity through supplementary questions.",
+    "new_independent_role": "relation_scout",
+    "first_wave_raw_roles": 10,
+    "new_documents": [
+      "references/relational-structure.md",
+      "references/continuation-contract.md",
+      "references/operators/relation_scout.md"
+    ],
+    "primary_implementation": [
+      "scripts/sd_runtime/engine.py",
+      "scripts/sd_runtime/store.py",
+      "scripts/sd_runtime/schemas.py",
+      "scripts/sd_runtime/cli.py",
+      "agents/openai.yaml",
+      "SKILL.md"
+    ],
+    "regression_tests": 454,
+    "reproducible_bug_fix": "generation-only task caching erroneously replayed a points schedule for later side_question analysis; delivery_cycle isolation creates new model work requests.",
+    "genuine_independent_model_calls_in_release": 0,
+    "proven": "structure and deterministic software contracts only; no asserted real-model quality or platform next button guarantees",
+    "protected_method_body_changed": false,
+    "protected_spec_changed": false,
+    "cognitive_question_cap": null
+  },
+  "release_10_26_0": {
+    "baseline": "10.25.0",
+    "primary_goal": "Close consequential unknowns and connect audited quantified findings consistently to all visible summary claims without imposing fixed exploration or question limits.",
+    "new_documents": [
+      "references/information-followthrough.md",
+      "references/result-consistency.md"
+    ],
+    "primary_implementation": [
+      "scripts/sd_runtime/material_unknowns.py",
+      "scripts/sd_runtime/conclusion_integrity.py",
+      "scripts/sd_runtime/store.py",
+      "scripts/sd_runtime/schemas.py",
+      "scripts/sd_runtime/engine.py",
+      "scripts/compare_runs.py",
+      "references/operators/audit.md",
+      "references/operators/compose.md",
+      "references/operators/schedule.md",
+      "SKILL.md"
+    ],
+    "regression_tests": 472,
+    "first_wave_raw_roles": 10,
+    "live_model_calls_in_release": 0,
+    "proven": "structure, state integrity, scoped quantity agreement and synthetic test logic; not actual model prediction, user UI or native multi-agent execution",
+    "original_method_unchanged": true,
+    "original_engineering_spec_unchanged": true,
+    "cognitive_question_cap": null,
+    "cognitive_exploration_default_limit": null
+  },
+  "release_10_27_0": {
+    "version": "10.27.0",
+    "focus": "source-grounded numeric facts, independent unit arithmetic, public-source audit, preserved open research",
+    "base_release": "10.26.0",
+    "engineering_tests": 491,
+    "real_model_tested": false,
+    "host_e2e_verified": false,
+    "new_files": [
+      "scripts/sd_runtime/numeric_provenance.py",
+      "tests/test_10270.py",
+      "references/numeric-source-trace.md"
+    ]
+  },
+  "release_10_28_0": {
+    "version": "10.28.0",
+    "description": "portable uniform cognition and strict target/action linkage",
+    "from": "10.27.0",
+    "original_method_and_spec_byte_identical": true,
+    "baseline_tests": 491,
+    "new_tests": 22,
+    "total_tests": 513,
+    "real_five_model_run": false,
+    "entry_archive": "engineering/history/10.27.0/SKILL.md",
+    "new_protocols": [
+      "references/cross-model-contract.md",
+      "references/outcome-intersection.md",
+      "engineering/cross-model-adapter.md"
+    ],
+    "independent_structural_reviews": [
+      "objective_join_reviews",
+      "action_point_reviews"
+    ]
+  },
+  "public_release": {
+    "release_version": "11.2.0",
+    "edition": "Full-strength uniform skill and plugin delivery; visible intervention and action-combination audit; user-grounded continuation",
+    "core_policy": "Evolving reality model and agenda over rigid stages; goal alternatives before closure; independent evidence, new relationships, point/action effects; no forced novelty.",
+    "public_private_materials": "Private case records and original sensitive user narratives excluded; synthetic tests kept",
+    "live_model_calls_during_packaging": 0,
+    "directory": "statedyne"
+  },
+  "release_10_29_0": {
+    "version": "10.29.0",
+    "from": "10.28.0 GitHub publication edition",
+    "description": "Long-horizon main-task continuity and non-forced higher-value independent problem reframing",
+    "engineering_tests": 525,
+    "new_synthetic_regressions": 12,
+    "first_wave_raw_roles": 10,
+    "added_worker_roles": [
+      "turn_router",
+      "value_frontier"
+    ],
+    "new_protocols": [
+      "references/long-horizon-autonomy.md",
+      "references/high-value-reframing.md",
+      "references/operators/turn_router.md",
+      "references/operators/value_frontier.md"
+    ],
+    "changed_implementation": [
+      "scripts/sd_runtime/engine.py",
+      "scripts/sd_runtime/store.py",
+      "scripts/sd_runtime/schemas.py",
+      "scripts/sd_runtime/cli.py",
+      "tests/test_runtime.py",
+      "tests/test_10290.py"
+    ],
+    "independent_model_calls_in_release": 0,
+    "native_pending_worker_requests_smoke": 10,
+    "honest_no_increment_expansion": true,
+    "no_forced_novelty": true,
+    "no_fixed_cognitive_search_cap": true,
+    "method_and_original_spec_unchanged": true,
+    "proven": "deterministic structural/state/receipt behavior; no claim of live model superiority, cross-host equivalence or autonomous off-session messaging"
+  },
+  "release_10_30_0": {
+    "version": "10.31.0",
+    "based_on": "10.29.0 GitHub Ready",
+    "change_type": "Executable orchestration, authoring protocol and packaging repair (not claims of live model superiority)",
+    "baseline_engineering_tests": 525,
+    "new_engineering_tests": 11,
+    "expected_engineering_tests": 536,
+    "first_wave_raw_roles": 10,
+    "new_pre_release_raw_role": "breakthrough_scout",
+    "expansion_parallel_roles": [
+      "open_search",
+      "breakthrough_scout"
+    ],
+    "new_documents": [
+      "references/breakthrough-engine.md",
+      "references/operators/breakthrough_scout.md"
+    ],
+    "new_execution_module": "scripts/sd_runtime/breakthrough.py",
+    "single_active_skill_entry": true,
+    "archived_prior_entry": "engineering/history/10.27.0/archived-entry-10.27.md",
+    "actual_live_model_evaluated": false,
+    "actual_host_install_verified": false,
+    "method_and_history_sources_retained_byte_identical": true,
+    "main_changes": [
+      "symmetric source-grounded auto stage intent for analysis, points, actions and plan",
+      "new preclosure raw-blind value representation joined to original hypothesis tournament",
+      "parallel incumbent and raw-blind expansion and new-evidence reopening",
+      "persistent queryable research frontier and correct main-stage restoration after tangents/refusal",
+      "same-turn point plus concrete action when action is explicitly requested"
+    ]
+  },
+  "release_10_31_0": {
+    "status": "engineering verified, live model and remote host import unverified",
+    "synthetic_test_total": 539,
+    "synthetic_new_tests": 3,
+    "test_command": "python scripts/run_test_groups.py",
+    "test_group_counts": [
+      195,
+      116,
+      104,
+      124
+    ],
+    "changes": [
+      "do not relabel user already-reported facts as novel discovery",
+      "discriminating prediction and strong alternative before confident closure",
+      "composer/scheduler/auditor/route worker novelty review",
+      "isolated state for explicitly independent new goal",
+      "ordinary tangent preserves existing primary work",
+      "single-entry installer and full GitHub archive"
+    ],
+    "capability_improvement_proven": false,
+    "real_model_comparative_tested": false,
+    "remote_installer_tested": false
+  },
+  "release_11_0_0": {
+    "method_unchanged": true,
+    "version": "11.0.0",
+    "new_tests": 8,
+    "governing_contract": "references/generative-loop.md",
+    "research_agenda": "scripts/sd_runtime/research_agenda.py",
+    "semantic_capability_proven": false,
+    "host_import_tested": false
+  },
+  "release_11_1_0": {
+    "status": "engineering candidate awaiting real-model and host-import tests",
+    "previous_release": "11.0.0",
+    "changes": [
+      "outcome-realization value gate before generic implementation schedules",
+      "reuse user-reported effective methods and explicit prohibitions",
+      "source-grounded optional quiet current-turn reply retaining active research agenda",
+      "worker dispatch and audit instructions receive the value-realization contract",
+      "three targeted synthetic regression tests; no live cognitive quality proof"
+    ],
+    "effect_priority": "first; time only when no loss in effectiveness"
+  },
+  "release_11_2_0": {
+    "status": "Final candidate for publication; structural tests and package identity verified, live model and importer evaluation not performed",
+    "previous_release": "11.1.0",
+    "prior_tests_retained": 550,
+    "new_tests": 6,
+    "tests_total": 556,
+    "packages": [
+      "skill-root",
+      "plugin-layout",
+      "github-source"
+    ],
+    "fixed": [
+      "Visible independent point value and comparison explanations",
+      "Visible synergy and substitute conditions for claimed joint interventions",
+      "Action-plan composition must match dependencies and justify gain vs best single/no addition",
+      "All invocation paths use one exact cognitive standard and one SKILL.md",
+      "Stale version removed from agents/openai.yaml",
+      "Portable plugin directory manifest added as a separate package"
+    ],
+    "not_proven": [
+      "Live creativity, actual independent worker results, remote import acceptance or identical host resources"
+    ]
+  },
+  "release_11_2_1": {
+    "status": "Release candidate: 567 deterministic structural/synthetic tests, no live semantic superiority claims",
+    "previous_release": "11.2.0",
+    "prior_tests_retained": 556,
+    "new_tests": 11,
+    "tests_total": 567,
+    "packages": [
+      "skill-root",
+      "plugin-layout",
+      "github-source"
+    ],
+    "fixed": [
+      "Material environmental or selection unknowns get environment-specific study, even if no opportunity was emitted",
+      "Any worker-originated important unexamined relation enters active research priority without waiting for answer closure",
+      "Capacity-limited independent model/environment/evidence work queues rotate fairly",
+      "No-increment explored branches remain conditional research history and are not recommended as brand-new opportunities",
+      "Primary new evidence reopens relevant unresolved questions"
+    ],
+    "not_proven": [
+      "Real-model semantic discoveries, actual independent worker receipts, remote import acceptance, universal host parity"
+    ]
+  },
+  "release_11_3_0": {
+    "architecture": "Actual independent multi-agent outcome tournament; preserve high-value minority insights and re-open autonomous research for new decisive evidence",
+    "previous_version": "11.2.1",
+    "previous_regression_tests": 567,
+    "targeted_new_synthetic_tests": 8,
+    "current_tests": 575,
+    "not_proven": [
+      "world-class real-model quality",
+      "empirical superiority",
+      "live cross-host parity",
+      "remote plugin import acceptance"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+# Development tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Local/private runs (keep outside the repository)
+/statedyne-run/
+/runs/
+/workspaces/
+/private/
+/private-tests/
+/local-evaluation/

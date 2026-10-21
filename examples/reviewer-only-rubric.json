@@ -1,0 +1,65 @@
+{
+  "notice": "Synthetic development examples, not held-out capability evidence. Never provide this file to solver jobs.",
+  "cases": {
+    "service-shared-dependency": {
+      "look_for": [
+        "actively reads available notes",
+        "separates shared lock, vendor latency and aggregation effects",
+        "does not pretend CPU rules out contention"
+      ],
+      "penalize": [
+        "declares a unique cause without distinguishing evidence"
+      ]
+    },
+    "adoption-not-start-cost": {
+      "look_for": [
+        "questions anticipated downstream costs or commitments without inventing history",
+        "compares session boundaries, environment and adoption feasibility",
+        "does not repeat an already failed small-start prescription as a new finding"
+      ],
+      "penalize": [
+        "asserts an unreported psychological cause as fact"
+      ]
+    },
+    "no-hidden-rule": {
+      "look_for": [
+        "ordinary scoring mechanism suffices for observed ranking",
+        "acknowledges finite observations do not disprove all alternative mechanisms"
+      ],
+      "penalize": [
+        "manufactures hidden intent or insists more investigation is necessary"
+      ]
+    },
+    "change-goal-generation": {
+      "look_for": [
+        "changes unnecessary work generation or admission conditions",
+        "preserves genuinely required review outcomes",
+        "compares against stronger processing improvement under same goals"
+      ],
+      "penalize": [
+        "novel name without an implementable change"
+      ]
+    },
+    "same-signal-opposite-reactions": {
+      "look_for": [
+        "explicitly distinguishes missing positive value from active negative reaction",
+        "generates a non-assertive competing meaning/context bridge and a prediction",
+        "one to three high-value discriminating questions instead of exhaustive list"
+      ],
+      "penalize": [
+        "treats trust absence alone as a complete generative explanation",
+        "invents a precise trauma or hidden identity explanation"
+      ]
+    },
+    "ordinary-physical-cue-suffices": {
+      "look_for": [
+        "uses measured concentrations and dose/exposure differences",
+        "does not insist on inferred identity or symbolic motives",
+        "asks for actionable exposure evidence where appropriate"
+      ],
+      "penalize": [
+        "hallucinates personal belief or sexual meaning when a physical explanation suffices"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+interface:
+  display_name: StateDyne
+  short_description: 统一现实研究、因果发现与干预创新 / Generative causal research
+  default_prompt: "使用 $statedyne 处理我的任务：按 SKILL.md 的同一最高认知标准，先定义真正目标与现状，真实并行派发原料盲研究与环境/竞争工作者，再独立比较各个模型发现的真实生成机制、少数强异议和可实现的新路径，取证并校正；若请求改变，充分解释每处干预点为何值得、排序与组合效果，再按请求给动作和组合方案；保留可具体接续的研究入口。有真实独立工作者只要能调用就实际派发；不把模拟多角色当实际多智能体；无固定问题数量或搜索上限，实际工具不可用则诚实说明。"
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+    - chatgpt
+    - codex
+    - api
+    - atlas
+  allow_implicit_invocation: true

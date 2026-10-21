@@ -1,0 +1,35 @@
+{
+  "warning": "These public examples are not independent blind-model evaluation or validated real-world outcomes.",
+  "cases": [
+    {
+      "domain": "engineering",
+      "initial": "Two concurrent requests are slow but single requests are fast.",
+      "hidden_to_solver": "A remote serialization queue exists before local processing.",
+      "test": "Seek independent upstream queue and discriminate from local contention."
+    },
+    {
+      "domain": "institution",
+      "initial": "A student competition publishes five equal scoring categories. Winning projects have an apparent pattern not explained by presentation quality.",
+      "hidden_to_solver": "A published eligibility rule in another document, or no extra rule at all.",
+      "test": "Examine organizer goal and actual selection without inventing a secret cutoff."
+    },
+    {
+      "domain": "market",
+      "initial": "Usage rises rapidly while subscription additions fall.",
+      "hidden_to_solver": "Free adoption and unit margins differ across cohorts.",
+      "test": "Investigate downstream pricing, demand, costs and access to cohort data rather than declaring a single hidden market belief."
+    },
+    {
+      "domain": "behavior",
+      "initial": "A once-neutral daily cue now produces brief avoidance in one context.",
+      "hidden_to_solver": "Cross-context semantics are relevant or not, deliberately unspecified.",
+      "test": "Search independent unreported phenomena, ask only user-owned discriminators and avoid personal diagnosis."
+    },
+    {
+      "domain": "negative_control",
+      "initial": "How many centimeters are in 2.5 meters?",
+      "hidden_to_solver": "No hidden causal relation.",
+      "test": "Deliver the conversion, do not fabricate environmental or historical gaps."
+    }
+  ]
+}
