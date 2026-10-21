@@ -2,4 +2,4 @@
 
 No hidden chain-of-thought capture. Standard library only, Python >= 3.10.
 """
-__version__ = "11.3.0"
+__version__ = "0.1.0"

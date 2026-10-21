@@ -1,4 +1,4 @@
-# StateDyne 11.3.0 — Multi-agent outcome tournament release
+# StateDyne 0.1.0 (MVP) — Multi-agent outcome tournament release
 
 **Research architecture:** existing genuine parallel workers are preserved. After evidence and premise review, a separate outcome tournament compares structurally different generated pathways, including strong minority findings, against the user's protected objectives, implementation feasibility, best mature alternative and no-action baseline. Pivotal recommendations and serious dissent must receive actual user-visible treatment. A new obtainable, decision-reversing relation can re-enter autonomous research before composition. This is neither a majority vote nor a novelty quota.
 

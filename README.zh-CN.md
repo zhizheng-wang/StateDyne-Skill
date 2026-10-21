@@ -1,4 +1,4 @@
-> **11.3.0 独立成果竞争：** 正常 `@StateDyne` 在宿主具有真实多智能体能力时继续使用完整的并行研究，不削减已有角色。新增独立成果竞争工作者，不把多数相似结论当真理；对常规解、重要少数发现、新目标和可行新路径，比较真实生成过程、可证伪预测、环境条件、净价值及实现要求。关键新证据有现实可调查路径时返回研究调度器，而不是直接写一份平均化总结。未证明的创新保持条件身份。工程测试不证明真实模型已经达到世界领先。
+> **0.1.0 MVP：** 正常 `@StateDyne` 在宿主具有真实多智能体能力时继续使用完整的并行研究，不削减已有角色。新增独立成果竞争工作者，不把多数相似结论当真理；对常规解、重要少数发现、新目标和可行新路径，比较真实生成过程、可证伪预测、环境条件、净价值及实现要求。关键新证据有现实可调查路径时返回研究调度器，而不是直接写一份平均化总结。未证明的创新保持条件身份。工程测试不证明真实模型已经达到世界领先。
 
 # StateDyne
 
@@ -20,7 +20,7 @@ StateDyne 是一个面向复杂开放问题的开源 AI Skill。用户无需掌�
 
 ## 安装
 
-本仓库完整目录即 `statedyne/` 技能目录，`SKILL.md` 位于该目录根部。直接上传入口可使用 [Install ZIP](downloads/StateDyne-11.3.0-Install.zip)；要求 ZIP 内只有一个顶层技能文件夹的 OpenAI Skills API 或其他入口可使用 [Agent Skill ZIP](downloads/StateDyne-11.3.0-Agent-Skill.zip)；明确要求插件格式时使用 [Plugin ZIP](downloads/StateDyne-11.3.0-Plugin.zip)。也可以克隆仓库，再按照宿主实际支持的方式安装完整目录。
+本仓库完整目录即 `statedyne/` 技能目录，`SKILL.md` 位于该目录根部。直接上传入口可使用 [Install ZIP](downloads/StateDyne-0.1.0-Install.zip)；要求 ZIP 内只有一个顶层技能文件夹的 OpenAI Skills API 或其他入口可使用 [Agent Skill ZIP](downloads/StateDyne-0.1.0-Agent-Skill.zip)；明确要求插件格式时使用 [Plugin ZIP](downloads/StateDyne-0.1.0-Plugin.zip)。也可以克隆仓库，再按照宿主实际支持的方式安装完整目录。
 
 Codex 使用默认技能目录时可执行：
 
@@ -72,7 +72,7 @@ python scripts/run_statedyne.py trace --workdir ../statedyne-run
 
 ## 发行信息
 
-当前版本为 **11.3.0（独立成果竞争、多智能体新发现保真版）**。直接技能 ZIP、单顶层目录 Agent Skill ZIP、支持插件导入与 `@StateDyne` 的独立插件 ZIP，使用同一份技能认知协议；GitHub 包保留全部工程资料。干预点要求正文讲清生成机制、独立净价值、与强替代的排序理由；组合点和动作的实际联合条件与额外收益不得只留在后台审核字段。插件安装不会自动提供真实多智能体、检索或持久化权限。目标与现状校准、前置高价值目标搜索、不同生成机制竞争、主动取证、跨领域新关系及干预点重新比较贯穿研究，不受线性交付阶段限制。保留 Apache-2.0、署名 **Zhizheng Wang / 王之政**、原方法正文与历史工程规格。详见 [发布核验说明](verification/PUBLICATION_REPORT.md) 与 [历史版本说明](engineering/history/10.28.0/README.legacy.zh-CN.md)。
+当前版本为 **0.1.0（MVP）**。直接技能 ZIP、单顶层目录 Agent Skill ZIP、支持插件导入与 `@StateDyne` 的独立插件 ZIP，使用同一份技能认知协议；GitHub 包保留全部工程资料。干预点要求正文讲清生成机制、独立净价值、与强替代的排序理由；组合点和动作的实际联合条件与额外收益不得只留在后台审核字段。插件安装不会自动提供真实多智能体、检索或持久化权限。目标与现状校准、前置高价值目标搜索、不同生成机制竞争、主动取证、跨领域新关系及干预点重新比较贯穿研究，不受线性交付阶段限制。保留 Apache-2.0、署名 **Zhizheng Wang / 王之政**、原方法正文与历史工程规格。详见 [发布核验说明](verification/PUBLICATION_REPORT.md) 与 [历史版本说明](engineering/history/10.28.0/README.legacy.zh-CN.md)。
 
 ## 11.1 安装提示
 

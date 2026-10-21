@@ -30,7 +30,7 @@ class Workspace:
         self.state = read_json(self.path)
         if self.state.get("schema_version") != 2:
             raise StateDyneError("Unsupported workspace schema")
-        if self.state.get("skill_version") not in {"11.0.0", "11.1.0", "11.2.0", "11.2.1", "11.3.0"}:
+        if self.state.get("skill_version") not in {"11.0.0", "11.1.0", "11.2.0", "11.2.1", "11.3.0", "0.1.0"}:
             raise StateDyneError("Incompatible previous StateDyne workspace; start a fresh run from the authorized task and materials. No automatic mutation of earlier runs")
 
     @classmethod
@@ -63,7 +63,7 @@ class Workspace:
         for key in ("max_repairs", "max_entry_repairs", "max_tool_rounds", "max_retries"):
             if type(cfg[key]) is not int or cfg[key] < 0:
                 raise StateDyneError(f"{key} must be a nonnegative integer")
-        state = {"schema_version": 2, "skill_version": "11.3.0", "revision": 0,
+        state = {"schema_version": 2, "skill_version": "0.1.0", "revision": 0,
                  "generation": 1, "phase": "discover", "delivery_cycle": 0, "backend": backend, "model": model,
                  "scope": scope, "config": cfg, "created_at": utc_now(), "sources": {},
                  "claims": {}, "unknowns": {}, "work_results": [], "jobs": {},

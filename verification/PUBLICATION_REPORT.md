@@ -1,4 +1,4 @@
-# StateDyne 11.3.0 — publication, paths and compatibility
+# StateDyne 0.1.0 (MVP) — publication, paths and compatibility
 
 **Publication candidate, structural checks only.** A single `SKILL.md` cognitive core is assembled into four ZIP layouts:
 
@@ -9,7 +9,7 @@
 
 Every distribution contains exactly one active SKILL.md and no second historical skill entry. The publishable repository carries the four generated archives and their SHA-256 manifest under `downloads/`; the validator checks archive paths, CRC, file count, size limits, expected entry location and source-byte identity. The earlier 10.31 stale version reference in `agents/openai.yaml` has been replaced with a versionless invocation of the current full-strength skill. No 'light reasoning' alternative is shipped.
 
-The release preserves the original method manuscript bytes and engineering archive, Apache-2.0 and author attribution; synthetic tests do not reproduce private conversation cases. Release source manifests track exact byte identity and repository link targets. SHA-256 archive digests are in the separately emitted `StateDyne-11.3.0-SHA256.txt`.
+The release preserves the original method manuscript bytes and engineering archive, Apache-2.0 and author attribution; synthetic tests do not reproduce private conversation cases. Release source manifests track exact byte identity and repository link targets. SHA-256 archive digests are in the separately emitted `StateDyne-0.1.0-SHA256.txt`.
 
 ## Final bridge audit
 

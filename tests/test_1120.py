@@ -98,7 +98,7 @@ class UniformEntryAndDistributionTests(unittest.TestCase):
         self.assertIn('同一最高认知标准',yaml)
         self.assertIn('只要能调用就实际派发',yaml)
         self.assertNotIn('10.31.0',yaml)
-        self.assertEqual(__version__,'11.3.0')
+        self.assertEqual(__version__,'0.1.0')
 
     def test_all_install_and_source_distributions_are_byte_identical(self):
         with tempfile.TemporaryDirectory() as folder:

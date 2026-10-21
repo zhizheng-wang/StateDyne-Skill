@@ -40,7 +40,7 @@
 
 **StateDyne 研究的，就是这些被忽略的生成关系：找到真正改变结果的位置，而不只是增加解决问题的方法。**
 
-**当前版本：MVP · 11.3.0**
+**当前版本：0.1.0（MVP）**
 
 [安装技能](#安装技能) · [亲自挑战](#亲自挑战) · [开源方法](references/method.zh-CN.md) · [技术说明](engineering/guide.md)
 
@@ -52,13 +52,13 @@
 
 | 你的安装入口 | 下载 | ZIP 解压后的结构 |
 | --- | --- | --- |
-| 上传后要求直接看到 `SKILL.md` | [StateDyne-11.3.0-Install.zip](downloads/StateDyne-11.3.0-Install.zip) | `SKILL.md` 位于 ZIP 根目录 |
-| OpenAI Skills API，或要求“一个顶层技能文件夹”的入口 | [StateDyne-11.3.0-Agent-Skill.zip](downloads/StateDyne-11.3.0-Agent-Skill.zip) | `statedyne/SKILL.md` |
-| 明确要求上传插件包的兼容宿主 | [StateDyne-11.3.0-Plugin.zip](downloads/StateDyne-11.3.0-Plugin.zip) | `plugin.json` 与 `skills/statedyne/SKILL.md` |
+| 上传后要求直接看到 `SKILL.md` | [StateDyne-0.1.0-Install.zip](downloads/StateDyne-0.1.0-Install.zip) | `SKILL.md` 位于 ZIP 根目录 |
+| OpenAI Skills API，或要求“一个顶层技能文件夹”的入口 | [StateDyne-0.1.0-Agent-Skill.zip](downloads/StateDyne-0.1.0-Agent-Skill.zip) | `statedyne/SKILL.md` |
+| 明确要求上传插件包的兼容宿主 | [StateDyne-0.1.0-Plugin.zip](downloads/StateDyne-0.1.0-Plugin.zip) | `plugin.json` 与 `skills/statedyne/SKILL.md` |
 
 如果安装界面只写着“上传技能”，通常先使用 **Install ZIP**；如果它明确要求 ZIP 中只有一个顶层技能目录，则使用 **Agent Skill ZIP**。不要把完整 GitHub 源码仓库误当成直接安装包：源码仓库还包含测试、工程档案和发布核验材料。
 
-所有下载文件的校验值见 [SHA-256 清单](downloads/StateDyne-11.3.0-SHA256.txt)。实际能否使用 `@StateDyne`、`$statedyne`、联网检索、独立智能体或跨会话状态，取决于宿主真实提供并授权的能力；安装技能不会自行增加这些权限。
+所有下载文件的校验值见 [SHA-256 清单](downloads/StateDyne-0.1.0-SHA256.txt)。实际能否使用 `@StateDyne`、`$statedyne`、联网检索、独立智能体或跨会话状态，取决于宿主真实提供并授权的能力；安装技能不会自行增加这些权限。
 
 ### 从源码安装
 
@@ -120,7 +120,7 @@ python scripts/run_statedyne.py doctor
 
 ## 当前发行
 
-- 版本：**11.3.0（MVP）**
+- 版本：**0.1.0（MVP）**
 - 许可证：**Apache-2.0**
 - 作者：**Zhizheng Wang / 王之政**
 - 发行形态：直接技能 ZIP、单顶层目录 Agent Skill ZIP、便携插件 ZIP、完整 GitHub 源码

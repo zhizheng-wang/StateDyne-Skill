@@ -26,7 +26,7 @@ There is no fixed cap on questions, exploration rounds, or worthwhile interventi
 
 This project releases three install layouts with byte-identical skill contents: a direct **Install ZIP** with `SKILL.md` at the archive root, an **Agent Skill ZIP** with one top-level `statedyne/` folder, and a **portable Plugin ZIP** with root `plugin.json` and `skills/statedyne/`. Use the layout required by the actual importer; for source installation or cloning use this GitHub directory. A plugin manifest does **not** grant browsing, independent-agent or persistent-state tools. The same research, intervention and review standards apply wherever the skill is loaded.
 
-[Direct Install ZIP](downloads/StateDyne-11.3.0-Install.zip) · [Agent Skill ZIP](downloads/StateDyne-11.3.0-Agent-Skill.zip) · [Plugin ZIP](downloads/StateDyne-11.3.0-Plugin.zip) · [SHA-256](downloads/StateDyne-11.3.0-SHA256.txt)
+[Direct Install ZIP](downloads/StateDyne-0.1.0-Install.zip) · [Agent Skill ZIP](downloads/StateDyne-0.1.0-Agent-Skill.zip) · [Plugin ZIP](downloads/StateDyne-0.1.0-Plugin.zip) · [SHA-256](downloads/StateDyne-0.1.0-SHA256.txt)
 
 **Intervention quality:** each important point must explain the actual generating relationship, why changing it adds net value, and why it outranks a real competing point. When two points interact, their separate and combined effects must be shown. A plan must explain how its constituent actions work together and whether that is better than the best single action. User-visible reasons cannot be replaced by a hidden audit.
 
@@ -97,7 +97,7 @@ That flow prepares requests; it does **not** mean the agents have run. Keep priv
 
 ## Project status and provenance
 
-- Version: **11.3.0** (independent outcome tournament and cross-worker dissent-preservation release), distributed as a direct-root skill ZIP, a single-folder Agent Skill ZIP, a portable plugin ZIP, and complete GitHub source.
+- Version: **0.1.0 (MVP)**, distributed as a direct-root skill ZIP, a single-folder Agent Skill ZIP, a portable plugin ZIP, and complete GitHub source.
 - License: **Apache-2.0**. Author: **Zhizheng Wang / 王之政**.
 - Methodology and original execution specification are archived in the repository, with identity hashes in `references/source-map.json`.
 - Public test fixtures are synthetic. Previous engineering tests cover structural contracts, not real-model outcome quality. See [`verification/REPORT.md`](verification/REPORT.md) and [`verification/PUBLICATION_REPORT.md`](verification/PUBLICATION_REPORT.md).

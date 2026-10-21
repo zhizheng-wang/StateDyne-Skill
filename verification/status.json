@@ -1,5 +1,5 @@
 {
-  "skill_version": "11.3.0",
+  "skill_version": "0.1.0",
   "engineering_tests": 575,
   "passed": true,
   "previous_release_tests": 567,
@@ -41,7 +41,8 @@
     "11.1.0",
     "11.2.0",
     "11.2.1",
-    "11.3.0"
+    "11.3.0",
+    "0.1.0"
   ],
   "verified_package_surfaces": [
     "skill-root",

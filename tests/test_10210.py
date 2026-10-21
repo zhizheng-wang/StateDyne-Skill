@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class InvocationAndNoCapTests(unittest.TestCase):
     def test_new_version_and_skill_entry_invoked_for_all_calls(self):
-        self.assertEqual(__version__, '11.3.0')
+        self.assertEqual(__version__, '0.1.0')
         text = (ROOT/'SKILL.md').read_text(encoding='utf8')
         self.assertTrue(text.index('references/always-on-orchestration.md') < text.index('## 可移植执行与历史高质量约束'))
         self.assertIn('没有真实独立工具时，当前模型不降级目标', text)

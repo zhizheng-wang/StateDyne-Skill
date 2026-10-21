@@ -52,7 +52,7 @@ class UnifiedQualityContractTests(unittest.TestCase):
         self.assertIn('拥有运行条件时应优先使用的执行工具', entry)
         self.assertIn('不声称调用过没有发生的多智能体', entry)
         self.assertIn('工具适配器', read('references/runtime.md'))
-        self.assertEqual(__version__, '11.3.0')
+        self.assertEqual(__version__, '0.1.0')
 
     def test_intervention_work_has_distinct_scope_and_continuation(self):
         entry = read('SKILL.md')
@@ -74,7 +74,7 @@ class UnifiedQualityContractTests(unittest.TestCase):
     def test_workspace_version_is_not_reused_from_10_6(self):
         with tempfile.TemporaryDirectory() as d:
             ws = Workspace.create(Path(d) / 'run', 'Explain a surprising observed process')
-            self.assertEqual(ws.state['skill_version'], '11.3.0')
+            self.assertEqual(ws.state['skill_version'], '0.1.0')
 
     def test_method_and_engineering_source_identities_remain_unchanged(self):
         manifest = json.loads(read('references/source-map.json'))

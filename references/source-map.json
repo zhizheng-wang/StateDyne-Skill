@@ -1,5 +1,5 @@
 {
-  "skill_version": "11.3.0",
+  "skill_version": "0.1.0",
   "method_version": "author-authorized-clarifications/20261014",
   "method_date": "2026 年 9 月（原稿封面）",
   "author": "Zhizheng Wang / 王之政",
@@ -286,8 +286,8 @@
         "references/runtime.md",
         "references/selection-mechanisms.md"
       ],
-      "characters": 85600,
-      "bytes": 217363
+      "characters": 85599,
+      "bytes": 217362
     },
     "unified_understanding": {
       "paths": [
@@ -331,8 +331,8 @@
         "references/runtime.md",
         "references/selection-mechanisms.md"
       ],
-      "characters": 86306,
-      "bytes": 219424
+      "characters": 86305,
+      "bytes": 219423
     },
     "unified_open_design": {
       "paths": [
@@ -380,8 +380,8 @@
         "references/runtime.md",
         "references/selection-mechanisms.md"
       ],
-      "characters": 94248,
-      "bytes": 241358
+      "characters": 94247,
+      "bytes": 241357
     },
     "api_discovery": {
       "paths": [
@@ -564,8 +564,8 @@
         "tests/test_1110.py",
         "tests/test_1120.py"
       ],
-      "characters": 102673,
-      "bytes": 178085
+      "characters": 102662,
+      "bytes": 178077
     },
     "api_contrast_probe": {
       "paths": [
@@ -884,8 +884,8 @@
         "references/result-realization.md",
         "references/workers-quality-kernel.md"
       ],
-      "bytes": 71709,
-      "characters": 31050
+      "bytes": 71708,
+      "characters": 31049
     },
     "api_value_frontier": {
       "paths": [
@@ -901,8 +901,8 @@
         "references/result-realization.md",
         "references/workers-quality-kernel.md"
       ],
-      "bytes": 77245,
-      "characters": 33822
+      "bytes": 77244,
+      "characters": 33821
     },
     "api_breakthrough_scout": {
       "paths": [
@@ -932,8 +932,8 @@
         "references/operators/decision_tournament.md",
         "scripts/sd_runtime/decision_tournament.py"
       ],
-      "bytes": 81264,
-      "characters": 38757
+      "bytes": 81263,
+      "characters": 38756
     }
   },
   "files": [
@@ -964,9 +964,9 @@
     {
       "path": "CHANGELOG.md",
       "role": "support",
-      "sha256": "17321729c6f4631e0793dacb87ee32abaea46f99b9435b31967600d8e37e71c4",
-      "bytes": 52924,
-      "characters": 21942,
+      "sha256": "a80ab5fd66bb06ab861c280f6e6f65c96551ab76386123416abc29b1192b8a34",
+      "bytes": 52931,
+      "characters": 21945,
       "lines": 403
     },
     {
@@ -988,41 +988,41 @@
     {
       "path": "NOTICE",
       "role": "support",
-      "sha256": "f5a3e64ef38947a711cd041d61e9c5ef82837ef33b8bbe284ae81428670658e0",
-      "bytes": 20912,
-      "characters": 20892,
+      "sha256": "9cf999081310525c768c51f6a6ef47cec52665b86ff18e2ac1e86a1a17746d4e",
+      "bytes": 20911,
+      "characters": 20891,
       "lines": 300
     },
     {
       "path": "README.md",
       "role": "support",
-      "sha256": "58d9b2a13d160afb1bb64e2e21ebdac266f513a41f836159e628a59e2d02614e",
-      "bytes": 7334,
-      "characters": 3452,
+      "sha256": "165433dc98848ea51db072dee7e095803929f7b906d605dc176d45919b9d422b",
+      "bytes": 7327,
+      "characters": 3442,
       "lines": 130
     },
     {
       "path": "README.en.md",
       "role": "support",
-      "sha256": "770c2b0f8760ec204729329ff1c2d5db0d3629e272f65452a09676ad2a5ddd42",
-      "bytes": 12293,
-      "characters": 12227,
+      "sha256": "ef5ea470aaa3ceddf55ff74bdf67260ef8a17bb63d53779c95fcd7b346bdf39b",
+      "bytes": 12215,
+      "characters": 12149,
       "lines": 118
     },
     {
       "path": "README.zh-CN.md",
       "role": "support",
-      "sha256": "a44e470a9732ec84b9bf445ecf20a01de68ad5f9a86d2f91a57d77592d425613",
-      "bytes": 8099,
-      "characters": 3865,
+      "sha256": "b0cfe14fdda893978fccee964642183024379152d9e6d2e0086e30516749e993",
+      "bytes": 8031,
+      "characters": 3843,
       "lines": 89
     },
     {
       "path": "RELEASE.md",
       "role": "support",
-      "sha256": "9f1addd6fdc0c65a12a008704d75b95908c4e67fdf5cdb0d7c5bac554041fdbb",
-      "bytes": 4953,
-      "characters": 4951,
+      "sha256": "8afcfd9e66a7e18299330b4433428c07f4a0db7fdaa356d1647067df16a0c99b",
+      "bytes": 4958,
+      "characters": 4956,
       "lines": 46
     },
     {
@@ -1036,9 +1036,9 @@
     {
       "path": "SKILL.md",
       "role": "entry",
-      "sha256": "2cf4e9c15b66c975a4c9042b91ae0e430ed870a995c31221d516c8ab61727b04",
-      "bytes": 22571,
-      "characters": 9340,
+      "sha256": "41ff54ca2fd77089b08278a5d53172cd9517142a43405f8552589fdf308940b4",
+      "bytes": 22570,
+      "characters": 9339,
       "lines": 95
     },
     {
@@ -1989,9 +1989,9 @@
     {
       "path": "scripts/sd_runtime/__init__.py",
       "role": "executable",
-      "sha256": "e4fc94463f242fd21ba6fffb15124638ebc2a7c788c239d34912040f31d5d5a4",
-      "bytes": 172,
-      "characters": 172,
+      "sha256": "2476f7695208b8f1a1358ed23c5434fe3233d5047001ba3d3e1d9e717610031d",
+      "bytes": 171,
+      "characters": 171,
       "lines": 5
     },
     {
@@ -2061,9 +2061,9 @@
     {
       "path": "scripts/sd_runtime/engine.py",
       "role": "executable",
-      "sha256": "7c6bf6b11be437df85f7cd400199c1f7ea9eed00155e0f8163931238bc462d12",
-      "bytes": 81535,
-      "characters": 81357,
+      "sha256": "63295c2d2e5b26d0dfab79e24aab9ee1e63108b4238b64ed58763314984a0a89",
+      "bytes": 81546,
+      "characters": 81368,
       "lines": 1125
     },
     {
@@ -2197,9 +2197,9 @@
     {
       "path": "scripts/sd_runtime/store.py",
       "role": "executable",
-      "sha256": "970e5257ee5a58124453d4e44cb199cb534ed737ba90b1dbcdc86ac49e12b143",
-      "bytes": 80169,
-      "characters": 80157,
+      "sha256": "6099e650637672192778267aa04001ae9bf6ee5dbe912a064e9d35cf56c6d806",
+      "bytes": 80177,
+      "characters": 80165,
       "lines": 1211
     },
     {
@@ -2333,9 +2333,9 @@
     {
       "path": "tests/test_10210.py",
       "role": "test",
-      "sha256": "fc3d44eb70003d54b5d95d3a514d1fa2a22d59d5d9b460cfed197fe05053b14e",
-      "bytes": 8869,
-      "characters": 8647,
+      "sha256": "d6a9b33a615cb799d1359d0545cf3bc72fb7ffddab47f4a97874471c5b487b0f",
+      "bytes": 8868,
+      "characters": 8646,
       "lines": 156
     },
     {
@@ -2445,9 +2445,9 @@
     {
       "path": "tests/test_1070.py",
       "role": "test",
-      "sha256": "b1938d79bf9621521592bd7080b5f0fdcb78650573dd318add9659dbfbddac6f",
-      "bytes": 3893,
-      "characters": 3463,
+      "sha256": "bdc28c18669d328e8dd3c580d7efd08eeab2f5e2fe8d1d5b841f9a514c220815",
+      "bytes": 3891,
+      "characters": 3461,
       "lines": 89
     },
     {
@@ -2485,9 +2485,9 @@
     {
       "path": "tests/test_1120.py",
       "role": "test",
-      "sha256": "d7ffe0898d024706135b90c84401c8e721e86e8c347094a1fec9e78c179b5ac5",
-      "bytes": 6252,
-      "characters": 6102,
+      "sha256": "e40be0f27b5afb212e228c3f4419fb5b7fc238e3d1269b4cc97f75c92fae8fc4",
+      "bytes": 6251,
+      "characters": 6101,
       "lines": 121
     },
     {
@@ -2541,9 +2541,9 @@
     {
       "path": "verification/PUBLICATION_REPORT.md",
       "role": "verification",
-      "sha256": "b2355b443b26ef03ee856b5a7594ececd74e3349340d16f88eb2751549e7c355",
-      "bytes": 3328,
-      "characters": 3326,
+      "sha256": "817636cfb558500094f3563ec9b95273e242cfb19ffa5a196ddf72c45d51722b",
+      "bytes": 3332,
+      "characters": 3330,
       "lines": 24
     },
     {
@@ -2557,17 +2557,17 @@
     {
       "path": "verification/REPORT.md",
       "role": "verification",
-      "sha256": "05471fa520b87dbbb838613550bbd7abfed6e88f2ac629013faa4c276c99f505",
-      "bytes": 1912,
-      "characters": 1910,
+      "sha256": "751056174a588347bb3ecf179355d6ca00d8926ac38a3a54c3930097dc48f6ce",
+      "bytes": 1907,
+      "characters": 1905,
       "lines": 18
     },
     {
       "path": "verification/WORLD_CLASS_ACCEPTANCE.md",
       "role": "support",
-      "sha256": "75898929aa98b88520af7f506af44743bb937d16ff8ea1cfa47ae54a72ffba3f",
-      "bytes": 3191,
-      "characters": 3189,
+      "sha256": "e65e76ed4241d317791f02defc6bb91520e3040f32a30c7fe8c0bbced0a58914",
+      "bytes": 3204,
+      "characters": 3202,
       "lines": 54
     },
     {
@@ -2581,17 +2581,17 @@
     {
       "path": "verification/status.json",
       "role": "verification",
-      "sha256": "185469cff80903d609fb2e289d78e8fb6a581ec24b6d2ff9b83c3b21425fd7a6",
-      "bytes": 2590,
-      "characters": 2590,
-      "lines": 54
+      "sha256": "fc6d670c598ecad425f644add16119a5ea827b69532d20e3f2f28f3a2c1fb38c",
+      "bytes": 2602,
+      "characters": 2602,
+      "lines": 55
     },
     {
       "path": "verification/unit-tests.log",
       "role": "verification",
-      "sha256": "6e9ac833879772adace9fb01373c1be6f7a63b423263db54a6f2e1796bca616d",
-      "bytes": 172,
-      "characters": 172,
+      "sha256": "0f667ddbf0d5c9cc7b23996c69399356cd81fc3c0e37715341e67adcd2876122",
+      "bytes": 171,
+      "characters": 171,
       "lines": 3
     }
   ],
@@ -3234,7 +3234,7 @@
       "Real-model semantic discoveries, actual independent worker receipts, remote import acceptance, universal host parity"
     ]
   },
-  "release_11_3_0": {
+  "release_0_1_0": {
     "architecture": "Actual independent multi-agent outcome tournament; preserve high-value minority insights and re-open autonomous research for new decisive evidence",
     "previous_version": "11.2.1",
     "previous_regression_tests": 567,

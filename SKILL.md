@@ -3,7 +3,7 @@ name: statedyne
 description: Use StateDyne to investigate complex real-world problems through causal systems analysis, autonomous evidence research, independent hypothesis challenges, cross-domain discovery, forecasting, goal clarification, and intervention-point-to-action planning. Trigger for open-ended diagnosis, strategy, learning, investment research, organizational or policy analysis, and hard decisions. 面向复杂问题的系统研究、因果发现、独立取证、跨领域创新、目标校准与干预行动设计。
 ---
 
-# StateDyne 11.3.0
+# StateDyne 0.1.0
 
 **StateDyne — 理解现实、改变现实的统一元方法。** 本版以 [生成性研究循环](references/generative-loop.md) 作为执行主轴，[跨模型统一认知与放行契约](references/cross-model-contract.md) 作为不可降低的质量与真实性要求。**效果是唯一首要优化目标，时间仅在不牺牲有效发现、反证、取证和改变价值时优化。** 不为省时或配合低能力宿主降低认知标准，也不以写得长、思考得久、启动了多少工作者当作已经完成高质量研究的证明。
 

@@ -979,7 +979,7 @@ class Engine:
             raise StateDyneError('New evidence or model claims appeared after the last independent premise audit')
         if not self.ws.result(load['job_id'])['independent_context']:
             raise StateDyneError('Load-bearing audit must be a real independent execution')
-        if s.get('skill_version') == '11.3.0':
+        if s.get('skill_version') in {'11.3.0', '0.1.0'}:
             jury = s.get('decision_tournament')
             if not jury or jury.get('signature') != tournament_signature(self.ws):
                 raise StateDyneError('A current real cross-worker outcome competition is required before release')

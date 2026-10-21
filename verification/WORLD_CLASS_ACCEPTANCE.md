@@ -1,4 +1,4 @@
-# StateDyne 11.3 — real-model quality acceptance (not yet performed)
+# StateDyne 0.1 — real-model quality acceptance (not yet performed)
 
 Passing structural tests is not evidence of model superiority. A claim of
 "world-class" must survive matched, **blind**, multi-domain empirical comparison.
@@ -6,7 +6,7 @@ Passing structural tests is not evidence of model superiority. A claim of
 ## Matched evaluation protocol
 
 Compare (A) the same strongest available model with no skill but a normal user
-request, (B) StateDyne 11.2.1, (C) StateDyne 11.3.0. Record exact model,
+request, (B) the previous internal candidate, (C) StateDyne 0.1.0. Record exact model,
 thinking level, tools, retrieval access, user facts, monetary cost, number of
 real independent workers, and final artifact. Give all three equivalent task
 and tool budgets; do not compare a cheap baseline to a high-compute skill and
